@@ -12,7 +12,48 @@ header, section {
   background: #000;
 }
 
+header {
+  height: 150px;
+}
+
+header .logo {
+  height: 150px;
+  width: 150px;
+  display: block;
+  float: left;
+}
+
+header .logo img {
+  height: 150px;
+}
+
+header .logo img:hover {
+  -webkit-filter: invert(0%) sepia(0%) saturate(4232%) hue-rotate(41deg) brightness(91%) contrast(103%);
+          filter: invert(0%) sepia(0%) saturate(4232%) hue-rotate(41deg) brightness(91%) contrast(103%);
+}
+
+header .menu {
+  position: relative;
+  height: 150px;
+  right: 0;
+  top: 0;
+}
+
+header .menu img {
+  position: absolute;
+  right: 50px;
+  top: 50px;
+}
+
 footer {
   background: #000;
+}
+
+footer .logo {
+  height: 150px;
+}
+
+footer .logo img {
+  height: 150px;
 }
 /*# sourceMappingURL=style.css.map */

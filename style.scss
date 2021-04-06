@@ -10,7 +10,49 @@ header, section {
     background: #000;
 }
 
+header {
+    height: 150px;
+
+    .logo {
+        height: 150px;
+        width: 150px;
+        display: block;
+        float: left;
+
+        img {
+            height: 150px;
+
+            &:hover {
+                filter: invert(0%) sepia(0%) saturate(4232%) hue-rotate(41deg) brightness(91%) contrast(103%);
+            }
+        }
+    }
+
+    .menu {
+        position: relative;
+        height: 150px;
+        right: 0;
+        top: 0;
+
+        img {
+            position: absolute;
+            right: 50px;
+            top: 50px;
+        }
+    }
+}
+
+// 序章
+
 // 頁尾區
 footer {
     background: #000;
+
+    .logo {
+        height: 150px;
+
+        img {
+            height: 150px;
+        }
+    }
 }
