@@ -25,6 +25,7 @@ header .logo {
 
 header .logo img {
   height: 150px;
+  z-index: 1;
 }
 
 header .logo img:hover {
@@ -35,6 +36,8 @@ header .logo img:hover {
 header .menu {
   position: relative;
   height: 150px;
+  width: 150px;
+  float: right;
   right: 0;
   top: 0;
 }

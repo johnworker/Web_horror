@@ -21,6 +21,7 @@ header {
 
         img {
             height: 150px;
+            z-index: 1;
 
             &:hover {
                 filter: invert(0%) sepia(0%) saturate(4232%) hue-rotate(41deg) brightness(91%) contrast(103%);
@@ -31,6 +32,8 @@ header {
     .menu {
         position: relative;
         height: 150px;
+        width: 150px;
+        float: right;
         right: 0;
         top: 0;
 
