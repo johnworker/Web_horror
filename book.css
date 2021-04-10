@@ -49,8 +49,8 @@ Table of Contents
 
 .book {
 	position: relative;
-	width: 320px; 
-	height: 440px;
+	width: 240px; 
+	height: 330px;
     margin: 0 auto;
 	-webkit-perspective: 1000px;
 	-moz-perspective: 1000px;
@@ -515,8 +515,8 @@ Table of Contents
 	bottom: 0;
 	right: 0;
 	background-image: url(./img/skull_fire.jpg);
-	background-position: 820px 600px;
-	opacity: 0.8;
+	background-position: 770px 580px;
+	opacity: 0.6;
 	overflow: hidden;
 	-webkit-backface-visibility: hidden;
 	-moz-backface-visibility: hidden;

@@ -1,11 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap");
-:root {
-    --card-width: 200px;
-    --card-height: 300px;
-
-    --card-transition-duration: 800ms;
-    --card-transition-easing: ease;
-}
 
 * {
     margin: 0;
@@ -88,8 +81,18 @@ header {
         transform: translate(-50%, -50%);
         width: 300px;
         height: 400px;
-        background: #ff7676;
+        background: #83ff8d;
         overflow: hidden;
+
+        &:hover .imgBx {
+            top: 0;
+            left: -100%;
+        }
+
+        &:hover .details {
+            top: 0;
+            left: 0%;
+        }
 
         .imgBx,
         .details {
@@ -104,38 +107,28 @@ header {
             top: 0;
             left: 0;
 
-            &:hover {
-                top: 0;
-                left: -100px;
-            }
-
             img {
                 width: 100%;
             }
         }
 
         .details {
-            background: #ff7575;
+            background: #83ff8d;
             top: 0;
             left: 100%;
             padding: 60px 30px;
 
-            &:hover {
-                top: 0;
-                left: 0%;
-            }
-
             h2 {
-                color: #fff;
+                color: rgb(0, 0, 0);
                 text-align: center;
                 margin: 0;
                 padding: 0 0 10px;
-                border-bottom: 2px solid #fff;
+                border-bottom: 2px solid rgb(0, 0, 0);
             }
 
             p {
                 margin: 20px 0 0;
-                color: #fff;
+                color: rgb(0, 0, 0);
             }
         }
     }
