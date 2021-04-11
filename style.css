@@ -75,7 +75,7 @@ header .menu img {
 
 .introduction .card {
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 25%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -137,7 +137,7 @@ header .menu img {
 
 .introduction .card2 {
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -199,7 +199,7 @@ header .menu img {
 
 .introduction .card3 {
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 75%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
