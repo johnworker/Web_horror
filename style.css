@@ -260,7 +260,7 @@ header .menu img {
 }
 
 footer {
-  background: #000;
+  background: rgba(0, 0, 0, 0.9);
   padding: 20px;
   text-align: center;
   height: 300px;
@@ -272,5 +272,26 @@ footer .logo {
 
 footer .logo img {
   height: 150px;
+}
+
+footer p {
+  text-align: center;
+  color: white;
+  padding: 10px 0;
+}
+
+footer .social {
+  text-align: center;
+  padding: 5px;
+}
+
+footer .social img {
+  margin: 5px;
+}
+
+footer small {
+  text-align: center;
+  color: white;
+  padding: 10px 0;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap");
 
+$color-white: white;
+$color-grey: grey;
+
 * {
     margin: 0;
     padding: 0;
@@ -263,7 +266,7 @@ header {
 
 // 頁尾區
 footer {
-    background: #000;
+    background: rgba(0, 0, 0 ,0.9);
     padding: 20px;
     text-align: center;
     height: 300px;
@@ -274,5 +277,26 @@ footer {
         img {
             height: 150px;
         }
+    }
+
+    p {
+        text-align: center;
+        color: $color-white;
+        padding: 10px 0;
+    }
+
+    .social {
+        text-align: center;
+        padding: 5px;
+
+        img {
+            margin: 5px;
+        }
+    }
+
+    small {
+        text-align: center;
+        color: $color-white;
+        padding: 10px 0;
     }
 }
