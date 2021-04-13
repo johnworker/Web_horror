@@ -276,6 +276,11 @@ footer {
 
         img {
             height: 150px;
+
+            &:hover {
+                filter: invert(0%) sepia(0%) saturate(4232%) hue-rotate(41deg) brightness(91%) contrast(103%);
+            }
+
         }
     }
 
