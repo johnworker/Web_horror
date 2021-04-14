@@ -51,6 +51,7 @@ Table of Contents
 	position: relative;
 	width: 240px; 
 	height: 330px;
+	bottom: 30px;
     margin: 0 auto;
 	-webkit-perspective: 1000px;
 	-moz-perspective: 1000px;
