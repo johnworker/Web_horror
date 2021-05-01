@@ -2,6 +2,8 @@
 
 $color-white: white;
 $color-grey: grey;
+$text-shadow: 10px 10px 10px rgb(255, 0, 0);
+
 
 * {
     margin: 0;
@@ -51,6 +53,18 @@ header {
         }
     }
 
+    .ghost {
+        position: relative;
+        top: 120px;
+        left: 200px;
+
+        img {
+            position: absolute;
+            width: 800px;
+            height: 600px;
+        }
+    }
+
     video {
         width: 100%;
         margin: 0 auto;
@@ -95,7 +109,7 @@ header {
         transform: translate(-50%, -50%);
         width: 300px;
         height: 400px;
-        background: #bd0404;
+        background: #6e0000;
         overflow: hidden;
 
         &:hover .imgBx {
@@ -154,7 +168,7 @@ header {
         transform: translate(-50%, -50%);
         width: 300px;
         height: 400px;
-        background: #cc0000;
+        background:#6e0000;
         overflow: hidden;
 
         &:hover .imgBx {
@@ -213,7 +227,7 @@ header {
         transform: translate(-50%, -50%);
         width: 300px;
         height: 400px;
-        background: #cc0000;
+        background:#6e0000;
         overflow: hidden;
 
         &:hover .imgBx {
