@@ -19,6 +19,7 @@ section {
 }
 
 header {
+    position: relative;
     height: 100vh;
     margin: 0 auto;
 
@@ -54,14 +55,19 @@ header {
     }
 
     .ghost {
-        position: relative;
+        position: absolute;
+        display: block;
+        width: 100%;
+        margin: 0 auto;
         top: 120px;
-        left: 200px;
+        margin: 0 auto;
 
         img {
-            position: absolute;
+            display: block;
             width: 800px;
             height: 600px;
+            // top: 120px;
+            margin: 0 auto;
         }
     }
 

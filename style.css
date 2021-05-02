@@ -15,6 +15,7 @@ section {
 }
 
 header {
+  position: relative;
   height: 100vh;
   margin: 0 auto;
 }
@@ -52,15 +53,19 @@ header .menu img {
 }
 
 header .ghost {
-  position: relative;
+  position: absolute;
+  display: block;
+  width: 100%;
+  margin: 0 auto;
   top: 120px;
-  left: 200px;
+  margin: 0 auto;
 }
 
 header .ghost img {
-  position: absolute;
+  display: block;
   width: 800px;
   height: 600px;
+  margin: 0 auto;
 }
 
 header video {
