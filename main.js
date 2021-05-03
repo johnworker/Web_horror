@@ -10,8 +10,8 @@ gsap.to(".fly", {
         // markers: true
     },
 
-    x: -630,
-    y: 0,
+    x: -700,
+    y: -100,
     duration: 3
     }
 

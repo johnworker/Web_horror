@@ -107,13 +107,14 @@ header {
 
         img {
             position: absolute;
-            width: 300px;
-            height: 300px;
+            width: 200px;
+            height: 200px;
             right: -20%;
             bottom: 10%;
             opacity: 0.7;
 
             &:hover {
+                transition: 0.7ms;
                 filter: invert(24%) sepia(100%) saturate(7446%) hue-rotate(8deg) brightness(98%) contrast(117%);                       
             }
         }
@@ -139,6 +140,7 @@ header {
         height: 400px;
         background: #6e0000;
         overflow: hidden;
+        
 
         &:hover .imgBx {
             top: 0;
