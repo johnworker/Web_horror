@@ -1,13 +1,18 @@
 // GSAP
+// Ghost
 gsap.to(".fly", {
     scrollTrigger: {
         tigger: ".fly",
-        toggleActions: "play reset none play",
+        toggleActions: "restart none none none",
         start: "35% 50%",
         end: "45% 20%",
-        scrub: 1,
-        markers: true
+        // scrub: 1,
+        // markers: true
     },
-    x: -350,
+
+    x: -630,
+    y: 0,
     duration: 3
-});
+    }
+
+);
