@@ -43,79 +43,6 @@ header {
         }
     }
 
-    .menu-btn {
-        width: 64px;
-        height: 64px;
-        background: rgba(0, 0, 0, 0);
-        position: absolute;
-        right: 0;
-        top: 0;
-        z-index: 3;
-        padding-top: 18px;
-        transition:  .3s;
-        cursor: pointer;
-
-        span {
-            display: block;
-            height: 3px;
-            width: 60%;
-            margin: 0 auto;
-            background: rgb(255, 255, 255);
-            opacity: 1;
-            transition: all .3s;
-
-            &:not(:last-child) {
-                margin-bottom: 8px;
-            }
-        }
-
-        &:active span:first-child{
-            transform: rotate(45deg) translate(10px, 10px);
-        }
-
-        &:active span:last-child{
-            transform: rotate(-45deg) translate(6px, -6px);
-        }
-
-        &:active span:not(:first-child):not(:last-child) {
-            opacity: 0;
-        }
-
-    }
-
-    .menu-wrap {
-        position: fixed;
-        width: 500px;
-        right: -40%;
-        top: 0;
-        bottom: 0;
-        background: rgba(255,255,255,.85);
-        z-index: 2;
-        padding: 4rem;
-        transition: right .3s;
-
-        ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-
-            a {
-                font-size: 4rem;
-                color: #fff;
-                text-decoration: none;
-                transition: color .3s;
-
-                &:hover {
-                    color: #666;
-                }
-            }
-        }
-
-        &:active {
-            right: 0!important;
-        }
-    }
-
     .ghost {
         position: absolute;
         display: block;
@@ -161,6 +88,17 @@ header {
     img {
         width: 100%;
         height: 100%;
+    }
+
+    .box2 {
+        position: relative;
+        width: 100%;
+        display: block;
+
+        video {
+            position: absolute;
+            bottom: 5%;
+        }
     }
 
     .ghost_fly {

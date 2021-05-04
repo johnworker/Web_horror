@@ -41,84 +41,6 @@ header .logo img:hover {
           filter: invert(25%) sepia(80%) saturate(7446%) hue-rotate(8deg) brightness(98%) contrast(117%);
 }
 
-header .menu-btn {
-  width: 64px;
-  height: 64px;
-  background: rgba(0, 0, 0, 0);
-  position: absolute;
-  right: 0;
-  top: 0;
-  z-index: 3;
-  padding-top: 18px;
-  -webkit-transition: .3s;
-  transition: .3s;
-  cursor: pointer;
-}
-
-header .menu-btn span {
-  display: block;
-  height: 3px;
-  width: 60%;
-  margin: 0 auto;
-  background: white;
-  opacity: 1;
-  -webkit-transition: all .3s;
-  transition: all .3s;
-}
-
-header .menu-btn span:not(:last-child) {
-  margin-bottom: 8px;
-}
-
-header .menu-btn:active span:first-child {
-  -webkit-transform: rotate(45deg) translate(10px, 10px);
-          transform: rotate(45deg) translate(10px, 10px);
-}
-
-header .menu-btn:active span:last-child {
-  -webkit-transform: rotate(-45deg) translate(6px, -6px);
-          transform: rotate(-45deg) translate(6px, -6px);
-}
-
-header .menu-btn:active span:not(:first-child):not(:last-child) {
-  opacity: 0;
-}
-
-header .menu-wrap {
-  position: fixed;
-  width: 500px;
-  right: -40%;
-  top: 0;
-  bottom: 0;
-  background: rgba(255, 255, 255, 0.85);
-  z-index: 2;
-  padding: 4rem;
-  -webkit-transition: right .3s;
-  transition: right .3s;
-}
-
-header .menu-wrap ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-header .menu-wrap ul a {
-  font-size: 4rem;
-  color: #fff;
-  text-decoration: none;
-  -webkit-transition: color .3s;
-  transition: color .3s;
-}
-
-header .menu-wrap ul a:hover {
-  color: #666;
-}
-
-header .menu-wrap:active {
-  right: 0 !important;
-}
-
 header .ghost {
   position: absolute;
   display: block;
@@ -160,6 +82,17 @@ header video {
 .prologue img {
   width: 100%;
   height: 100%;
+}
+
+.prologue .box2 {
+  position: relative;
+  width: 100%;
+  display: block;
+}
+
+.prologue .box2 video {
+  position: absolute;
+  bottom: 5%;
 }
 
 .prologue .ghost_fly {
