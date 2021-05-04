@@ -1,3 +1,9 @@
+// 選單效果
+$(".menu-btn").click(function(){
+    $(".menu-wrap").toggleClass("active");
+    $(this).toggleClass("active");
+});
+
 // GSAP
 // Ghost
 gsap.to(".fly", {
