@@ -76,7 +76,7 @@ header video {
 }
 
 .prologue .book {
-  z-index: 2;
+  z-index: 4;
 }
 
 .prologue img {
@@ -87,18 +87,22 @@ header video {
 .prologue .box2 {
   position: relative;
   width: 100%;
+  height: 300px;
+  bottom: 150px;
   display: block;
+  z-index: 2;
 }
 
 .prologue .box2 video {
   position: absolute;
-  left: 5%;
-  bottom: 5%;
+  left: 100px;
+  bottom: 20px;
 }
 
 .prologue .ghost_fly {
   position: relative;
   width: 100%;
+  z-index: 3;
 }
 
 .prologue .ghost_fly img {
