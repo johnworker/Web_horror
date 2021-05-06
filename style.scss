@@ -3,6 +3,9 @@
 $color-white: white;
 $color-grey: grey;
 $text-shadow: 10px 10px 10px rgb(255, 0, 0);
+$tablet: 1024px;                                //平板尺寸 (ipad pro)
+$tablets: 960px;                                //平板尺寸 (ipad)
+$mobile: 767px;                                 //手機尺寸
 
 
 * {
@@ -316,14 +319,6 @@ header {
 }
 
 
-
-
-
-// .card:hover .imgBx {
-// top: 0;
-// left: -100%;
-// }
-
 // 頁尾區
 footer {
     background: rgba(0, 0, 0 ,0.9);
@@ -366,7 +361,7 @@ footer {
     }
 }
 
-// 恐怖故事
+// 恐怖故事 檔頭區介紹
 
 .text1 {
     text-align: center;
@@ -376,3 +371,53 @@ footer {
     font-size: 50px;
     padding-top: 10px;
 }
+
+.start {
+    width: 1280px;
+    margin: 100px auto;
+
+    img {
+        margin: 0 auto;
+        width: 500px;
+        display: block;
+        
+    }
+
+    h2 {
+        text-align: center;
+        padding: 20px 0;
+        font-weight: bold;
+        letter-spacing: 5px;
+        font-size: 40px;
+        color: #fff;
+
+        @media screen and (max-width: $tablet) {
+            font-size: 60px;
+        }
+
+        @media screen and (max-width: $mobile) {
+            font-size: 50px;
+        }
+        
+    }
+    
+
+    p {
+        width: 50%;
+        margin: 0 auto;
+        padding: 5px;
+        line-height: 2;
+        font-size: 20px;
+        color: #fff;
+
+        @media screen and (max-width: $tablet) {
+            width: 70%;
+            font-size: 30px;
+        }
+
+        @media screen and (max-width: $mobile) {
+            font-size: 24px;
+        }
+    }
+}
+
