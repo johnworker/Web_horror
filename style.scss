@@ -21,7 +21,7 @@ body {
 
 header,
 section {
-    height: 100vh;
+    height: 100%;
     background: #000;
 }
 
@@ -132,6 +132,7 @@ header {
 // 介紹
 .introduction {
     position: relative;
+    height: 100vh;
 
     h2 {
         padding: 100px 30px 30px;
@@ -324,7 +325,7 @@ footer {
     background: rgba(0, 0, 0 ,0.9);
     padding: 20px;
     text-align: center;
-    height: 300px;
+    
 
     .logo {
         height: 150px;

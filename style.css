@@ -14,7 +14,7 @@ body {
 
 header,
 section {
-  height: 100vh;
+  height: 100%;
   background: #000;
 }
 
@@ -123,6 +123,7 @@ header video {
 
 .introduction {
   position: relative;
+  height: 100vh;
 }
 
 .introduction h2 {
@@ -321,7 +322,6 @@ footer {
   background: rgba(0, 0, 0, 0.9);
   padding: 20px;
   text-align: center;
-  height: 300px;
 }
 
 footer .logo {
