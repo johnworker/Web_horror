@@ -375,7 +375,7 @@ footer {
 
 .start {
     width: 1280px;
-    margin: 100px auto;
+    margin: 0 auto;
 
     img {
         margin: 0 auto;
@@ -422,3 +422,152 @@ footer {
     }
 }
 
+// 故事區
+.story {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 100px;
+
+    @media screen and (max-width: $tablet) {
+        width: 100%;
+    }
+
+    .boxing {
+        width: 100%;
+        margin: 0 auto;
+        
+
+        .box_magic {
+            display: grid;
+            grid-template-columns: 60% 40%;
+            grid-gap: 80px;
+            
+
+            @media screen and (max-width: $tablet) {
+                grid-template-columns: none;
+                display: block;
+            }
+        }
+    
+        .photos {
+            margin: 0 auto;
+            padding: 0;
+            display: block;
+            width: 100%;
+
+            
+        }
+        
+        img {
+            width: 450px;
+            height: 600px;
+            object-fit: cover;
+            margin: 0 100px;
+            
+            @media screen and (max-width: $tablet) {
+                margin: 0 290px;
+            }
+
+            @media screen and (max-width: $tablets) {
+                margin: 0 160px;
+            }
+
+            @media screen and (max-width: $mobile) {
+                margin: 0 auto;
+            }
+        }
+
+        .article {
+            margin: 0;
+            padding-right: 30%;
+            display: block;
+            width: 100%;
+
+            @media screen and (max-width: $tablet) {
+                margin: 0 auto;
+            }
+            
+        }
+
+        h4 {
+            text-align: center;
+            padding: 20px 10px 10px;
+            font-size: 32px;
+            font-weight: bold;
+            color: #fff;
+
+            @media screen and (max-width: $tablet) {
+                font-size: 40px;
+                
+            }
+        }
+
+        p{
+            font-size: 20px;
+            padding: 10px 120px;
+            line-height: 2.5;
+            color: #fff;
+
+            @media screen and (max-width: $tablet) {
+                width: 100%;
+                font-size: 30px;
+            }
+
+            @media screen and (max-width: $mobile) {
+                font-size: 24px;
+                line-height: 2;
+            }
+        }
+
+
+        .box_magic:nth-child(odd) {
+            grid-template-areas: "pic text";
+            grid-template-columns: 30% 70%;
+
+            @media screen and (max-width: $tablet) {
+                grid-template-columns: 1fr;
+                margin: 0 auto;
+            }
+        }
+        .box_magic:nth-child(odd) .image_box {
+            grid-area: pic;
+        }
+        .box_magic:nth-child(odd) .text_box {
+            grid-area: text;
+            padding: 0 100px;
+
+            @media screen and (max-width: $mobile) {
+                padding: 0 30px;
+            }
+        }
+
+        .box_magic:nth-child(even) {
+            grid-template-areas: "text pic";
+            grid-template-columns: 70% 30%;
+            margin-left: 15%;
+
+            @media screen and (max-width: $tablet) {
+                grid-template-columns: 1fr;
+                margin: 0 auto;
+
+            }
+        }
+
+        .box_magic:nth-child(even) .image_box {
+            grid-area: pic;
+        }
+
+        .box_magic:nth-child(even) .text_box {
+            grid-area: text;
+            
+            @media screen and (max-width: $tablet) {
+                padding: 0 100px;
+            }
+
+            @media screen and (max-width: $mobile) {
+                padding: 0 30px;
+            }
+        }
+    }
+}
