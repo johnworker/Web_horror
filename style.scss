@@ -3,10 +3,9 @@
 $color-white: white;
 $color-grey: grey;
 $text-shadow: 10px 10px 10px rgb(255, 0, 0);
-$tablet: 1024px;                                //平板尺寸 (ipad pro)
-$tablets: 960px;                                //平板尺寸 (ipad)
-$mobile: 767px;                                 //手機尺寸
-
+$tablet: 1024px; //平板尺寸 (ipad pro)
+$tablets: 960px; //平板尺寸 (ipad)
+$mobile: 767px; //手機尺寸
 
 * {
     margin: 0;
@@ -41,7 +40,7 @@ header {
             z-index: 1;
 
             &:hover {
-                filter: invert(25%) sepia(80%) saturate(7446%) hue-rotate(8deg) brightness(98%) contrast(117%);                       
+                filter: invert(25%) sepia(80%) saturate(7446%) hue-rotate(8deg) brightness(98%) contrast(117%);
             }
         }
     }
@@ -123,7 +122,7 @@ header {
 
             &:hover {
                 transition: 0.7ms;
-                filter: invert(24%) sepia(100%) saturate(7446%) hue-rotate(8deg) brightness(98%) contrast(117%);                       
+                filter: invert(24%) sepia(100%) saturate(7446%) hue-rotate(8deg) brightness(98%) contrast(117%);
             }
         }
     }
@@ -149,7 +148,6 @@ header {
         height: 400px;
         background: #6e0000;
         overflow: hidden;
-        
 
         &:hover .imgBx {
             top: 0;
@@ -207,7 +205,7 @@ header {
         transform: translate(-50%, -50%);
         width: 300px;
         height: 400px;
-        background:#6e0000;
+        background: #6e0000;
         overflow: hidden;
 
         &:hover .imgBx {
@@ -266,7 +264,7 @@ header {
         transform: translate(-50%, -50%);
         width: 300px;
         height: 400px;
-        background:#6e0000;
+        background: #6e0000;
         overflow: hidden;
 
         &:hover .imgBx {
@@ -319,13 +317,11 @@ header {
     }
 }
 
-
 // 頁尾區
 footer {
-    background: rgba(0, 0, 0 ,0.9);
+    background: rgba(0, 0, 0, 0.9);
     padding: 20px;
     text-align: center;
-    
 
     .logo {
         height: 150px;
@@ -336,7 +332,6 @@ footer {
             &:hover {
                 filter: invert(0%) sepia(0%) saturate(4232%) hue-rotate(41deg) brightness(91%) contrast(103%);
             }
-
         }
     }
 
@@ -366,22 +361,26 @@ footer {
 
 .text1 {
     text-align: center;
-    height: 80px;
+    height: 100px;
     width: 100%;
     color: #fff;
-    font-size: 50px;
+    font-size: 70px;
     padding-top: 10px;
 }
 
 .start {
     width: 1280px;
-    margin: 0 auto;
+    margin: 50px auto;
+    
 
     img {
         margin: 0 auto;
         width: 500px;
         display: block;
-        
+    }
+
+    article {
+        margin-bottom: 50px;
     }
 
     h2 {
@@ -389,7 +388,7 @@ footer {
         padding: 20px 0;
         font-weight: bold;
         letter-spacing: 5px;
-        font-size: 40px;
+        font-size: 50px;
         color: #fff;
 
         @media screen and (max-width: $tablet) {
@@ -399,16 +398,14 @@ footer {
         @media screen and (max-width: $mobile) {
             font-size: 50px;
         }
-        
     }
-    
 
     p {
         width: 50%;
         margin: 0 auto;
         padding: 5px;
         line-height: 2;
-        font-size: 20px;
+        font-size: 22px;
         color: #fff;
 
         @media screen and (max-width: $tablet) {
@@ -422,6 +419,10 @@ footer {
     }
 }
 
+.end {
+    
+}
+
 // 故事區
 .story {
     width: 100%;
@@ -433,141 +434,53 @@ footer {
         width: 100%;
     }
 
-    .boxing {
-        width: 100%;
+    .box_magic {
+        margin-top: 200px;
+    }
+
+    .photos {
         margin: 0 auto;
-        
+        padding: 0;
+        display: block;
+        width: 100%;
 
-        .box_magic {
-            display: grid;
-            grid-template-columns: 60% 40%;
-            grid-gap: 80px;
-            
-
-            @media screen and (max-width: $tablet) {
-                grid-template-columns: none;
-                display: block;
-            }
+        img {
+            margin: 0 auto;
+            width: 500px;
+            display: block;
         }
     
-        .photos {
-            margin: 0 auto;
-            padding: 0;
-            display: block;
+    }
+
+    h4 {
+        text-align: center;
+        padding: 20px 0;
+        font-weight: bold;
+        letter-spacing: 5px;
+        font-size: 40px;
+        color: #fff;
+
+        @media screen and (max-width: $tablet) {
+            font-size: 40px;
+        }
+    }
+
+    p {
+        width: 80%;
+        margin: 0 auto;
+        padding: 5px;
+        line-height: 2;
+        font-size: 22px;
+        color: #fff;
+
+        @media screen and (max-width: $tablet) {
             width: 100%;
-
-            
-        }
-        
-        img {
-            width: 450px;
-            height: 600px;
-            object-fit: cover;
-            margin: 0 100px;
-            
-            @media screen and (max-width: $tablet) {
-                margin: 0 290px;
-            }
-
-            @media screen and (max-width: $tablets) {
-                margin: 0 160px;
-            }
-
-            @media screen and (max-width: $mobile) {
-                margin: 0 auto;
-            }
+            font-size: 30px;
         }
 
-        .article {
-            margin: 0;
-            padding-right: 30%;
-            display: block;
-            width: 100%;
-
-            @media screen and (max-width: $tablet) {
-                margin: 0 auto;
-            }
-            
-        }
-
-        h4 {
-            text-align: center;
-            padding: 20px 10px 10px;
-            font-size: 32px;
-            font-weight: bold;
-            color: #fff;
-
-            @media screen and (max-width: $tablet) {
-                font-size: 40px;
-                
-            }
-        }
-
-        p{
-            font-size: 20px;
-            padding: 10px 120px;
-            line-height: 2.5;
-            color: #fff;
-
-            @media screen and (max-width: $tablet) {
-                width: 100%;
-                font-size: 30px;
-            }
-
-            @media screen and (max-width: $mobile) {
-                font-size: 24px;
-                line-height: 2;
-            }
-        }
-
-
-        .box_magic:nth-child(odd) {
-            grid-template-areas: "pic text";
-            grid-template-columns: 30% 70%;
-
-            @media screen and (max-width: $tablet) {
-                grid-template-columns: 1fr;
-                margin: 0 auto;
-            }
-        }
-        .box_magic:nth-child(odd) .image_box {
-            grid-area: pic;
-        }
-        .box_magic:nth-child(odd) .text_box {
-            grid-area: text;
-            padding: 0 100px;
-
-            @media screen and (max-width: $mobile) {
-                padding: 0 30px;
-            }
-        }
-
-        .box_magic:nth-child(even) {
-            grid-template-areas: "text pic";
-            grid-template-columns: 70% 30%;
-            margin-left: 15%;
-
-            @media screen and (max-width: $tablet) {
-                grid-template-columns: 1fr;
-                margin: 0 auto;
-
-            }
-        }
-
-        .box_magic:nth-child(even) .image_box {
-            grid-area: pic;
-        }
-
-        .box_magic:nth-child(even) .text_box {
-            grid-area: text;
-            
-            @media screen and (max-width: $tablet) {
-                padding: 0 100px;
-            }
-
-            @media screen and (max-width: $mobile) {
-                padding: 0 30px;
-            }
+        @media screen and (max-width: $mobile) {
+            font-size: 24px;
+            line-height: 2;
         }
     }
 }
