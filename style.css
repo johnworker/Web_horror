@@ -437,7 +437,7 @@ ul.dropdown {
   display: none;
   position: absolute;
   top: 100%;
-  margin-top: 0.5em;
+  margin-top: 10px;
   background: rgba(255, 0, 0, 0.5);
   min-width: 8em;
   padding: 0;
@@ -788,7 +788,7 @@ ul.dropdown li a {
 .link {
   display: block;
   float: left;
-  width: 180px;
+  width: 200px;
   height: 100px;
   margin-left: 20px;
   z-index: 5;
@@ -796,16 +796,33 @@ ul.dropdown li a {
 
 .link button {
   background: #960000;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   font-size: 18px;
   padding: 10px 50px;
+  color: #fff;
+  letter-spacing: 2px;
+  font-weight: 900;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .link button:hover {
-  background: #b40000;
+  background: #dc0000;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .link a {
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 2px;
+  font-weight: 900;
+  font-size: 18px;
+}
+
+.link a:hover {
   text-decoration: none;
   color: #fff;
 }
@@ -813,17 +830,24 @@ ul.dropdown li a {
 .prevel {
   width: 800px;
   height: 600px;
-  margin-left: 500px;
+  padding: 70px 0 0 600px;
 }
 
 #carouselExampleSlidesOnly {
-  width: 500px;
-  height: 300px;
+  width: 800px;
+  height: 600px;
 }
 
 .carousel-inner {
-  width: 500px;
-  height: 300px;
+  width: 800px;
+  height: 600px;
+}
+
+.carousel-inner img {
+  width: 800px;
+  height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .contactme {

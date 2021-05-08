@@ -18,8 +18,12 @@ $(function() {
       }
     });
     
-    });    
-
+    }); 
+//輪播調整  
+$(".carousel").carousel({
+  interval: 3000,
+  pause: false
+});
 // GSAP
 // Ghost
 gsap.to(".fly", {
