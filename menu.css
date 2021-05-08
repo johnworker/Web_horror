@@ -2,10 +2,10 @@
     width: 64px;
     height: 64px;
     background: rgba(255, 255, 255, 0);
-    position: absolute;
+    position: fixed;
     right: 0;
     top: 0;
-    z-index: 3;
+    z-index: 51;
     padding-top: 18px;
     transition: background .3s;
     cursor: pointer;
@@ -41,7 +41,7 @@
     top: 0;
     bottom: 0;
     background: rgba(0, 0, 0, 0.5);
-    z-index: 2;
+    z-index: 50;
     padding: 4rem;
     transition: right .3s;
 }
