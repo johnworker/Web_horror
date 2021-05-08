@@ -19,6 +19,7 @@ $(function() {
     });
     
     });    
+
 // GSAP
 // Ghost
 gsap.to(".fly", {

@@ -367,8 +367,50 @@ nav {
         text-decoration: none;
         color: #fff;
         background: rgba(0, 0, 0, 0.5);
+        text-align: center;
+    }
+    
+    .ghost_link {
+        position: relative;
+        text-decoration: none;
+        display: inline-block;
+        color: #fff;
+        background: rgba(0, 0, 0, 0.5);
+        text-align: center;
+        margin-top: 0.5em;
+        min-width: 8em;
+        padding: 0.5em 1em;
+
+        // 滑入後 顯示 裡面的 子分頁元素
+        &:hover .mini-link{
+            // display: block; 
+            transform: scale(1);
+        }
+
+    }
+    .mini-link {
+        position: absolute;
+        top: 0;
+        left: 100%;
+        margin-top: 0.5em;
+        background: rgba(255, 0, 0, 0.5);
+        min-width: 8em;
+        padding: 0;
+        transform: scale(0);
+        transition: 0.5s;
+        transform-origin: left;
         
-        
+        li {
+            list-style-type: none;
+            &:hover {
+                background: red;
+            }
+            a {
+                text-decoration: none;
+                padding: 0.5em 1em;
+                display: block;
+            }
+        }
     }
 }
 .dropdown-toggle {
@@ -517,6 +559,215 @@ ul.dropdown {
         @media screen and (max-width: $mobile) {
             font-size: 24px;
             line-height: 2;
+        }
+    }
+}
+// 短篇故事區塊
+.story1 {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 200px;
+
+    @media screen and (max-width: $tablet) {
+        width: 100%;
+    }
+
+    .boxing {
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 50px;
+
+        .box_magic {
+            display: grid;
+            grid-template-columns: 40% 60%;
+            grid-gap: 80px;
+            padding-top: 100px;
+
+            @media screen and (max-width: $tablet) {
+                grid-template-columns: none;
+                display: block;
+            }
+        }
+    
+        .photos {
+            margin: 0 auto;
+            padding: 0;
+            display: block;
+            width: 100%;
+
+            
+        }
+        
+        img {
+            width: 450px;
+            height: 600px;
+            object-fit: cover;
+            margin: 0 100px;
+            
+            @media screen and (max-width: $tablet) {
+                margin: 0 290px;
+            }
+
+            @media screen and (max-width: $tablets) {
+                margin: 0 160px;
+            }
+
+            @media screen and (max-width: $mobile) {
+                margin: 0 auto;
+            }
+        }
+
+        .article {
+            margin: 0;
+            padding-right: 30%;
+            display: block;
+            width: 100%;
+
+            @media screen and (max-width: $tablet) {
+                margin: 0 auto;
+            }
+            
+        }
+
+        h4 {
+            text-align: center;
+            padding: 20px 10px 10px;
+            font-size: 32px;
+            font-weight: bold;
+            color: #fff;
+
+            @media screen and (max-width: $tablet) {
+                font-size: 40px;
+                
+            }
+        }
+
+        p{
+            font-size: 20px;
+            padding: 10px 0;
+            line-height: 2.5;
+            color: #fff;
+            width: 90%;
+
+            @media screen and (max-width: $tablet) {
+                width: 100%;
+                font-size: 30px;
+            }
+
+            @media screen and (max-width: $mobile) {
+                font-size: 24px;
+                line-height: 2;
+            }
+        }
+
+
+        .box_magic:nth-child(odd) {
+            grid-template-areas: "pic text";
+            grid-template-columns: 40% 60%;
+
+            @media screen and (max-width: $tablet) {
+                grid-template-columns: 1fr;
+                margin: 0 auto;
+            }
+        }
+        .box_magic:nth-child(odd) .photos {
+            grid-area: pic;
+        }
+        .box_magic:nth-child(odd) article {
+            grid-area: text;
+            padding: 0 50px;
+
+            @media screen and (max-width: $mobile) {
+                padding: 0 30px;
+            }
+        }
+
+        .box_magic:nth-child(even) {
+            grid-template-areas: "text pic";
+            grid-template-columns: 60% 40%;
+            margin-right: 15%;
+
+            @media screen and (max-width: $tablet) {
+                grid-template-columns: 1fr;
+                margin: 0 auto;
+
+            }
+        }
+
+        .box_magic:nth-child(even) .photos {
+            grid-area: pic;
+        }
+
+        .box_magic:nth-child(even) article {
+            grid-area: text;
+            
+            @media screen and (max-width: $tablet) {
+                padding: 0 100px;
+            }
+
+            @media screen and (max-width: $mobile) {
+                padding: 0 30px;
+            }
+        }
+
+        .box_magic:nth-child(even) p {
+            padding-left: 50px;
+        }
+    }
+}
+
+// 聯絡LEO
+.contactme {
+    height: 100%;
+    width: 100%;
+}
+#list {
+    padding: 100px 0 0;
+}
+
+form {
+    width: 1280px;
+    margin: 0 auto;
+    padding: 20px 0 100px;
+
+    @media screen and (max-width: $tablet) {
+        width: 100%;
+        padding: 20px 20px 100px;
+    }
+
+    input {
+        width: 47%;
+        padding: 10px;
+
+        @media screen and (max-width: $tablet) {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        &::placeholder {
+            color: rgb(80, 80, 80);
+            font-size: 14px;
+        }
+    }
+
+    input[type=email] {
+        float: right;
+    }
+
+    input[type=submit] {
+        width: 100%;
+    }
+
+    textarea {
+        width: 100%;
+        height: 300px;
+        margin: 30px 0;
+        padding: 10px;
+
+        &::placeholder {
+            color: rgb(80, 80, 80);
+            font-size: 14px;
         }
     }
 }
