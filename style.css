@@ -421,7 +421,7 @@ nav .mini-link li a {
 .dropdown-toggle {
   padding: 0.5em 1em;
   background: rgba(0, 0, 0, 0.5);
-  border-radius: 0.2em 0.2em 0 0;
+  border-radius: 5px 5px 5px 5px;
   border: 1px solid red;
   font-size: 20px;
   font-weight: 900;
@@ -514,6 +514,13 @@ ul.dropdown li a {
   .start p {
     font-size: 24px;
   }
+}
+
+.text {
+  text-align: center;
+  color: #fff;
+  padding-top: 10px;
+  font-size: 70px;
 }
 
 .story {
@@ -776,6 +783,47 @@ ul.dropdown li a {
 
 .story1 .boxing .box_magic:nth-child(even) p {
   padding-left: 50px;
+}
+
+.link {
+  display: block;
+  float: left;
+  width: 180px;
+  height: 100px;
+  margin-left: 20px;
+  z-index: 5;
+}
+
+.link button {
+  background: #960000;
+  margin-bottom: 15px;
+  font-size: 18px;
+  padding: 10px 50px;
+}
+
+.link button:hover {
+  background: #b40000;
+}
+
+.link a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.prevel {
+  width: 800px;
+  height: 600px;
+  margin-left: 500px;
+}
+
+#carouselExampleSlidesOnly {
+  width: 500px;
+  height: 300px;
+}
+
+.carousel-inner {
+  width: 500px;
+  height: 300px;
 }
 
 .contactme {
