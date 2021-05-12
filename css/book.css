@@ -515,7 +515,7 @@ Table of Contents
 	left: 0;
 	bottom: 0;
 	right: 0;
-	background-image: url(./img/skull_fire.jpg);
+	background-image: url(../img/skull_fire.jpg);
 	background-position: 770px 580px;
 	overflow: hidden;
 	-webkit-backface-visibility: hidden;
