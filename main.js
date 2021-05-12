@@ -20,6 +20,25 @@ $(function () {
 
 });
 //輪播調整  
+// owl-carousel
+$('.owl-carousel').owlCarousel({
+  stagePadding: 100,
+  loop:true,
+  margin: 600,
+  nav:false,
+  items: 1,
+  responsive:{
+      0:{
+          items:1
+      },
+      600:{
+          items:3
+      },
+      1000:{
+          items:5
+      }
+  }
+});
 // GSAP
 // Ghost
 gsap.to(".fly", {

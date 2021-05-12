@@ -783,8 +783,17 @@ ul.dropdown {
         object-fit: cover;
     }
 }
+// 貓頭鷹輪播
+.owl-carousel {
+    top: 50%;
+    left: -100px;
 
-// 短篇故事區塊
+    img {
+        width: 500px !important;
+
+    }
+}
+// 靈異分析區塊
 .ghostview {
     width: 100%;
     height: 100%;
