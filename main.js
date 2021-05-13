@@ -63,13 +63,13 @@ gsap.to(".hang", {
   scrollTrigger: {
     tigger: ".hang",
     toggleActions: "restart none resume none",
-    start: "15% 50%",
+    start: "13% 50%",
     end: "25% 20%",
     scrub: 1,
-    markers: true
+    // markers: true
   },
 
-  x: 1200,
+  x: 1225,
   y: 10,
   duration: 3
 }
