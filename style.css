@@ -852,12 +852,55 @@ ul.dropdown li a {
 }
 
 .owl-carousel {
-  top: 50%;
+  top: 40%;
   left: -100px;
+  width: 500px;
+  z-index: 4 !important;
 }
 
-.owl-carousel img {
-  width: 500px !important;
+.owl-carousel .owl-item {
+  width: 100%;
+}
+
+.owl-carousel .owl-item img {
+  width: 350px !important;
+}
+
+.inside_ceiling {
+  position: relative;
+  width: 100%;
+  top: 0;
+  z-index: 2;
+}
+
+.inside_ceiling img {
+  position: absolute;
+  width: 2450px;
+  height: 400px;
+  left: -30%;
+  top: 5%;
+  opacity: 0.5;
+}
+
+.ghost_hang {
+  position: relative;
+  width: 100%;
+  top: 270px;
+  z-index: 3;
+}
+
+.ghost_hang img {
+  position: absolute;
+  width: 275px;
+  height: 400px;
+  left: -15%;
+  top: 16%;
+  opacity: 0.5;
+}
+
+.ghost_hang img:hover {
+  -webkit-filter: invert(24%) sepia(100%) saturate(1%) hue-rotate(8deg) brightness(98%) contrast(200%);
+          filter: invert(24%) sepia(100%) saturate(1%) hue-rotate(8deg) brightness(98%) contrast(200%);
 }
 
 .ghostview {
@@ -1108,11 +1151,11 @@ form input::placeholder {
   font-size: 14px;
 }
 
-form input[type=email] {
+form input[type="email"] {
   float: right;
 }
 
-form input[type=submit] {
+form input[type="submit"] {
   width: 100%;
 }
 

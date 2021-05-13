@@ -24,7 +24,7 @@ $(function () {
 $('.owl-carousel').owlCarousel({
   stagePadding: 100,
   loop:true,
-  margin: 600,
+  margin: 400,
   nav:false,
   items: 1,
   responsive:{
@@ -40,7 +40,7 @@ $('.owl-carousel').owlCarousel({
   }
 });
 // GSAP
-// Ghost
+// Ghost_fly
 gsap.to(".fly", {
   scrollTrigger: {
     tigger: ".fly",
@@ -53,6 +53,24 @@ gsap.to(".fly", {
 
   x: -700,
   y: -100,
+  duration: 3
+}
+
+);
+
+// Ghost_hang
+gsap.to(".hang", {
+  scrollTrigger: {
+    tigger: ".hang",
+    toggleActions: "restart none resume none",
+    start: "15% 50%",
+    end: "25% 20%",
+    scrub: 1,
+    markers: true
+  },
+
+  x: 1200,
+  y: 10,
   duration: 3
 }
 

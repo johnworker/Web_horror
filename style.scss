@@ -369,7 +369,7 @@ nav {
         background: rgba(0, 0, 0, 0.5);
         text-align: center;
     }
-    
+
     .ghost_link {
         position: relative;
         text-decoration: none;
@@ -382,11 +382,10 @@ nav {
         padding: 0.5em 1em;
 
         // 滑入後 顯示 裡面的 子分頁元素
-        &:hover .mini-link{
-            // display: block; 
+        &:hover .mini-link {
+            // display: block;
             transform: scale(1);
         }
-
     }
     .mini-link {
         position: absolute;
@@ -399,7 +398,7 @@ nav {
         transform: scale(0);
         transition: 0.5s;
         transform-origin: left;
-        
+
         li {
             list-style-type: none;
             &:hover {
@@ -595,22 +594,20 @@ ul.dropdown {
                 display: block;
             }
         }
-    
+
         .photos {
             margin: 0 auto;
             padding: 0;
             display: block;
             width: 100%;
-
-            
         }
-        
+
         img {
             width: 450px;
             height: 600px;
             object-fit: cover;
             margin: 0 100px;
-            
+
             @media screen and (max-width: $tablet) {
                 margin: 0 290px;
             }
@@ -633,7 +630,6 @@ ul.dropdown {
             @media screen and (max-width: $tablet) {
                 margin: 0 auto;
             }
-            
         }
 
         h4 {
@@ -645,11 +641,10 @@ ul.dropdown {
 
             @media screen and (max-width: $tablet) {
                 font-size: 40px;
-                
             }
         }
 
-        p{
+        p {
             font-size: 20px;
             padding: 10px 0;
             line-height: 2.5;
@@ -666,7 +661,6 @@ ul.dropdown {
                 line-height: 2;
             }
         }
-
 
         .box_magic:nth-child(odd) {
             grid-template-areas: "pic text";
@@ -697,7 +691,6 @@ ul.dropdown {
             @media screen and (max-width: $tablet) {
                 grid-template-columns: 1fr;
                 margin: 0 auto;
-
             }
         }
 
@@ -707,7 +700,7 @@ ul.dropdown {
 
         .box_magic:nth-child(even) article {
             grid-area: text;
-            
+
             @media screen and (max-width: $tablet) {
                 padding: 0 100px;
             }
@@ -731,6 +724,7 @@ ul.dropdown {
     height: 280px;
     margin-left: 20px;
     z-index: 5;
+    
 
     button {
         background: rgb(100, 0, 0);
@@ -749,7 +743,7 @@ ul.dropdown {
             transform: scale(1.1);
         }
     }
-    
+
     a {
         text-decoration: none;
         color: #fff;
@@ -785,14 +779,58 @@ ul.dropdown {
 }
 // 貓頭鷹輪播
 .owl-carousel {
-    top: 50%;
+    top: 40%;
     left: -100px;
+    width: 500px;
+    z-index: 4 !important;
 
-    img {
-        width: 500px !important;
+    .owl-item {
+        width: 100%;
 
+        img {
+            width: 350px !important;
+        }
     }
 }
+// 天花板
+.inside_ceiling {
+    position: relative;
+    width: 100%;
+    top: 0;
+    z-index: 2;
+
+    img {
+        position: absolute;
+        width: 2450px;
+        height: 400px;
+        left: -30%;
+        top: 5%;
+        opacity: 0.5;
+    }
+}
+
+// 移動吊死鬼
+.ghost_hang {
+    position: relative;
+    width: 100%;
+    top: 270px;
+    z-index: 3;
+
+    img {
+        position: absolute;
+        width: 275px;
+        height: 400px;
+        left: -15%;
+        top: 16%;
+        opacity: 0.5;
+        
+
+        &:hover {
+            filter: invert(24%) sepia(100%) saturate(1%) hue-rotate(8deg) brightness(98%) contrast(200%);
+        }
+    }
+}
+
 // 靈異分析區塊
 .ghostview {
     width: 100%;
@@ -820,22 +858,20 @@ ul.dropdown {
                 display: block;
             }
         }
-    
+
         .ghost_photos {
             margin: 0 auto;
             padding: 0;
             display: block;
             width: 100%;
-
-            
         }
-        
+
         img {
             width: 450px;
             height: 600px;
             object-fit: cover;
             margin: 0 100px;
-            
+
             @media screen and (max-width: $tablet) {
                 margin: 0 290px;
             }
@@ -858,7 +894,6 @@ ul.dropdown {
             @media screen and (max-width: $tablet) {
                 margin: 0 auto;
             }
-            
         }
 
         h4 {
@@ -870,11 +905,10 @@ ul.dropdown {
 
             @media screen and (max-width: $tablet) {
                 font-size: 40px;
-                
             }
         }
 
-        p{
+        p {
             font-size: 20px;
             padding: 10px 0;
             line-height: 2.5;
@@ -891,7 +925,6 @@ ul.dropdown {
                 line-height: 2;
             }
         }
-
 
         .ghost_box_magic:nth-child(odd) {
             grid-template-areas: "pic text";
@@ -922,7 +955,6 @@ ul.dropdown {
             @media screen and (max-width: $tablet) {
                 grid-template-columns: 1fr;
                 margin: 0 auto;
-
             }
         }
 
@@ -932,7 +964,7 @@ ul.dropdown {
 
         .ghost_box_magic:nth-child(even) article {
             grid-area: text;
-            
+
             @media screen and (max-width: $tablet) {
                 padding: 0 100px;
             }
@@ -982,11 +1014,11 @@ form {
         }
     }
 
-    input[type=email] {
+    input[type="email"] {
         float: right;
     }
 
-    input[type=submit] {
+    input[type="submit"] {
         width: 100%;
     }
 
