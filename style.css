@@ -866,6 +866,93 @@ ul.dropdown li a {
   width: 350px !important;
 }
 
+.Cemetery {
+  position: relative;
+  width: 100%;
+  top: 0;
+  z-index: 2;
+}
+
+.Cemetery img {
+  position: absolute;
+  width: 400px;
+  height: 300px;
+  left: 65%;
+  top: -50px;
+  -webkit-filter: blur(1px);
+          filter: blur(1px);
+}
+
+.smog {
+  position: relative;
+  width: 100%;
+  top: 0;
+  z-index: 4;
+}
+
+.smog img {
+  position: absolute;
+  width: 400px;
+  height: 300px;
+  left: 65%;
+  top: -50px;
+  opacity: 0.75;
+  -webkit-filter: blur(1px);
+          filter: blur(1px);
+}
+
+.halloween_ghost {
+  position: relative;
+  width: 100%;
+  top: 0;
+  z-index: 4;
+}
+
+.halloween_ghost img {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: 67%;
+  top: 10px;
+  opacity: 0.1;
+  -webkit-animation: Ghost 1s 0.4s;
+          animation: Ghost 1s 0.4s;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+}
+
+.halloween_ghost img:hover {
+  opacity: 0.5;
+  -webkit-filter: invert(11%) sepia(62%) saturate(7083%) hue-rotate(357deg) brightness(99%) contrast(110%);
+          filter: invert(11%) sepia(62%) saturate(7083%) hue-rotate(357deg) brightness(99%) contrast(110%);
+}
+
+@-webkit-keyframes Ghost {
+  0% {
+    -webkit-transform: translateY(300px);
+            transform: translateY(300px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes Ghost {
+  0% {
+    -webkit-transform: translateY(300px);
+            transform: translateY(300px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
 .inside_ceiling {
   position: relative;
   width: 100%;

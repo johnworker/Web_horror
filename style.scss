@@ -792,6 +792,75 @@ ul.dropdown {
         }
     }
 }
+// 墓地
+.Cemetery {
+    position: relative;
+    width: 100%;
+    top: 0;
+    z-index: 2;
+
+    img {
+        position: absolute;
+        width: 400px;
+        height: 300px;
+        left: 65%;
+        top: -50px;
+        filter: blur(1px);
+    }
+}
+// 霧
+.smog {
+    position: relative;
+    width: 100%;
+    top: 0;
+    z-index: 4;
+
+    img {
+        position: absolute;
+        width: 400px;
+        height: 300px;
+        left: 65%;
+        top: -50px;
+        opacity: 0.75;
+        filter: blur(1px);
+    }
+}
+// 霧狀鬼
+.halloween_ghost {
+    position: relative;
+    width: 100%;
+    top: 0;
+    z-index: 4;
+
+    img {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        left: 67%;
+        top: 10px;
+        opacity: 0.1;
+        animation: Ghost 1s 0.4s;
+        animation-fill-mode: backwards;
+
+        &:hover {
+            opacity: 0.5;
+            filter: invert(11%) sepia(62%) saturate(7083%) hue-rotate(357deg) brightness(99%) contrast(110%);
+            }
+
+        @keyframes Ghost {
+            0% {
+                transform: translateY(300px);
+                opacity: 0;
+            }
+    
+            100% {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+    }
+}
+
 // 天花板
 .inside_ceiling {
     position: relative;
@@ -979,6 +1048,8 @@ ul.dropdown {
         }
     }
 }
+// 喪屍區輪播
+
 
 // 聯絡LEO
 .contactme {
