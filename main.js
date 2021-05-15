@@ -44,10 +44,11 @@ $(".zombie_card").owlCarousel({
   stagePadding: 10,
   loop: true,
   margin: 10,
-  nav: false,
   dots: false,
+  navigator: false,
+  nav: false,
   items: 1,
-  autoplay: true,
+  autoplay: false,
   autoplaySpeed: 2000,
   // 響應式 RWD
   responsive: {
