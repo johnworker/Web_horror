@@ -1184,6 +1184,39 @@ ul.dropdown li a {
   padding-left: 50px;
 }
 
+.item_zombie {
+  margin: 100px auto;
+}
+
+.item_zombie .owl-nav {
+  display: none !important;
+}
+
+.item_zombie .owl-nav button {
+  display: none !important;
+}
+
+.item_zombie img {
+  width: 400px !important;
+  height: 400px !important;
+  -o-object-fit: cover;
+     object-fit: cover;
+  /* border-radius: 50%; 寬高要相同(圓形) */
+  border-radius: 50%;
+  display: block;
+  /* 顯示模式：區塊 */
+  margin: 0 auto;
+  /* 區塊元素 block 才能margin:0 auto; */
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-box-shadow: 2px 10px 14px rgba(0, 0, 0, 0.5);
+          box-shadow: 2px 10px 14px rgba(0, 0, 0, 0.5);
+}
+
+.item_zombie img:hover {
+  border-radius: 20px;
+}
+
 .contactme {
   height: 100%;
   width: 100%;

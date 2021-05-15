@@ -23,20 +23,43 @@ $(function () {
 // owl-carousel
 $('.owl-carousel').owlCarousel({
   stagePadding: 100,
-  loop:true,
+  loop: true,
   margin: 400,
-  nav:false,
+  nav: false,
   items: 1,
-  responsive:{
-      0:{
-          items:1
-      },
-      600:{
-          items:3
-      },
-      1000:{
-          items:5
-      }
+  responsive: {
+    0: {
+      items: 1
+    },
+    600: {
+      items: 3
+    },
+    1000: {
+      items: 5
+    }
+  }
+});
+// 喪屍區輪播
+$(".zombie_card").owlCarousel({
+  stagePadding: 10,
+  loop: true,
+  margin: 10,
+  nav: false,
+  dots: false,
+  items: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  // 響應式 RWD
+  responsive: {
+    0: {
+      items: 1
+    },
+    600: {
+      items: 1
+    },
+    1000: {
+      items: 1
+    }
   }
 });
 // GSAP

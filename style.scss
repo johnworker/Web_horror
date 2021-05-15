@@ -3,6 +3,7 @@
 $color-white: white;
 $color-grey: grey;
 $text-shadow: 10px 10px 10px rgb(255, 0, 0);
+$fashion-shadow: 2px 10px 14px rgba(0 ,0 ,0, 0.5);
 $tablet: 1024px; //平板尺寸 (ipad pro)
 $tablets: 960px; //平板尺寸 (ipad)
 $mobile: 767px; //手機尺寸
@@ -724,7 +725,6 @@ ul.dropdown {
     height: 280px;
     margin-left: 20px;
     z-index: 5;
-    
 
     button {
         background: rgb(100, 0, 0);
@@ -845,14 +845,14 @@ ul.dropdown {
         &:hover {
             opacity: 0.5;
             filter: invert(11%) sepia(62%) saturate(7083%) hue-rotate(357deg) brightness(99%) contrast(110%);
-            }
+        }
 
         @keyframes Ghost {
             0% {
                 transform: translateY(300px);
                 opacity: 0;
             }
-    
+
             100% {
                 transform: translateY(0);
                 opacity: 1;
@@ -892,7 +892,6 @@ ul.dropdown {
         left: -15%;
         top: 16%;
         opacity: 0.5;
-        
 
         &:hover {
             filter: invert(24%) sepia(100%) saturate(1%) hue-rotate(8deg) brightness(98%) contrast(200%);
@@ -1049,7 +1048,34 @@ ul.dropdown {
     }
 }
 // 喪屍區輪播
+.item_zombie {
+    margin: 100px auto;
 
+    .owl-nav {
+        display: none !important;
+
+        button {
+            display: none !important;
+        }
+    }
+    img {
+        width: 400px !important;
+        height: 400px !important;
+        object-fit: cover;
+        /* border-radius: 50%; 寬高要相同(圓形) */
+        border-radius: 50%;
+        display: block;
+        /* 顯示模式：區塊 */
+        margin: 0 auto;
+        /* 區塊元素 block 才能margin:0 auto; */
+        transition: 0.5s;
+        box-shadow: $fashion-shadow;
+
+        &:hover {
+            border-radius: 20px;
+        }
+    }
+}
 
 // 聯絡LEO
 .contactme {
