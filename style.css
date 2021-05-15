@@ -1263,16 +1263,30 @@ ul.dropdown li a {
   border-radius: 20px;
 }
 
-.skull_walk {
+.zombie_walk {
   position: relative;
   width: 100vw;
+  bottom: 50px;
 }
 
-.skull_walk img {
+.zombie_walk img {
   position: absolute;
   width: 200px;
   height: 300px;
   right: -15%;
+}
+
+.zombie_jump {
+  position: relative;
+  width: 100vw;
+  bottom: 50px;
+}
+
+.zombie_jump img {
+  position: absolute;
+  width: 200px;
+  height: 300px;
+  left: -15%;
 }
 
 .contactme {

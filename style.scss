@@ -1123,9 +1123,10 @@ ul.dropdown {
     }
 }
 // 步行喪屍
-.skull_walk {
+.zombie_walk {
     position: relative;
     width: 100vw;
+    bottom: 50px;
 
     img {
         position: absolute;
@@ -1134,7 +1135,20 @@ ul.dropdown {
         right: -15%;
     }
 }
+// 跳躍喪屍
+.zombie_jump {
+    position: relative;
+    width: 100vw;
+    bottom: 50px;
 
+    img {
+        position: absolute;
+        width: 200px;
+        height: 300px;
+        left: -15%;
+
+    }
+}
 // 聯絡LEO
 .contactme {
     height: 100%;

@@ -100,18 +100,35 @@ gsap.to(".hang", {
 
 );
 
-// zombie
-gsap.to(".skull", {
+// zombie walk
+gsap.to(".zombie_go", {
   scrollTrigger: {
-    tigger: ".skull",
+    tigger: ".zombie_go",
     toggleActions: "restart none resume none",
-    start: "18% 50%",
+    start: "16% 50%",
     end: "25% 20%",
     scrub: 1,
-    markers: true
+    // markers: true
   },
 
-  x: -500,
+  x: -800,
+  duration: 3
+}
+
+);
+
+// zombie jump
+gsap.to(".zombie_gojump", {
+  scrollTrigger: {
+    tigger: ".zombie_gojump",
+    toggleActions: "restart none resume none",
+    start: "16% 50%",
+    end: "25% 20%",
+    scrub: 1,
+    // markers: true
+  },
+
+  x: 800,
   duration: 3
 }
 
