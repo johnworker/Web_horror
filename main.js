@@ -99,3 +99,20 @@ gsap.to(".hang", {
 }
 
 );
+
+// zombie
+gsap.to(".skull", {
+  scrollTrigger: {
+    tigger: ".skull",
+    toggleActions: "restart none resume none",
+    start: "18% 50%",
+    end: "25% 20%",
+    scrub: 1,
+    markers: true
+  },
+
+  x: -500,
+  duration: 3
+}
+
+);

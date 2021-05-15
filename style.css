@@ -1263,6 +1263,18 @@ ul.dropdown li a {
   border-radius: 20px;
 }
 
+.skull_walk {
+  position: relative;
+  width: 100vw;
+}
+
+.skull_walk img {
+  position: absolute;
+  width: 200px;
+  height: 300px;
+  right: -15%;
+}
+
 .contactme {
   height: 100%;
   width: 100%;

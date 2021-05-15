@@ -1048,7 +1048,7 @@ ul.dropdown {
         }
     }
 }
-// 喪屍區輪播
+// 喪屍區輪播bootstrap
 .zombie {
     width: 800px;
     height: 600px;
@@ -1086,6 +1086,7 @@ ul.dropdown {
     }
     
 }
+// 喪屍區輪播owl
 .zombie_card {
     width: 800px;
     margin: 0 auto;
@@ -1119,6 +1120,18 @@ ul.dropdown {
                 border-radius: 20px;
             }
         }
+    }
+}
+// 步行喪屍
+.skull_walk {
+    position: relative;
+    width: 100vw;
+
+    img {
+        position: absolute;
+        width: 200px;
+        height: 300px;
+        right: -15%;
     }
 }
 
