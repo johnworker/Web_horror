@@ -62,6 +62,10 @@ header video {
   margin: 0 auto;
 }
 
+.prologue {
+  height: 90vh;
+}
+
 .prologue h2 {
   padding: 30px;
   font-size: 36px;
@@ -99,24 +103,24 @@ header video {
   bottom: 20px;
 }
 
-.prologue .ghost_fly {
+.prologue .ghosts_fly {
   position: relative;
   width: 100%;
   z-index: 3;
 }
 
-.prologue .ghost_fly img {
+.prologue .ghosts_fly img {
   position: absolute;
   width: 200px;
   height: 200px;
-  right: -20%;
+  right: -15%;
   bottom: 10%;
   opacity: 0.7;
-}
-
-.prologue .ghost_fly img:hover {
   -webkit-transition: 0.7ms;
   transition: 0.7ms;
+}
+
+.prologue .ghosts_fly img:hover {
   -webkit-filter: invert(24%) sepia(100%) saturate(7446%) hue-rotate(8deg) brightness(98%) contrast(117%);
           filter: invert(24%) sepia(100%) saturate(7446%) hue-rotate(8deg) brightness(98%) contrast(117%);
 }
@@ -1491,7 +1495,32 @@ ul.dropdown li a {
   position: absolute;
   width: 300px;
   height: 200px;
-  right: -20%;
+  top: 50px;
+  right: 50px;
+  -webkit-animation: rider 3s 1s;
+          animation: rider 3s 1s;
+}
+
+@-webkit-keyframes rider {
+  0% {
+    -webkit-transform: translateX(500px);
+            transform: translateX(500px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes rider {
+  0% {
+    -webkit-transform: translateX(500px);
+            transform: translateX(500px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
 }
 
 .contactme {

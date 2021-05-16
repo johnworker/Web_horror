@@ -71,6 +71,9 @@ header {
 
 // 序章
 .prologue {
+
+    height: 90vh;
+
     h2 {
         padding: 30px;
         font-size: 36px;
@@ -108,7 +111,7 @@ header {
         }
     }
 
-    .ghost_fly {
+    .ghosts_fly {
         position: relative;
         width: 100%;
         z-index: 3;
@@ -117,12 +120,13 @@ header {
             position: absolute;
             width: 200px;
             height: 200px;
-            right: -20%;
+            right: -15%;
             bottom: 10%;
             opacity: 0.7;
+            transition: 0.7ms;
+
 
             &:hover {
-                transition: 0.7ms;
                 filter: invert(24%) sepia(100%) saturate(7446%) hue-rotate(8deg) brightness(98%) contrast(117%);
             }
         }
@@ -1322,8 +1326,16 @@ ul.dropdown {
         position: absolute;
         width: 300px;
         height: 200px;
-        right: -20%;
+        top: 50px;
+        right: 50px;
+        animation: rider 3s 1s;
 
+        &:hover {
+            @keyframes rider {
+                0% {transform: translateX(500px);}
+                100% {transform: translateX(0);}
+            }
+        }
     }
 }
 
