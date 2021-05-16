@@ -1312,6 +1312,20 @@ ul.dropdown {
         }
     }
 }
+// 飆車骷髏
+.skull_rider {
+    position: relative;
+    width: 100vw;
+    bottom: 50px;
+
+    img {
+        position: absolute;
+        width: 300px;
+        height: 200px;
+        right: -20%;
+
+    }
+}
 
 // 聯絡LEO
 .contactme {

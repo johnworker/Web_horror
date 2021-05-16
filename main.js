@@ -72,11 +72,10 @@ gsap.to(".fly", {
     start: "35% 50%",
     end: "45% 20%",
     // scrub: 1,
-    // markers: true
+    // markers: true,
   },
 
   x: -700,
-  y: -100,
   duration: 3
 }
 
@@ -87,7 +86,7 @@ gsap.to(".hang", {
   scrollTrigger: {
     tigger: ".hang",
     toggleActions: "restart none resume none",
-    start: "13% 50%",
+    start: "18% 50%",
     end: "25% 20%",
     scrub: 1,
     // markers: true

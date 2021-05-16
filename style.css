@@ -1481,6 +1481,19 @@ ul.dropdown li a {
   }
 }
 
+.skull_rider {
+  position: relative;
+  width: 100vw;
+  bottom: 50px;
+}
+
+.skull_rider img {
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  right: -20%;
+}
+
 .contactme {
   height: 100%;
   width: 100%;
