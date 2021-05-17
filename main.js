@@ -64,23 +64,6 @@ $('.owl-carousel').owlCarousel({
 //   }
 // });
 // GSAP
-// Ghost_fly
-// gsap.to(".fly", {
-//   scrollTrigger: {
-//     tigger: ".fly",
-//     toggleActions: "restart none resume none",
-//     start: "18% 50%",
-//     end: "25% 20%",
-//     scrub: 1,
-//     markers: true
-//   },
-
-//   x: -700,
-//   duration: 3
-// }
-
-// );
-
 // Ghost_hang
 gsap.to(".hang", {
   scrollTrigger: {

@@ -1551,6 +1551,75 @@ ul.dropdown li a {
   right: -500px !important;
 }
 
+.skull_stand {
+  position: relative;
+  width: 100%;
+}
+
+.skull_stand img {
+  position: absolute;
+  width: 140px;
+  height: 250px;
+  top: 50px;
+  left: 100px;
+  -webkit-animation: skst 2s 1s;
+          animation: skst 2s 1s;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+@-webkit-keyframes skst {
+  0% {
+    -webkit-transform: translateX(-700px);
+            transform: translateX(-700px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes skst {
+  0% {
+    -webkit-transform: translateX(-700px);
+            transform: translateX(-700px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+.skull_stand img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.goblin_stand {
+  position: relative;
+  width: 100vw;
+  z-index: 2;
+}
+
+.goblin_stand img {
+  position: absolute;
+  width: 150px;
+  height: 200px;
+  top: 100px;
+  left: 400px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.goblin_stand img:hover {
+  -webkit-filter: invert(24%) sepia(100%) saturate(1%) hue-rotate(8deg) brightness(98%) contrast(200%);
+          filter: invert(24%) sepia(100%) saturate(1%) hue-rotate(8deg) brightness(98%) contrast(200%);
+  -webkit-transform: scale(0.75);
+          transform: scale(0.75);
+}
+
 .skullfo {
   position: relative;
   width: 100vw;
