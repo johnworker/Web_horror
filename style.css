@@ -90,7 +90,7 @@ header video {
 
 .prologue .box2 {
   position: relative;
-  width: 100%;
+  width: 80%;
   height: 300px;
   bottom: 150px;
   display: block;
@@ -99,28 +99,55 @@ header video {
 
 .prologue .box2 video {
   position: absolute;
-  left: 100px;
+  left: -60px;
   bottom: 20px;
 }
 
-.prologue .ghosts_fly {
+.ghost_fly {
   position: relative;
   width: 100%;
+  right: 0;
   z-index: 3;
 }
 
-.prologue .ghosts_fly img {
+.ghost_fly img {
   position: absolute;
   width: 200px;
   height: 200px;
-  right: -15%;
+  right: 420px;
   bottom: 10%;
   opacity: 0.7;
   -webkit-transition: 0.7ms;
   transition: 0.7ms;
+  -webkit-animation: ghost_fly 3s 1s;
+          animation: ghost_fly 3s 1s;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
 }
 
-.prologue .ghosts_fly img:hover {
+@-webkit-keyframes ghost_fly {
+  0% {
+    -webkit-transform: translateX(800px);
+            transform: translateX(800px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes ghost_fly {
+  0% {
+    -webkit-transform: translateX(800px);
+            transform: translateX(800px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+.ghost_fly img:hover {
   -webkit-filter: invert(24%) sepia(100%) saturate(7446%) hue-rotate(8deg) brightness(98%) contrast(117%);
           filter: invert(24%) sepia(100%) saturate(7446%) hue-rotate(8deg) brightness(98%) contrast(117%);
 }
@@ -1485,10 +1512,117 @@ ul.dropdown li a {
   }
 }
 
-.skull_rider {
+.others {
+  width: 800px;
+  height: 600px;
+  margin: 70px 0 0 380px;
+}
+
+.others #carouselExampleFade {
+  width: 100%;
+  height: 600px;
+}
+
+.others #carouselExampleFade .carousel-inner {
+  width: 100%;
+  height: 600px;
+}
+
+.others #carouselExampleFade .carousel-inner img {
+  width: 800px;
+  height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.others #carouselExampleFade .carousel-control {
+  position: relative;
+  width: 1000px;
+  height: 100%;
+}
+
+.others #carouselExampleFade .carousel-control .carousel-control-prev {
+  position: absolute;
+  left: -100px !important;
+}
+
+.others #carouselExampleFade .carousel-control .carousel-control-next {
+  position: absolute;
+  right: -500px !important;
+}
+
+.skullfo {
   position: relative;
   width: 100vw;
   bottom: 50px;
+}
+
+.skullfo img {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 50px;
+  left: 45%;
+  opacity: 1;
+}
+
+.skullfo img:hover {
+  -webkit-filter: invert(24%) sepia(100%) saturate(1%) hue-rotate(8deg) brightness(98%) contrast(200%);
+          filter: invert(24%) sepia(100%) saturate(1%) hue-rotate(8deg) brightness(98%) contrast(200%);
+}
+
+.skullri {
+  position: relative;
+  width: 100vw;
+  bottom: 50px;
+}
+
+.skullri img {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 50px;
+  left: 300px;
+  opacity: 0;
+  -webkit-animation: skri 2s 1s;
+          animation: skri 2s 1s;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+}
+
+@-webkit-keyframes skri {
+  0% {
+    -webkit-transform: translateX(-700px);
+            transform: translateX(-700px);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    -webkit-transform: scale(0.3);
+            transform: scale(0.3);
+    opacity: 0;
+  }
+}
+
+@keyframes skri {
+  0% {
+    -webkit-transform: translateX(-700px);
+            transform: translateX(-700px);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    -webkit-transform: scale(0.3);
+            transform: scale(0.3);
+    opacity: 0;
+  }
+}
+
+.skull_rider {
+  position: relative;
+  width: 100vw;
 }
 
 .skull_rider img {
@@ -1496,9 +1630,16 @@ ul.dropdown li a {
   width: 300px;
   height: 200px;
   top: 50px;
-  right: 50px;
+  right: 100px;
   -webkit-animation: rider 3s 1s;
           animation: rider 3s 1s;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+}
+
+.skull_rider img:hover {
+  -webkit-filter: invert(24%) sepia(100%) saturate(1%) hue-rotate(8deg) brightness(98%) contrast(200%);
+          filter: invert(24%) sepia(100%) saturate(1%) hue-rotate(8deg) brightness(98%) contrast(200%);
 }
 
 @-webkit-keyframes rider {

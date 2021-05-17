@@ -40,46 +40,47 @@ $('.owl-carousel').owlCarousel({
   }
 });
 // 喪屍區輪播
-$(".zombie_card").owlCarousel({
-  stagePadding: 10,
-  loop: true,
-  margin: 10,
-  dots: false,
-  navigator: false,
-  nav: false,
-  items: 1,
-  autoplay: false,
-  autoplaySpeed: 2000,
-  // 響應式 RWD
-  responsive: {
-    0: {
-      items: 1
-    },
-    600: {
-      items: 1
-    },
-    1000: {
-      items: 1
-    }
-  }
-});
+// $(".zombie_card").owlCarousel({
+//   stagePadding: 10,
+//   loop: true,
+//   margin: 10,
+//   dots: false,
+//   navigator: false,
+//   nav: false,
+//   items: 1,
+//   autoplay: false,
+//   autoplaySpeed: 2000,
+//   // 響應式 RWD
+//   responsive: {
+//     0: {
+//       items: 1
+//     },
+//     600: {
+//       items: 1
+//     },
+//     1000: {
+//       items: 1
+//     }
+//   }
+// });
 // GSAP
 // Ghost_fly
-gsap.to(".fly", {
-  scrollTrigger: {
-    tigger: ".fly",
-    toggleActions: "play none resume none",
-    start: "16% 50%",
-    end: "25% 20%",
-    scrub: 1,
-    markers: true
-  },
+// gsap.to(".fly", {
+//   scrollTrigger: {
+//     tigger: ".fly",
+//     toggleActions: "restart none resume none",
+//     start: "18% 50%",
+//     end: "25% 20%",
+//     scrub: 1,
+//     markers: true
+//   },
 
-  x: -800,
-  duration: 3
-}
+//   x: -700,
+//   duration: 3
+// }
 
-);
+// );
+
 // Ghost_hang
 gsap.to(".hang", {
   scrollTrigger: {
