@@ -1331,6 +1331,13 @@ ul.dropdown li a {
   width: 500px;
   display: block;
   padding-right: 100px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.tai_chi img:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .tai_chi article {
@@ -1560,7 +1567,7 @@ ul.dropdown li a {
   position: absolute;
   width: 140px;
   height: 250px;
-  top: 50px;
+  top: 0;
   left: 100px;
   -webkit-animation: skst 2s 1s;
           animation: skst 2s 1s;
@@ -1607,7 +1614,7 @@ ul.dropdown li a {
   position: absolute;
   width: 150px;
   height: 200px;
-  top: 100px;
+  top: 50px;
   left: 400px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -1630,7 +1637,7 @@ ul.dropdown li a {
   position: absolute;
   width: 300px;
   height: 300px;
-  top: 50px;
+  top: 0;
   left: 45%;
   opacity: 1;
 }
@@ -1698,7 +1705,7 @@ ul.dropdown li a {
   position: absolute;
   width: 300px;
   height: 200px;
-  top: 50px;
+  top: 0;
   right: 100px;
   -webkit-animation: rider 3s 1s;
           animation: rider 3s 1s;
@@ -1731,6 +1738,106 @@ ul.dropdown li a {
     -webkit-transform: translateX(0);
             transform: translateX(0);
   }
+}
+
+.drop {
+  position: fixed;
+  left: 10px;
+  cursor: pointer;
+}
+
+.drop a {
+  text-decoration: none;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.drop .ghost_link {
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  margin-top: 0.5em;
+  min-width: 8em;
+  padding: 0.5em 1em;
+}
+
+.drop .ghost_link:hover .mini-link {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.drop .mini-link {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  margin-top: 0.5em;
+  background: rgba(255, 0, 0, 0.5);
+  min-width: 8em;
+  padding: 0;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform-origin: left;
+          transform-origin: left;
+}
+
+.drop .mini-link li {
+  list-style-type: none;
+}
+
+.drop .mini-link li:hover {
+  background: red;
+}
+
+.drop .mini-link li a {
+  text-decoration: none;
+  padding: 0.5em 1em;
+  display: block;
+}
+
+.dropdown_togglebt {
+  padding: 0.5em 1em;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 5px 5px 5px 5px;
+  border: 1px solid red;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.dropdown_togglebt:hover {
+  background: red;
+  border: 1px solid rgba(255, 0, 0, 0);
+  color: #000;
+}
+
+ul.dropdownbt {
+  display: none;
+  position: absolute;
+  top: 100%;
+  margin-top: 10px;
+  background: rgba(255, 0, 0, 0.5);
+  min-width: 8em;
+  padding: 0;
+  border-radius: 0 0 0.2em 0.2em;
+}
+
+ul.dropdownbt li {
+  list-style-type: none;
+}
+
+ul.dropdownbt li:hover {
+  background: red;
+}
+
+ul.dropdownbt li a {
+  text-decoration: none;
+  padding: 0.5em 1em;
+  display: block;
 }
 
 .contactme {

@@ -1171,8 +1171,10 @@ ul.dropdown {
         width: 500px;
         display: block;
         padding-right: 100px;
+        transition: 0.5s;
 
         &:hover {
+            transform: scale(1.05);
         }
     }
 
@@ -1367,7 +1369,7 @@ ul.dropdown {
         position: absolute;
         width: 140px;
         height: 250px;
-        top: 50px;
+        top: 0;
         left: 100px;        
         animation: skst 2s 1s;
         animation-fill-mode: backwards;
@@ -1398,7 +1400,7 @@ ul.dropdown {
         position: absolute;
         width: 150px;
         height: 200px;
-        top: 100px;
+        top: 50px;
         left: 400px;
         transition: 0.5s;
 
@@ -1421,7 +1423,7 @@ ul.dropdown {
         position: absolute;
         width: 300px;
         height: 300px;
-        top: 50px;
+        top: 0;
         left: 45%;
         opacity: 1;
 
@@ -1468,7 +1470,7 @@ ul.dropdown {
         position: absolute;
         width: 300px;
         height: 200px;
-        top: 50px;
+        top: 0;
         right: 100px;
         animation: rider 3s 1s;
         animation-fill-mode: backwards;
@@ -1486,7 +1488,100 @@ ul.dropdown {
         }
     }
 }
+// 恐怖研究
+.drop {
+    position: fixed;
+    left: 10px;
+    cursor: pointer;
 
+    a {
+        text-decoration: none;
+        color: #fff;
+        background: rgba(0, 0, 0, 0.5);
+        text-align: center;
+    }
+
+    .ghost_link {
+        position: relative;
+        text-decoration: none;
+        display: inline-block;
+        color: #fff;
+        background: rgba(0, 0, 0, 0.5);
+        text-align: center;
+        margin-top: 0.5em;
+        min-width: 8em;
+        padding: 0.5em 1em;
+
+        // 滑入後 顯示 裡面的 子分頁元素
+        &:hover .mini-link {
+            // display: block;
+            transform: scale(1);
+        }
+    }
+    .mini-link {
+        position: absolute;
+        top: 0;
+        left: 100%;
+        margin-top: 0.5em;
+        background: rgba(255, 0, 0, 0.5);
+        min-width: 8em;
+        padding: 0;
+        transform: scale(0);
+        transition: 0.5s;
+        transform-origin: left;
+
+        li {
+            list-style-type: none;
+            &:hover {
+                background: red;
+            }
+            a {
+                text-decoration: none;
+                padding: 0.5em 1em;
+                display: block;
+            }
+        }
+    }
+}
+
+.dropdown_togglebt {
+    padding: 0.5em 1em;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid red;
+    font-size: 20px;
+    font-weight: 900;
+
+    &:hover {
+        background: red;
+        border: 1px solid rgba(255, 0, 0, 0);
+        color: #000;
+    }
+}
+ul.dropdownbt {
+    display: none;
+    position: absolute;
+    top: 100%;
+    margin-top: 10px;
+    background: rgba(255, 0, 0, 0.5);
+    min-width: 8em;
+    padding: 0;
+    border-radius: 0 0 0.2em 0.2em;
+
+    li {
+        list-style-type: none;
+
+        &:hover {
+            background: red;
+        }
+
+        a {
+            text-decoration: none;
+            padding: 0.5em 1em;
+            display: block;
+        }
+    }
+}
 // 聯絡LEO
 .contactme {
     height: 100%;

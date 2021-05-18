@@ -19,6 +19,24 @@ $(function () {
   });
 
 });
+
+// 下拉選單2
+$(function () {
+
+  // Dropdown toggle
+  $('.dropdown_togglebt').click(function () {
+    $(this).next('.dropdownbt').toggle();
+  });
+
+  $(document).click(function (e) {
+    var target = e.target;
+    if (!$(target).is('.dropdown_togglebt') && !$(target).parents().is('.dropdown_togglebt')) {
+      $('.dropdownbt').hide();
+    }
+  });
+
+});
+
 //輪播調整  
 // owl-carousel
 $('.owl-carousel').owlCarousel({
