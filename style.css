@@ -393,6 +393,7 @@ nav {
   position: fixed;
   left: 10px;
   cursor: pointer;
+  z-index: 10;
 }
 
 nav a {
@@ -664,6 +665,7 @@ ul.dropdown li a {
   padding: 0;
   display: block;
   width: 100%;
+  position: relative;
 }
 
 .story1 .boxing img {
@@ -815,6 +817,18 @@ ul.dropdown li a {
 
 .story1 .boxing .box_magic:nth-child(even) p {
   padding-left: 50px;
+}
+
+.changeone {
+  position: absolute;
+  top: 0;
+  opacity: 1;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.changeone:hover {
+  opacity: 0;
 }
 
 .link {

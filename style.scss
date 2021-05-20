@@ -377,6 +377,7 @@ nav {
     position: fixed;
     left: 10px;
     cursor: pointer;
+    z-index: 10;
 
     a {
         text-decoration: none;
@@ -616,6 +617,7 @@ ul.dropdown {
             padding: 0;
             display: block;
             width: 100%;
+            position: relative;
         }
 
         img {
@@ -731,7 +733,16 @@ ul.dropdown {
         }
     }
 }
-
+// 圖片門
+.changeone {
+    position: absolute;
+    top: 0;
+    opacity: 1;
+    transition: 1s;
+    &:hover {
+        opacity: 0;
+    }
+}
 // 恐怖分析
 .link {
     display: block;
