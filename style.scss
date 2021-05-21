@@ -48,7 +48,7 @@ header {
 
     .ghost {
         position: absolute;
-        display: block;
+        display: none;
         width: 100%;
         margin: 0 auto;
         top: 120px;
@@ -63,9 +63,15 @@ header {
         }
     }
 
-    video {
-        width: 100%;
-        margin: 0 auto;
+    .box {
+        width: 100vw;
+        height: 100vh;
+
+        video {
+            width: 100vw;
+            height: 100vh;
+            margin: 0 auto;
+        }    
     }
 }
 
@@ -541,14 +547,16 @@ ul.dropdown {
 
     .photos {
         margin: 0 auto;
-        padding: 0;
-        display: block;
+        padding: 50px 0 50px 0;
         width: 100%;
+        position: relative;
+        display: table;
 
         img {
             margin: 0 auto;
             width: 500px;
             display: block;
+            transform: translateX(100%)
         }
     }
 
@@ -733,7 +741,7 @@ ul.dropdown {
         }
     }
 }
-// 圖片門
+// 圖片滑動換圖1
 .changeone {
     position: absolute;
     top: 0;
@@ -742,6 +750,27 @@ ul.dropdown {
     &:hover {
         opacity: 0;
     }
+}
+// 圖片滑動換圖2
+.changethree {
+    position: absolute;
+    margin: 0 auto;
+    width: 100%;
+    opacity: 1;
+    transition: 1s;
+    z-index: 2;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+
+    &:hover {
+        opacity: 0;
+    }
+}
+.changefour {
+    margin: 0 auto;
+    opacity: 1;
+    float: left;
 }
 // 恐怖分析
 .link {

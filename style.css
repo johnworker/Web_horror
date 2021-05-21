@@ -43,7 +43,7 @@ header .logo img:hover {
 
 header .ghost {
   position: absolute;
-  display: block;
+  display: none;
   width: 100%;
   margin: 0 auto;
   top: 120px;
@@ -57,8 +57,14 @@ header .ghost img {
   margin: 0 auto;
 }
 
-header video {
-  width: 100%;
+header .box {
+  width: 100vw;
+  height: 100vh;
+}
+
+header .box video {
+  width: 100vw;
+  height: 100vh;
   margin: 0 auto;
 }
 
@@ -575,15 +581,18 @@ ul.dropdown li a {
 
 .story .photos {
   margin: 0 auto;
-  padding: 0;
-  display: block;
+  padding: 50px 0 50px 0;
   width: 100%;
+  position: relative;
+  display: table;
 }
 
 .story .photos img {
   margin: 0 auto;
   width: 500px;
   display: block;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
 }
 
 .story h4 {
@@ -829,6 +838,29 @@ ul.dropdown li a {
 
 .changeone:hover {
   opacity: 0;
+}
+
+.changethree {
+  position: absolute;
+  margin: 0 auto;
+  width: 100%;
+  opacity: 1;
+  -webkit-transition: 1s;
+  transition: 1s;
+  z-index: 2;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.changethree:hover {
+  opacity: 0;
+}
+
+.changefour {
+  margin: 0 auto;
+  opacity: 1;
+  float: left;
 }
 
 .link {
