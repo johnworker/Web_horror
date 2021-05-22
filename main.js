@@ -82,6 +82,25 @@ $('.owl-carousel').owlCarousel({
 //   }
 // });
 // GSAP
+// Ghost
+// gsap.to(".fly", {
+//   scrollTrigger: {
+//     tigger: ".fly",
+//     toggleActions: "restart none resume none",
+//     start: "18% 50%",
+//     end: "25% 20%",
+//     scrub: 1,
+//     markers: true
+//   },
+
+//   x: 1225,
+//   y: 10,
+//   duration: 3
+// }
+
+// );
+
+
 // Ghost_hang
 gsap.to(".hang", {
   scrollTrigger: {

@@ -1673,8 +1673,6 @@ ul.dropdown li a {
 }
 
 .goblin_stand img:hover {
-  -webkit-filter: invert(24%) sepia(100%) saturate(1%) hue-rotate(8deg) brightness(98%) contrast(200%);
-          filter: invert(24%) sepia(100%) saturate(1%) hue-rotate(8deg) brightness(98%) contrast(200%);
   -webkit-transform: scale(0.75);
           transform: scale(0.75);
 }
