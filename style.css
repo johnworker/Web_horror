@@ -2020,6 +2020,9 @@ ul.dropdownbt li a {
 
 #list {
   padding: 100px 0 0;
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
 }
 
 form {
