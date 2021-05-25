@@ -76,7 +76,7 @@ header {
             margin: 0 auto;
             top: 0;
             right: 0;
-        }    
+        }
     }
 }
 
@@ -562,7 +562,7 @@ ul.dropdown {
             margin: 0 auto;
             width: 500px;
             display: block;
-            transform: translateX(100%)
+            transform: translateX(100%);
         }
     }
 
@@ -713,6 +713,7 @@ ul.dropdown {
             @media screen and (max-width: $mobile) {
                 padding: 0 30px;
             }
+
         }
 
         .box_magic:nth-child(even) {
@@ -740,6 +741,7 @@ ul.dropdown {
             @media screen and (max-width: $mobile) {
                 padding: 0 30px;
             }
+
         }
 
         .box_magic:nth-child(even) p {
@@ -1024,6 +1026,7 @@ ul.dropdown {
             @media screen and (max-width: $tablet) {
                 margin: 0 auto;
             }
+
         }
 
         h4 {
@@ -1422,7 +1425,7 @@ ul.dropdown {
         width: 140px;
         height: 250px;
         top: 0;
-        left: 100px;        
+        left: 100px;
         animation: skst 2s 1s;
         animation-fill-mode: backwards;
         transition: 0.5s;
@@ -1456,13 +1459,11 @@ ul.dropdown {
         left: 400px;
         transition: 0.5s;
 
-
         &:hover {
             transform: scale(0.75);
         }
     }
 }
-
 
 // 骷髏正面和側邊
 .skullfo {
@@ -1713,35 +1714,45 @@ ul.dropdownbt {
         }
     }
 
-    h4 {
-        text-align: center;
-        padding: 20px 0;
-        font-weight: bold;
-        letter-spacing: 5px;
-        font-size: 40px;
-        color: #fff;
-
-        @media screen and (max-width: $tablet) {
+    article {
+        
+        h4 {
+            text-align: center;
+            padding: 20px 0;
+            font-weight: bold;
+            letter-spacing: 5px;
             font-size: 40px;
-        }
-    }
+            color: #fff;
 
-    p {
-        width: 80%;
-        margin: 0 auto;
-        padding: 5px;
-        line-height: 2;
-        font-size: 22px;
-        color: #fff;
-
-        @media screen and (max-width: $tablet) {
-            width: 100%;
-            font-size: 30px;
+            @media screen and (max-width: $tablet) {
+                font-size: 40px;
+            }
         }
 
-        @media screen and (max-width: $mobile) {
-            font-size: 24px;
+        p {
+            width: 80%;
+            margin: 0 auto;
+            padding: 5px;
             line-height: 2;
+            font-size: 22px;
+            color: #fff;
+
+            @media screen and (max-width: $tablet) {
+                width: 100%;
+                font-size: 30px;
+            }
+
+            @media screen and (max-width: $mobile) {
+                font-size: 24px;
+                line-height: 2;
+            }
+        }
+
+        small {
+            color: #fff;
+            text-align: center;
+            display: block;
+            margin: 50px 0;
         }
     }
 }
@@ -1754,7 +1765,8 @@ ul.dropdownbt {
 #list {
     padding: 100px 0 0;
     color: #fff;
-    text-align: center;font-size: 50px;
+    text-align: center;
+    font-size: 50px;
 }
 
 form {

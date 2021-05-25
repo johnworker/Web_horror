@@ -1985,7 +1985,7 @@ ul.dropdownbt li a {
   display: block;
 }
 
-.serch h4 {
+.serch article h4 {
   text-align: center;
   padding: 20px 0;
   font-weight: bold;
@@ -1995,12 +1995,12 @@ ul.dropdownbt li a {
 }
 
 @media screen and (max-width: 1024px) {
-  .serch h4 {
+  .serch article h4 {
     font-size: 40px;
   }
 }
 
-.serch p {
+.serch article p {
   width: 80%;
   margin: 0 auto;
   padding: 5px;
@@ -2010,17 +2010,24 @@ ul.dropdownbt li a {
 }
 
 @media screen and (max-width: 1024px) {
-  .serch p {
+  .serch article p {
     width: 100%;
     font-size: 30px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .serch p {
+  .serch article p {
     font-size: 24px;
     line-height: 2;
   }
+}
+
+.serch article small {
+  color: #fff;
+  text-align: center;
+  display: block;
+  margin: 50px 0;
 }
 
 .contactme {
