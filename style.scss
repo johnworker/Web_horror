@@ -39,7 +39,7 @@ header {
 
         img {
             height: 150px;
-            z-index: 1;
+            z-index: 2;
 
             &:hover {
                 filter: invert(25%) sepia(80%) saturate(7446%) hue-rotate(8deg) brightness(98%) contrast(117%);
