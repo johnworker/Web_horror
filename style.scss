@@ -35,7 +35,6 @@ header {
         height: 150px;
         width: 150px;
         display: block;
-        float: left;
 
         img {
             height: 150px;
@@ -83,6 +82,7 @@ header {
 // 序章
 .prologue {
     height: 90vh;
+    padding-top: 150px;
 
     h2 {
         padding: 30px;
@@ -157,7 +157,8 @@ header {
 // 介紹
 .introduction {
     position: relative;
-    height: 100vh;
+    height: 150vh;
+    padding-top: 150px;
 
     h2 {
         padding: 100px 30px 30px;

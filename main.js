@@ -1,3 +1,7 @@
+// youtube
+$(document).ready(function() {
+  $('[data-youtube]').youtube_background();
+});
 // 選單效果
 $(".menu-btn").click(function () {
   $(".menu-wrap").toggleClass("active");

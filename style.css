@@ -29,7 +29,6 @@ header .logo {
   height: 150px;
   width: 150px;
   display: block;
-  float: left;
 }
 
 header .logo img {
@@ -75,6 +74,7 @@ header .box video {
 
 .prologue {
   height: 90vh;
+  padding-top: 150px;
 }
 
 .prologue h2 {
@@ -165,7 +165,8 @@ header .box video {
 
 .introduction {
   position: relative;
-  height: 100vh;
+  height: 150vh;
+  padding-top: 150px;
 }
 
 .introduction h2 {
