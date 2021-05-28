@@ -163,6 +163,60 @@ header .box video {
           filter: invert(24%) sepia(100%) saturate(7446%) hue-rotate(8deg) brightness(98%) contrast(117%);
 }
 
+.doorlf {
+  position: relative;
+  width: 100vw;
+  z-index: 10;
+}
+
+.doorlf img {
+  position: absolute;
+  width: 4500px;
+  height: 1000px;
+  right: -1615px;
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-animation: doorleft 1s 1s;
+          animation: doorleft 1s 1s;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+}
+
+@-webkit-keyframes doorleft {
+  0% {
+    -webkit-transform: translateX(-1615px);
+            transform: translateX(-1615px);
+  }
+  100% {
+    -webkit-transform: translateX(-2000px);
+            transform: translateX(-2000px);
+  }
+}
+
+@keyframes doorleft {
+  0% {
+    -webkit-transform: translateX(-1615px);
+            transform: translateX(-1615px);
+  }
+  100% {
+    -webkit-transform: translateX(-2000px);
+            transform: translateX(-2000px);
+  }
+}
+
+.doorri {
+  position: relative;
+  width: 100vw;
+  z-index: 10;
+}
+
+.doorri img {
+  position: absolute;
+  width: 4500px;
+  height: 1000px;
+  left: -1350px;
+}
+
 .introduction {
   position: relative;
   height: 150vh;

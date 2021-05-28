@@ -154,6 +154,48 @@ header {
     }
 }
 
+// 左門
+.doorlf {
+    position: relative;
+    width: 100vw;
+    z-index: 10;
+
+    img {
+        position: absolute;
+        width: 4500px;
+        height: 1000px;
+        right: -1615px;
+        transition: 1s;
+        animation: doorleft 1s 1s;
+        animation-fill-mode: backwards;
+
+        @keyframes doorleft {
+            0% {
+                transform: translateX(-1615px);
+            }
+            100% {
+                transform: translateX(-2000px);
+            }
+        }
+
+
+    }
+}
+
+// 右門
+.doorri {
+    position: relative;
+    width: 100vw;
+    z-index: 10;
+
+    img {
+        position: absolute;
+        width: 4500px;
+        height: 1000px;
+        left: -1350px;
+    }
+}
+
 // 介紹
 .introduction {
     position: relative;

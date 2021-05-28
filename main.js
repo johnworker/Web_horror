@@ -104,6 +104,39 @@ $('.owl-carousel').owlCarousel({
 
 // );
 
+// 右門
+// gsap.to(".door_right", {
+//   scrollTrigger: {
+//     tigger: ".door_right",
+//     toggleActions: "restart none resume none",
+//     start: "16% 50%",
+//     end: "25% 20%",
+//     scrub: 1,
+//     markers: true
+//   },
+
+//   x: -800,
+//   duration: 3
+// }
+
+// );
+
+// 左門
+// gsap.to(".door_left", {
+//   scrollTrigger: {
+//     tigger: ".door_left",
+//     toggleActions: "restart none resume none",
+//     start: "16% 50%",
+//     end: "25% 20%",
+//     scrub: 1,
+//     markers: true
+//   },
+
+//   x: 800,
+//   duration: 3
+// }
+
+// );
 
 // Ghost_hang
 gsap.to(".hang", {
