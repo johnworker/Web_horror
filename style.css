@@ -2094,6 +2094,11 @@ ul.dropdownbt li a {
   font-family: "Segoe UI Symbol", Symbola, "Apple Color Emoji" q, sans-serif, serif, fantasy, monospace;
 }
 
+.ghostfy:hover {
+  -webkit-filter: invert(25%) sepia(80%) saturate(7446%) hue-rotate(8deg) brightness(98%) contrast(117%);
+          filter: invert(25%) sepia(80%) saturate(7446%) hue-rotate(8deg) brightness(98%) contrast(117%);
+}
+
 .bobber {
   -webkit-animation: 2s bob infinite alternate;
   animation: 2s bob infinite alternate;

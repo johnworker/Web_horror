@@ -1825,6 +1825,11 @@ ul.dropdownbt {
     color:rgb(51, 17, 17);
     width:202px;
     font-family:'Segoe UI Symbol',Symbola,'Apple Color Emoji'q,sans-serif, serif,fantasy,monospace;  
+
+    &:hover {
+        filter: invert(25%) sepia(80%) saturate(7446%) hue-rotate(8deg) brightness(98%) contrast(117%);
+    }
+
   }
   
   .bobber{
