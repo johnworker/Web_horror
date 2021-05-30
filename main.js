@@ -61,6 +61,8 @@ $('.owl-carousel').owlCarousel({
     }
   }
 });
+
+
 // 喪屍區輪播
 // $(".zombie_card").owlCarousel({
 //   stagePadding: 10,

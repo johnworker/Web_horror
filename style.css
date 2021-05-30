@@ -74,7 +74,7 @@ header .box video {
 
 .prologue {
   height: 90vh;
-  padding-top: 150px;
+  padding-top: 200px;
 }
 
 .prologue h2 {
@@ -165,19 +165,19 @@ header .box video {
 
 .introduction {
   position: relative;
-  height: 150vh;
+  height: 180vh;
   padding-top: 150px;
 }
 
 .introduction h2 {
-  padding: 100px 30px 30px;
+  padding: 400px 30px 30px;
   font-size: 36px;
   color: white;
 }
 
 .introduction .card {
   position: absolute;
-  top: 60%;
+  top: 70%;
   left: 25%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -239,7 +239,7 @@ header .box video {
 
 .introduction .card2 {
   position: absolute;
-  top: 60%;
+  top: 70%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -301,7 +301,7 @@ header .box video {
 
 .introduction .card3 {
   position: absolute;
-  top: 60%;
+  top: 70%;
   left: 75%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -2078,6 +2078,89 @@ ul.dropdownbt li a {
 
 .othervideo #carouselExampleControlsNoTouching .carousel-control-next {
   right: -200px;
+}
+
+.ghostfy {
+  background: #960000;
+  margin: 50px auto;
+  line-height: 0.8;
+  font-size: 230px;
+  border-radius: 40% 60%;
+  -webkit-box-shadow: 0 0 48px 52px #960000;
+          box-shadow: 0 0 48px 52px #960000;
+  text-shadow: 0 0 13px #4e0000;
+  color: #331111;
+  width: 202px;
+  font-family: "Segoe UI Symbol", Symbola, "Apple Color Emoji" q, sans-serif, serif, fantasy, monospace;
+}
+
+.bobber {
+  -webkit-animation: 2s bob infinite alternate;
+  animation: 2s bob infinite alternate;
+}
+
+@-webkit-keyframes bob {
+  from {
+    margin-top: 20px;
+  }
+  to {
+    margin-top: 50px;
+  }
+}
+
+@keyframes bob {
+  from {
+    margin-top: 20px;
+  }
+  to {
+    margin-top: 50px;
+  }
+}
+
+.weaver {
+  -webkit-animation: 13s weave infinite alternate;
+  animation: 13s weave infinite alternate;
+}
+
+@-webkit-keyframes weave {
+  from {
+    margin-left: 80%;
+  }
+  to {
+    margin-left: -80%;
+  }
+}
+
+@keyframes weave {
+  from {
+    margin-left: 80%;
+  }
+  to {
+    margin-left: -80%;
+  }
+}
+
+.ghostfy {
+  -webkit-animation: 1s glow infinite alternate;
+  animation: 1s glow infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    opacity: 0.1;
+  }
+  to {
+    opacity: 0.8;
+  }
+}
+
+@keyframes glow {
+  from {
+    opacity: 0.1;
+  }
+  to {
+    opacity: 0.8;
+  }
 }
 
 .contactme {
