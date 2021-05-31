@@ -470,6 +470,8 @@ nav .mini-link li a {
   border: 1px solid red;
   font-size: 20px;
   font-weight: 900;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .dropdown-toggle:hover {
@@ -487,6 +489,8 @@ ul.dropdown {
   min-width: 8em;
   padding: 0;
   border-radius: 0 0 0.2em 0.2em;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 ul.dropdown li {
@@ -888,10 +892,12 @@ ul.dropdown li a {
 
 .link button {
   background: #640000;
+  -webkit-box-shadow: 1px 1px 20px #780000;
+          box-shadow: 1px 1px 20px #780000;
   margin-bottom: 20px;
   font-size: 18px;
   padding: 10px 50px;
-  color: #fff;
+  color: #969696;
   letter-spacing: 2px;
   font-weight: 900;
   -webkit-transform-origin: center;
@@ -899,6 +905,7 @@ ul.dropdown li a {
   -webkit-transition: 0.4s;
   transition: 0.4s;
   cursor: pointer;
+  border: 1px solid #464646;
   z-index: 5;
 }
 
@@ -906,11 +913,15 @@ ul.dropdown li a {
   background: #dc0000;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
+  -webkit-box-shadow: 0 0 20px red;
+          box-shadow: 0 0 20px red;
+  border: 1px solid white;
+  color: #fff;
 }
 
 .link a {
   text-decoration: none;
-  color: #fff;
+  color: #c7c7c7;
   letter-spacing: 2px;
   font-weight: 900;
   font-size: 18px;
@@ -918,7 +929,7 @@ ul.dropdown li a {
 
 .link a:hover {
   text-decoration: none;
-  color: #fff;
+  text-shadow: 0 0 50px white;
 }
 
 .prevel {
@@ -1871,6 +1882,8 @@ ul.dropdown li a {
   border: 1px solid red;
   font-size: 20px;
   font-weight: 900;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .dropdown_togglebt:hover {
@@ -1888,6 +1901,8 @@ ul.dropdownbt {
   min-width: 8em;
   padding: 0;
   border-radius: 0 0 0.2em 0.2em;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 ul.dropdownbt li {
@@ -2095,8 +2110,8 @@ ul.dropdownbt li a {
 }
 
 .ghostfy:hover {
-  -webkit-filter: invert(25%) sepia(80%) saturate(7446%) hue-rotate(8deg) brightness(98%) contrast(117%);
-          filter: invert(25%) sepia(80%) saturate(7446%) hue-rotate(8deg) brightness(98%) contrast(117%);
+  -webkit-filter: invert(25%) sepia(80%) saturate(7446%) hue-rotate(2deg) brightness(98%) contrast(117%);
+          filter: invert(25%) sepia(80%) saturate(7446%) hue-rotate(2deg) brightness(98%) contrast(117%);
 }
 
 .bobber {
