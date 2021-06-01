@@ -1882,6 +1882,21 @@ ul.dropdownbt {
     from {opacity:0.1;}
     to {opacity:0.8;}
    }
+
+// 置頂按鈕
+#gotop {
+    position: absolute;
+    display: none;
+    width: 50px;
+    height: 50px;
+    background-color: #5f717e00;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    padding: 5px;
+    z-index: 99999;
+  }
+
 // 聯絡LEO
 .contactme {
     height: 100%;
