@@ -1898,6 +1898,7 @@ form {
     width: 1280px;
     margin: 0 auto;
     padding: 20px 0 100px;
+    z-index: 2;
 
     @media screen and (max-width: $tablet) {
         width: 100%;
@@ -1938,4 +1939,56 @@ form {
             font-size: 14px;
         }
     }
+}
+
+// 烏雲背景
+
+// Import google font
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+
+// Cloud vars
+$clouds: 
+  ("https://s.cdpn.io/15514/clouds_2.png" 1000px 20s),
+  ("https://s.cdpn.io/15514/clouds_1.png" 1000px 15s),
+  ("https://s.cdpn.io/15514/clouds_3.png" 1579px 17s);
+
+@for $i from 1 through length($clouds) {
+  
+  $item     : nth($clouds, $i);
+  $path     : nth($item, 1);
+  $width    : nth($item, 2);
+  $duration : nth($item, 3);
+  
+  @keyframes clouds-loop-#{$i} {
+    to { background-position: -$width 0; }
+  }
+  
+  .clouds-#{$i} {
+    background-image: url($path);
+    animation: clouds-loop-#{$i} $duration infinite linear;
+  }
+}
+
+// =====================================================
+  
+.clouds {
+  pointer-events: none;
+  position: absolute;
+  overflow: hidden;
+  top:      0;
+  left:     0;
+  right:    0;
+  height:   100vh;
+  opacity: 0.1;
+}  
+
+.clouds-1,
+.clouds-2,
+.clouds-3 {
+  background-repeat: repeat-x;
+  position: absolute;
+  top:      0;
+  right:    0;
+  left:     0;
+  height:   500px;
 }
