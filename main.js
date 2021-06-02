@@ -44,7 +44,7 @@ $(function () {
 // 置頂按鈕
  //滑動至指定位置
  $('.menu a').click(function () {
-  /* E.preventDefault();是為了取消a的預設值 */
+  // E.preventDefault();是為了取消a的預設值
   var btn = $(this).attr('href');
   var pos = $(btn).offset();/* pos自己命名的名稱 */
   $('html,body').animate({ scrollTop: pos.top }, 1000);
