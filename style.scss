@@ -165,7 +165,7 @@ header {
 .introduction {
     position: relative;
     height: 180vh;
-    padding-top: 180px;
+    padding-top: 250px;
 
     h2 {
         padding: 400px 30px 30px;
@@ -175,7 +175,7 @@ header {
 
     .card {
         position: absolute;
-        top: 70%;
+        top: 80%;
         left: 25%;
         transform: translate(-50%, -50%);
         width: 300px;
@@ -234,7 +234,7 @@ header {
 
     .card2 {
         position: absolute;
-        top: 70%;
+        top: 80%;
         left: 50%;
         transform: translate(-50%, -50%);
         width: 300px;
@@ -293,7 +293,7 @@ header {
 
     .card3 {
         position: absolute;
-        top: 70%;
+        top: 80%;
         left: 75%;
         transform: translate(-50%, -50%);
         width: 300px;
@@ -1827,19 +1827,23 @@ ul.dropdownbt {
 }
 // 動態幽靈
 .ghostfy{
-    background:rgb(150, 0, 0);
+    background:rgb(75, 0, 0);
     margin: 50px auto;
     line-height:0.8;
     font-size:230px;
     border-radius:40% 60%;
-    box-shadow:0 0 48px 52px rgb(150, 0, 0);
+    box-shadow:0 0 48px 52px rgb(75, 0, 0);
     text-shadow:0 0 13px rgb(78, 0, 0);
     color:rgb(51, 17, 17);
     width:202px;
     font-family:'Segoe UI Symbol',Symbola,'Apple Color Emoji'q,sans-serif, serif,fantasy,monospace;  
 
-    &:hover {
-        filter: invert(25%) sepia(80%) saturate(7446%) hue-rotate(2deg) brightness(98%) contrast(117%);
+    img {
+
+        &:hover {
+            filter: invert(25%) sepia(80%) saturate(0%) hue-rotate(2deg) brightness(100%) contrast(100%);
+        }
+    
     }
 
   }

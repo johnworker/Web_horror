@@ -167,7 +167,7 @@ header .box video {
 .introduction {
   position: relative;
   height: 180vh;
-  padding-top: 180px;
+  padding-top: 250px;
 }
 
 .introduction h2 {
@@ -178,7 +178,7 @@ header .box video {
 
 .introduction .card {
   position: absolute;
-  top: 70%;
+  top: 80%;
   left: 25%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -240,7 +240,7 @@ header .box video {
 
 .introduction .card2 {
   position: absolute;
-  top: 70%;
+  top: 80%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -302,7 +302,7 @@ header .box video {
 
 .introduction .card3 {
   position: absolute;
-  top: 70%;
+  top: 80%;
   left: 75%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -2097,22 +2097,22 @@ ul.dropdownbt li a {
 }
 
 .ghostfy {
-  background: #960000;
+  background: #4b0000;
   margin: 50px auto;
   line-height: 0.8;
   font-size: 230px;
   border-radius: 40% 60%;
-  -webkit-box-shadow: 0 0 48px 52px #960000;
-          box-shadow: 0 0 48px 52px #960000;
+  -webkit-box-shadow: 0 0 48px 52px #4b0000;
+          box-shadow: 0 0 48px 52px #4b0000;
   text-shadow: 0 0 13px #4e0000;
   color: #331111;
   width: 202px;
   font-family: "Segoe UI Symbol", Symbola, "Apple Color Emoji" q, sans-serif, serif, fantasy, monospace;
 }
 
-.ghostfy:hover {
-  -webkit-filter: invert(25%) sepia(80%) saturate(7446%) hue-rotate(2deg) brightness(98%) contrast(117%);
-          filter: invert(25%) sepia(80%) saturate(7446%) hue-rotate(2deg) brightness(98%) contrast(117%);
+.ghostfy img:hover {
+  -webkit-filter: invert(25%) sepia(80%) saturate(0%) hue-rotate(2deg) brightness(100%) contrast(100%);
+          filter: invert(25%) sepia(80%) saturate(0%) hue-rotate(2deg) brightness(100%) contrast(100%);
 }
 
 .bobber {
