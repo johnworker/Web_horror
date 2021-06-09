@@ -2214,7 +2214,7 @@ form {
   width: 1280px;
   margin: 0 auto;
   padding: 20px 0 100px;
-  z-index: 2;
+  z-index: 10;
 }
 
 @media screen and (max-width: 1024px) {
@@ -2353,7 +2353,8 @@ form textarea::placeholder {
   left: 0;
   right: 0;
   height: 100vh;
-  opacity: 0.1;
+  opacity: 0.2;
+  z-index: 1;
 }
 
 .clouds-1,
