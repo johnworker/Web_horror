@@ -4,12 +4,12 @@ $color-white: white;
 $color-grey: grey;
 $text-shadow: 10px 10px 10px rgb(255, 0, 0);
 $fashion-shadow: 2px 10px 14px rgba(0, 0, 0, 0.5);
-$red : red;
-$blue : blue;
-$green : green;
-$atmosphere: #5B6470;
+$red: red;
+$blue: blue;
+$green: green;
+$atmosphere: #5b6470;
 $dark: #323640;
-$light: #BDC7D6;
+$light: #bdc7d6;
 $tablet: 1024px; //平板尺寸 (ipad pro)
 $tablets: 960px; //平板尺寸 (ipad)
 $mobile: 767px; //手機尺寸
@@ -159,7 +159,6 @@ header {
         }
     }
 }
-
 
 // 介紹
 .introduction {
@@ -730,7 +729,6 @@ ul.dropdown {
             @media screen and (max-width: $mobile) {
                 padding: 0 30px;
             }
-
         }
 
         .box_magic:nth-child(even) {
@@ -758,7 +756,6 @@ ul.dropdown {
             @media screen and (max-width: $mobile) {
                 padding: 0 30px;
             }
-
         }
 
         .box_magic:nth-child(even) p {
@@ -829,8 +826,6 @@ ul.dropdown {
             border: 1px solid rgb(255, 255, 255);
             color: #fff;
         }
-        
-        
     }
 
     a {
@@ -1051,7 +1046,6 @@ ul.dropdown {
             @media screen and (max-width: $tablet) {
                 margin: 0 auto;
             }
-
         }
 
         h4 {
@@ -1742,7 +1736,6 @@ ul.dropdownbt {
     }
 
     article {
-        
         h4 {
             text-align: center;
             padding: 20px 0;
@@ -1826,66 +1819,87 @@ ul.dropdownbt {
     }
 }
 // 動態幽靈
-.ghostfy{
-    background:rgb(75, 0, 0);
+.ghostfy {
+    background: rgb(75, 0, 0);
     margin: 50px auto;
-    line-height:0.8;
-    font-size:230px;
-    border-radius:40% 60%;
-    box-shadow:0 0 48px 52px rgb(75, 0, 0);
-    text-shadow:0 0 13px rgb(78, 0, 0);
-    color:rgb(51, 17, 17);
-    width:202px;
-    font-family:'Segoe UI Symbol',Symbola,'Apple Color Emoji'q,sans-serif, serif,fantasy,monospace;  
+    line-height: 0.8;
+    font-size: 230px;
+    border-radius: 40% 60%;
+    box-shadow: 0 0 48px 52px rgb(75, 0, 0);
+    text-shadow: 0 0 13px rgb(78, 0, 0);
+    color: rgb(51, 17, 17);
+    width: 202px;
+    font-family: "Segoe UI Symbol", Symbola, "Apple Color Emoji" q, sans-serif, serif, fantasy, monospace;
 
     img {
-
         &:hover {
             filter: invert(25%) sepia(80%) saturate(0%) hue-rotate(2deg) brightness(100%) contrast(100%);
         }
-    
     }
+}
 
-  }
-  
-  .bobber{
-    -webkit-animation:2s bob infinite alternate;
-    animation:2s bob infinite alternate;
-  }
-  @-webkit-keyframes bob{
-    from {margin-top:20px;}
-    to {margin-top:50px;}
-   }
-  @keyframes bob{
-    from {margin-top:20px;}
-    to {margin-top:50px;}
-   }
-  
-  .weaver{
-    -webkit-animation:13s weave infinite alternate;
-    animation:13s weave infinite alternate;
-  }
-  @-webkit-keyframes weave{
-    from {margin-left:80%;}
-    to {margin-left:-80%;}
-   }
-  @keyframes weave{
-    from {margin-left:80%;}
-    to {margin-left:-80%;}
-   }
-  
-  .ghostfy{
-    -webkit-animation:1s glow infinite alternate;
-    animation:1s glow infinite alternate;
-  }
-  @-webkit-keyframes glow{
-    from {opacity:0.1;}
-    to {opacity:0.8;}
-   }
-  @keyframes glow{
-    from {opacity:0.1;}
-    to {opacity:0.8;}
-   }
+.bobber {
+    -webkit-animation: 2s bob infinite alternate;
+    animation: 2s bob infinite alternate;
+}
+@-webkit-keyframes bob {
+    from {
+        margin-top: 20px;
+    }
+    to {
+        margin-top: 50px;
+    }
+}
+@keyframes bob {
+    from {
+        margin-top: 20px;
+    }
+    to {
+        margin-top: 50px;
+    }
+}
+
+.weaver {
+    -webkit-animation: 13s weave infinite alternate;
+    animation: 13s weave infinite alternate;
+}
+@-webkit-keyframes weave {
+    from {
+        margin-left: 80%;
+    }
+    to {
+        margin-left: -80%;
+    }
+}
+@keyframes weave {
+    from {
+        margin-left: 80%;
+    }
+    to {
+        margin-left: -80%;
+    }
+}
+
+.ghostfy {
+    -webkit-animation: 1s glow infinite alternate;
+    animation: 1s glow infinite alternate;
+}
+@-webkit-keyframes glow {
+    from {
+        opacity: 0.1;
+    }
+    to {
+        opacity: 0.8;
+    }
+}
+@keyframes glow {
+    from {
+        opacity: 0.1;
+    }
+    to {
+        opacity: 0.8;
+    }
+}
 
 // 置頂按鈕
 #gotop {
@@ -1900,7 +1914,7 @@ ul.dropdownbt {
     padding: 5px;
     cursor: pointer;
     z-index: 99999;
-  }
+}
 
 // 聯絡LEO
 .contactme {
@@ -1960,56 +1974,168 @@ form {
         }
     }
 }
+// 門
+.container_door {
+    width: 100%;
+    height: 67%;
+    position: relative;
+    overflow: hidden;
+}
 
+.door {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.door .left,
+.door .right {
+    font-size: 10pt;
+    display: inline-block;
+    width: calc(50% - 2.5px);
+    height: 85%;
+    background: #500000;
+}
+
+.door .left {
+    float: left;
+    border-right: solid 2.5px #111;
+}
+
+.door .right {
+    float: right;
+    border-left: solid 2.5px #111;
+}
+
+.enter {
+    cursor: pointer;
+    position: relative;
+    display: block;
+    background: #500000;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 30px;
+    width: 50px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 5px;
+    z-index: 2;
+    position: absolute;
+    padding: 5px 10px;
+    margin: auto;
+    color: #500000;
+    border: solid 3px black;
+
+    img {
+        width: 50px;
+        height: 50px;
+        display: block;
+        position: absolute;
+        right: -3px;
+        top: -13px;
+    }
+}
+
+.enter:hover {
+    color: red;
+}
+// 洞
+b,
+b:before,
+b:after {
+    display: block;
+    border-radius: 50%;
+    margin: 50px auto;
+}
+b {
+    filter: blur(10px);
+    width: 60vmin;
+    height: 61vmin;
+    box-shadow: 1vmin 0 3vmin 2vmin rgb(255, 0, 0), inset -1vmin 0 3vmin 4vmin rgb(255, 41, 41),
+        -4vmin 0 35vmin 0 rgb(255, 0, 0);
+    animation: bh 5s linear infinite;
+}
+@keyframes bh {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+b:before,
+b:after {
+    content: "";
+    background: white;
+    position: relative;
+    top: 6vmin;
+}
+//   b:before {
+//     width: 3vmin;
+//     height: 3vmin;
+//     left: 40vmin;
+//     box-shadow: rgb(255, 0, 0) 0 0 2vmin 2vmin,
+//                 rgb(255, 0, 0) 2vmin 4vmin 2vmin 0.5vmin;
+//   }
+//   b:after {
+//     width: 38vmin;
+//     height: 38vmin;
+//     opacity: 0.03;
+//     left: -14vmin;
+//   }
 // 烏雲背景
 
 // Import google font
 @import url(https://fonts.googleapis.com/css?family=Oswald);
 
 // Cloud vars
-$clouds: 
-  ("https://s.cdpn.io/15514/clouds_2.png" 1000px 20s),
-  ("https://s.cdpn.io/15514/clouds_1.png" 1000px 15s),
-  ("https://s.cdpn.io/15514/clouds_3.png" 1579px 17s);
+$clouds: ("https://s.cdpn.io/15514/clouds_2.png" 1000px 20s), ("https://s.cdpn.io/15514/clouds_1.png" 1000px 15s),
+    ("https://s.cdpn.io/15514/clouds_3.png" 1579px 17s);
 
 @for $i from 1 through length($clouds) {
-  
-  $item     : nth($clouds, $i);
-  $path     : nth($item, 1);
-  $width    : nth($item, 2);
-  $duration : nth($item, 3);
-  
-  @keyframes clouds-loop-#{$i} {
-    to { background-position: -$width 0; }
-  }
-  
-  .clouds-#{$i} {
-    background-image: url($path);
-    animation: clouds-loop-#{$i} $duration infinite linear;
-  }
+    $item: nth($clouds, $i);
+    $path: nth($item, 1);
+    $width: nth($item, 2);
+    $duration: nth($item, 3);
+
+    @keyframes clouds-loop-#{$i} {
+        to {
+            background-position: -$width 0;
+        }
+    }
+
+    .clouds-#{$i} {
+        background-image: url($path);
+        animation: clouds-loop-#{$i} $duration infinite linear;
+    }
 }
 
 // =====================================================
-  
+
 .clouds {
-  pointer-events: none;
-  position: absolute;
-  overflow: hidden;
-  top:      0;
-  left:     0;
-  right:    0;
-  height:   100vh;
-  opacity: 0.2;
-  z-index: 1;
-}  
+    pointer-events: none;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    opacity: 0.2;
+    z-index: 1;
+}
 
 .clouds-1,
 .clouds-2,
 .clouds-3 {
-  background-repeat: repeat-x;
-  position: absolute;
-  top:      0;
-  right:    0;
-  left:     0;
-  height:   500px;
+    background-repeat: repeat-x;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 500px;
 }
