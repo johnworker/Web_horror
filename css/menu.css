@@ -54,24 +54,6 @@
     margin-bottom: 20px;
     position: relative;
 }
-.black_horror {
-    width: 80px;
-    height: 80px;
-    vertical-align: -15px;
-    opacity: 1;
-    transition: opacity 1s ease-in-out;
-}
-.red_horror {
-    width: 80px;
-    height: 80px;
-    vertical-align: -15px !important;
-    position: absolute;
-    top: 5%;
-    opacity: 0;
-}
-.red_horror:hover {
-    opacity: 1;
-}
 .menu-wrap a {
     font-size: 4rem;
     padding-bottom: 20px;
@@ -80,7 +62,7 @@
     transition: color .3s;
 }
 .menu-wrap a:hover {
-    color: #fff;
+    color: red;
 }
 .menu-wrap.active {
     right: 0!important;

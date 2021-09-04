@@ -1,0 +1,1184 @@
+/*小型設備（小型平板電腦和大型手機，767px及以下）*/
+@media only screen and (max-width:767px) {
+        /* 首頁 */
+
+        .logo {
+          height: 100px;
+          width: 100%;
+          display: block;
+        }
+        
+        .logo img {
+          height: 100px;
+          z-index: 2;
+        }
+        
+        header .box {
+          width: 100vw;
+          height: 40vh;
+          position: relative;
+        }
+
+      header {
+        height: 60vh;
+      }
+        .content {
+            display: table;
+            width: 100%;
+            min-height: 40vh !important;
+            z-index: 1;
+            position: relative;
+        }
+
+        iframe {
+            width: 380px !important;
+        }
+
+        .menu-wrap ul {
+          list-style: none;
+          padding: 50px 0;
+          margin: 0;
+      }
+      .menu-wrap li {
+        padding: 10px 0;
+      }
+
+        .menu-wrap {
+          position: fixed;
+          width: 100%;
+          right: -100%;
+          top: 0;
+          bottom: 0;
+          background: rgba(0, 0, 0, 0.5);
+          z-index: 2;
+          padding: 4rem;
+          transition: right .3s;
+      }
+
+        .bobber {
+            display: none;
+        }
+
+        .prologue p {
+            display: none;
+          }
+
+        .ghost_fly {
+            display: none;
+        }
+
+        .prologue {
+          height: 60%;
+          padding-top: 5px;
+        }        
+        
+        .prologue .box2 {
+            display: none;
+          }
+
+          .book {
+            position: relative;
+            width: 144px; 
+            height: 198px;
+            bottom: 30px;
+            left: 40px;
+            margin: 0 auto;
+            -webkit-perspective: 1000px;
+            -moz-perspective: 1000px;
+            perspective: 1000px;
+            -webkit-transform-style: preserve-3d;
+            -moz-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+          }
+
+          .coverDesign {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            background-position: 730px 520px;
+            overflow: hidden;
+            -webkit-backface-visibility: hidden;
+            -moz-backface-visibility: hidden;
+            backface-visibility: hidden;
+          }          
+
+          .introduction {
+            height: 180vh;
+            padding-top: 0;
+          }
+
+          .introduction h2 {
+            padding: 30px;
+          }
+
+          .introduction .card .details img {
+            display: block;
+          }
+
+          .introduction .card .details img {
+            display: block;
+          }
+
+          .introduction .card .details img {
+            display: block;
+          }      
+
+          .introduction .card .details p {
+            display: none;
+          }
+      
+          .introduction .card {
+            position: absolute;
+            top: 20%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+                    transform: translate(-50%, -50%);
+            width: 240px;
+            height: 320px;
+            background: #6e0000;
+            overflow: hidden;
+          }
+        
+          .introduction .card2 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+                    transform: translate(-50%, -50%);
+            width: 240px;
+            height: 320px;
+            background: #6e0000;
+            overflow: hidden;
+          }
+          
+          .introduction .card3 {
+            position: absolute;
+            top: 80%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+                    transform: translate(-50%, -50%);
+            width: 240px;
+            height: 320px;
+            background: #6e0000;
+            overflow: hidden;
+          }    
+          
+          /* 故事區 */
+          .start img {
+            margin: 0 auto;
+            width: 350px;
+            display: block;
+            position: relative;
+          }
+
+        nav {
+          position: fixed;
+          left: 10px;
+          top: 165px !important;
+          cursor: pointer;
+          z-index: 10;
+        }
+
+        .story1 .boxing img {
+          width: 375px;
+          height: 600px;
+          -o-object-fit: cover;
+          object-fit: cover;
+          margin: 0;
+        }
+
+        .story1 {
+          width: 100%;
+          height: 100%;
+          margin: 0 auto;
+          padding-top: 0;
+          padding-bottom: 50px;
+        }
+
+        .small, small {
+          font-size: 50%;
+          font-weight: 400;
+        }
+
+        .elementor-widget-container [title="ghost_room1"] {
+          width: 375px;
+        }
+
+        .elementor-widget-container img {
+          width: 375px;
+        }
+        
+          /* 恐怖分析 */
+          .carousel-inner {
+            width: 375px;
+            height: 270px;
+            position: absolute;
+            top: 60px;
+          }
+          
+          .prevel {
+            width: 100%;
+            height: 60vh;
+            margin: 0 auto;
+            padding: 0;
+          }
+
+          .carousel-inner img {
+            padding: 0 0 100px;
+          }
+
+        /* 靈體屬性 */
+          .Cemetery img {
+            position: absolute;
+            width: 360px;
+            height: 270px;
+            left: 2%;
+            top: -66px;
+          }
+      
+          .smog img {
+            position: absolute;
+            width: 360px;
+            height: 270px;
+            left: 2%;
+            top: 56px;
+          }      
+
+          .halloween_ghost img {
+            width: 150px;
+            height: 150px;
+            left: 16%;
+            top: 0px;
+          }
+
+          .owl-carousel .owl-stage {
+            display: none;
+          }
+
+          .inside_ceiling {
+            display: none;
+          }
+
+          .hang_rope {
+            display: none;
+          }
+
+          .ghost_hang {
+            display: none;
+          }
+
+          .ghostview {
+            padding-top: 100px;
+          }
+
+          .ghostview .ghost_boxing .ghost_box_magic:nth-child(even) p {
+            padding-left: 0;
+          }
+
+          .ghostview .ghost_boxing img {
+            width: 375px;
+            height: 600px;
+            -o-object-fit: cover;
+            object-fit: cover;
+          }
+
+          /* 屍怪區別 */
+          .zombie .carousel-control-prev {
+            left: 0;
+          }
+
+          .zombie {
+            width: 375px;
+            height: 330px;
+            margin: 0;
+          }
+
+          .zombie_walk {
+            display: none;
+          }
+
+          .zombie_jump {
+            display: none;
+          }
+
+          .zombie_many {
+            display: none;
+          }
+          
+          /* 特別研究 */
+          .tai_chi img {
+            margin: 0 auto;
+            width: 375px;
+            padding-top: 80px;
+            padding-left: 100px;
+            display: block;
+            padding-right: 100px;
+            -webkit-transition: 0.5s;
+            transition: 0.5s;
+          }
+
+          .propertyview .property_boxing img {
+            width: 370px;
+            display: block;
+            height: 600px;
+            -o-object-fit: cover;
+            object-fit: cover;
+          }
+
+          .coffin {
+            display: none;
+          }
+          
+          .propertyview {
+            padding-top: 0;
+          }
+          
+          .property_box_magic {
+            padding-top: 0;
+          }
+
+          /* 其他分析 */
+          .others {
+            width: 360px;
+            display: block;
+            height: 500px;
+            margin: 0 auto;
+          }
+
+          .others #carouselExampleFade .carousel-inner {
+            width: 100%;
+            height: 300px;
+            top: 40px;
+          }
+
+          .skullfo {
+            display: none;
+          }
+
+          .goblin_stand {
+            display: none;
+          }
+
+          .skull_rider {
+            display: none;
+          }
+    
+          .skull_stand img {
+            top: -100px;
+            left: 125px;
+          }
+
+          .skullri {
+            display: none;
+          }
+
+          /* 靈異研究 */
+          .serch {
+            padding-top: 1600px;
+          }
+          .serch article {
+            width: 85%;
+            margin: 0 auto;
+          }
+
+          .serch .photos img {
+            margin: 0 auto;
+            width: 370px;
+            display: block;
+          }
+
+          /* 聯絡我 */
+          .container {
+            height: 130vh;
+          }
+
+    }
+/*中型設備（大型平板電腦，768px及以上）*/
+@media only screen and (min-width:768px) {
+    /* 首頁 */
+
+        .content {
+            display: table;
+            width: 100%;
+            min-height: 70vh !important;
+            z-index: 1;
+            position: relative;
+        }
+
+        iframe {
+            width: 1050px !important;
+        }
+
+        .menu-wrap ul {
+          list-style: none;
+          padding: 150px 0;
+          margin: 0;
+      }
+      .menu-wrap li {
+        padding: 10px 0;
+      }
+
+        .menu-wrap {
+          position: fixed;
+          width: 50%;
+          right: -50%;
+          top: 0;
+          bottom: 0;
+          background: rgba(0, 0, 0, 0.5);
+          z-index: 2;
+          padding: 4rem;
+          transition: right .3s;
+      }
+      
+        .bobber {
+          width: 100px;
+          height: 200px;
+        }
+        
+        .prologue p {
+            display: none;
+          }
+          
+
+        .ghost_fly {
+            display: none;
+        }
+        
+        .prologue .box2 {
+            display: none;
+          }
+          
+
+        .align > li {
+            width: 420px;
+            min-height: 300px;
+            display: inline-block;
+            margin: 30px 20px 30px 30px;
+            padding: 0 0 0 60px;
+            vertical-align: top;
+        }
+
+          .introduction {
+            height: 60vh;
+            padding-top: 0;
+          }
+
+          .introduction .card .details {
+            background: #ff0000;
+            top: 0;
+            left: 100%;
+            padding: 20px 30px;
+          }
+
+          .introduction .card .details img {
+            display: block;
+          }
+
+          .introduction .card2 .details img {
+            display: block;
+          }
+
+          .introduction .card3 .details img {
+            display: block;
+          }
+      
+      
+          .introduction .card .details h2 {
+            color: black;
+            text-align: center;
+            margin: 0;
+            padding: 0 0 10px;
+            border-bottom: 2px solid black;
+          }      
+
+          .introduction .card .details p {
+            margin: 20px 0 0;
+            color: black;
+            overflow: auto;
+            display: none;
+          }
+        
+          .introduction .card {
+            position: absolute;
+            top: 60%;
+            left: 17%;
+            -webkit-transform: translate(-50%, -50%);
+                    transform: translate(-50%, -50%);
+            width: 240px;
+            height: 320px;
+            background: #6e0000;
+            overflow: hidden;
+          }
+        
+          .introduction .card2 {
+            position: absolute;
+            top: 60%;
+            left: 49.5%;
+            -webkit-transform: translate(-50%, -50%);
+                    transform: translate(-50%, -50%);
+            width: 240px;
+            height: 320px;
+            background: #6e0000;
+            overflow: hidden;
+          }
+          
+          .introduction .card3 {
+            position: absolute;
+            top: 60%;
+            left: 82%;
+            -webkit-transform: translate(-50%, -50%);
+                    transform: translate(-50%, -50%);
+            width: 240px;
+            height: 320px;
+            background: #6e0000;
+            overflow: hidden;
+          }    
+
+          /* 故事區 */
+          nav {
+            position: fixed;
+            left: 10px;
+            top: 80px !important;
+            cursor: pointer;
+            z-index: 10;
+          }
+          
+          .elementor-widget-container p {
+            width: 80%;
+            margin: 0 auto;
+            padding: 5px;
+            line-height: 2;
+            font-size: 30px !important;
+            font-weight: 300;
+            color: #fff;
+          }
+
+          /* 恐怖分析 */
+          .carousel-inner {
+            width: 600px;
+            height: 450px;
+          }
+          
+          .prevel {
+            width: 600px;
+            height: 80vh;
+            margin: 0 auto;
+            padding: 50px 0 0;
+          }
+
+          /* 靈體屬性 */
+
+          .link {
+            display: block;
+            float: left;
+            width: 110px;
+            height: 280px;
+            margin-left: 20px;
+            z-index: 5;
+          }
+          
+          .Cemetery img {
+            position: absolute;
+            width: 400px;
+            height: 300px;
+            left: 45%;
+            top: -50px;
+          }
+            
+          .smog img {
+            position: absolute;
+            width: 400px;
+            height: 300px;
+            left: 45%;
+            top: 70px;
+          }      
+      
+          .halloween_ghost img {
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            left: 49%;
+            top: 10px;
+          }      
+
+          .owl-carousel .owl-stage {
+            position: relative;
+            -ms-touch-action: pan-Y;
+            touch-action: manipulation;
+            display: none;
+            -moz-backface-visibility: hidden;
+          }
+
+          .inside_ceiling {
+            position: relative;
+            width: 100%;
+            top: 100px;
+            z-index: 2;
+            display: none;
+          }
+
+          .hang_rope {
+            position: relative;
+            width: 100%;
+            top: 330px;
+            z-index: 5;
+            overflow-y: auto;
+          }
+          
+          .hang_rope img {
+            position: absolute;
+            width: 920px;
+            height: 70px;
+            left: -20%;
+            top: 16%;
+            opacity: 0.75;
+          }
+          
+          /* 屍怪區別 */
+          .zombie_many {
+            display: none;
+          }
+
+          .ghostview .ghost_boxing .ghost_box_magic:nth-child(even) p {
+            padding-left: 0;
+          }
+    
+          .zombie {
+            margin: 70px 0 0 -35px;
+          }
+          
+          .zombie .carousel-control-prev {
+            left: 130px;
+          }
+
+          /* 其他分析 */
+          .others {
+            width: 600px;
+            height: 600px;
+            margin: 70px 0 0 150px;
+          }
+
+          .skullfo {
+            display: none;
+          }
+
+          .goblin_stand {
+            display: none;
+          }
+
+          /* 靈異研究 */
+          .serch {
+            padding-top: 800px;
+          }
+
+          .serch article {
+            width: 85%;
+            margin: 0 auto;
+          }
+    
+
+          /* 聯絡我 */
+          .container {
+            height: 95vh;
+          }
+        
+    }
+
+/*大型設備（筆記型電腦/桌機，992px及以上）*/
+@media only screen and (min-width:992px) {  
+
+    /* 首頁 */
+    .content {
+        display: table;
+        width: 100%;
+        min-height: 60vh !important;
+        z-index: 1;
+        position: relative;
+    }    
+
+    iframe {
+        width: 1050px !important;
+    }
+
+    .menu-wrap ul {
+      list-style: none;
+      padding: 300px 0;
+      margin: 0;
+  }
+  .menu-wrap li {
+    padding: 20px 0;
+  }
+
+  .menu-wrap {
+    position: fixed;
+    width: 40%;
+    right: -40%;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    padding: 4rem;
+    transition: right .3s;
+}
+  
+    .bobber {
+      width: 120px;
+      height: 200px;
+    }
+
+    .prologue {
+        height: 80%;
+        padding-top: 5px;
+      }      
+
+    .ghost_fly {
+        display: none;
+    }
+
+    .prologue .box2 {
+        position: relative;
+        width: 40%;
+        height: 300px;
+        bottom: 250px;
+        display: block;
+        z-index: 2;
+      }      
+
+    .align > li {
+        width: 500px;
+        min-height: 300px;
+        display: inline-block;
+        margin: 30px 20px 30px 30px;
+        padding: 0 0 0 60px;
+        vertical-align: top;
+    }
+
+    .introduction {
+        height: 50vh;
+        padding-top: 10px;
+
+    }
+
+    .introduction .card .details img {
+      display: none;
+    }
+
+    .introduction .card2 .details img {
+      display: none;
+    }
+
+    .introduction .card3 .details img {
+      display: none;
+    }
+
+
+    .introduction .card .details {
+      background: #ff0000;
+      top: 0;
+      left: 100%;
+      padding: 20px 30px;
+    }
+
+    .introduction .card .details h2 {
+      color: black;
+      text-align: center;
+      margin: 0;
+      padding: 0 0 10px;
+      border-bottom: 2px solid black;
+      display: block;
+    }
+
+    .introduction .card .details p {
+      margin: 20px 0 0;
+      color: black;
+      display: block;
+    }
+
+      .introduction h2 {
+        font-size: 36px;
+      }
+
+    .introduction .card {
+        position: absolute;
+        top: 60%;
+        left: 18%;
+        -webkit-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+        width: 300px;
+        height: 400px;
+        background: #6e0000;
+        overflow: hidden;
+      }
+    
+      .introduction .card2 {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+        width: 300px;
+        height: 400px;
+        background: #6e0000;
+        overflow: hidden;
+      }
+      
+      .introduction .card3 {
+        position: absolute;
+        top: 60%;
+        left: 82%;
+        -webkit-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+        width: 300px;
+        height: 400px;
+        background: #6e0000;
+        overflow: hidden;
+      }
+
+      .container_door {
+        width: 100%;
+        height: 100% !important;
+      }
+
+      /*  */
+
+      /* 恐怖分析 */
+      .prevel {
+        width: 800px;
+        height: 70vh;
+        margin: 0 auto;
+        padding: 50px 0 0;
+      }
+
+      .carousel-inner {
+        width: 800px;
+        height: 600px;
+      }
+
+       /* 靈體屬性 */
+      .Cemetery img {
+        position: absolute;
+        width: 400px;
+        height: 300px;
+        left: 45%;
+        top: -50px;
+      }
+            
+      .smog img {
+        position: absolute;
+        width: 400px;
+        height: 300px;
+        left: 45%;
+        top: 70px;
+      }      
+      
+      .halloween_ghost img {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        left: 49%;
+        top: 10px;
+      }      
+          
+      .hang_rope {
+        position: relative;
+        width: 100%;
+        top: 330px;
+        z-index: 5;
+      }
+      
+      .hang_rope img {
+        position: absolute;
+        width: 1228px;
+        height: 70px;
+        left: -20%;
+        top: 16%;
+        opacity: 0.75;
+      }
+
+      /* 屍怪區別 */
+      .zombie {
+        margin: 70px 0 0 200px;
+      }
+
+      .zombie .carousel-control-prev {
+        left: 0;
+      }
+
+      /* 其他分析 */
+      .others {
+        width: 800px;
+        height: 600px;
+        margin: 70px 0 0 150px;
+      }
+
+      .skullfo {
+        display: none;
+      }
+
+      .goblin_stand {
+        display: block;
+      }
+
+
+      .carousel-control-next {
+        right: 0;
+      }
+
+      .others #carouselExampleFade .carousel-inner {
+        width: 100%;
+      }
+
+      /* 靈異研究 */
+      .serch {
+        padding-top: 30px;
+      }
+
+      .serch article {
+        width: 90%;
+        margin: 0 auto;
+      }
+      
+
+      /* 聯絡我 */
+      .container {
+        height: 75vh;
+      }
+
+
+
+} 
+
+/*超大型設備（筆記型電腦/桌機，1280px及以上）*/
+@media only screen and (min-width:1280px) { 
+    /* 首頁 */
+    .content {
+        display: table;
+        width: 100%;
+        min-height: 100vh !important;
+        z-index: 1;
+        position: relative;
+    }    
+
+    iframe {
+        width: 2784px !important;
+    }
+
+    .menu-wrap ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+  }
+
+  .menu-wrap li {
+    padding: 0;
+  }
+
+    .bobber {
+      width: 200px;
+      height: 200px;
+    }
+
+    .prologue {
+        height: 100%;
+        padding-top: 5px;
+      }
+    
+    .prologue p {
+        text-align: center;
+        font-size: 20px;
+        padding: 26px 0 10px;
+        color: white;
+        display: block;
+      }
+      
+
+    .ghost_fly {
+        display: block;
+        position: relative;
+        width: 100%;
+        right: 0;
+        z-index: 3;
+    }
+
+    .align > li {
+        width: 500px;
+        min-height: 300px;
+        display: inline-block;
+        margin: 30px 20px 30px 30px;
+        padding: 0 0 0 60px;
+        vertical-align: top;
+    }
+
+    .introduction {
+        height: 120vh;
+        padding-top: 250px;
+    }
+      
+    .introduction .card {
+        position: absolute;
+        top: 70%;
+        left: 25%;
+        -webkit-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+        width: 300px;
+        height: 400px;
+        background: #6e0000;
+        overflow: hidden;
+    }
+    
+    .introduction .card2 {
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+        width: 300px;
+        height: 400px;
+        background: #6e0000;
+        overflow: hidden;
+      }
+      
+      .introduction .card3 {
+        position: absolute;
+        top: 70%;
+        left: 75%;
+        -webkit-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+        width: 300px;
+        height: 400px;
+        background: #6e0000;
+        overflow: hidden;
+      }
+
+      /* 故事區 */
+      nav {
+        position: fixed;
+        left: 10px;
+        top: 200px;
+        cursor: pointer;
+        z-index: 10;
+      }
+
+      .elementor-widget-container h4 {
+        padding: 60px 0;
+        font-size: 54px !important;
+        color: #fff;
+      }
+
+      .elementor-widget-container p {
+        width: 80%;
+        margin: 0 auto;
+        padding: 5px;
+        line-height: 2;
+        font-size: 22px;
+        font-weight: 300;
+        color: #fff;
+      }
+
+      /* 恐怖分析 */
+      .prevel {
+        width: 800px;
+        height: 80vh;
+        margin: 0 auto;
+        padding: 50px 0 0;
+      }
+
+      /* 靈體屬性 */
+      .Cemetery img {
+        position: absolute;
+        width: 400px;
+        height: 300px;
+        left: 65%;
+        top: -50px;
+      }
+      
+      .smog img {
+        position: absolute;
+        width: 400px;
+        height: 300px;
+        left: 65%;
+        top: 70px;
+      }      
+
+      .halloween_ghost img {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        left: 67%;
+        top: 10px;
+        opacity: 0.1;
+        -webkit-animation: Ghost 1s 0.4s;
+                animation: Ghost 1s 0.4s;
+        -webkit-animation-fill-mode: backwards;
+                animation-fill-mode: backwards;
+      }
+      
+      .owl-carousel .owl-stage {
+        position: relative;
+        display: block;
+        -ms-touch-action: pan-Y;
+        touch-action: manipulation;
+        -moz-backface-visibility: hidden;
+      }
+
+      .inside_ceiling {
+        position: relative;
+        width: 100%;
+        top: 100px;
+        z-index: 2;
+        display: block;
+      }
+      
+      .hang_rope {
+        position: relative;
+        width: 100%;
+        top: 330px;
+        z-index: 5;
+        display: none;
+      }
+
+      /* 屍怪區別 */
+      .zombie {
+        margin: 70px 0 0 380px;
+      }
+
+      .zombie_many {
+        display: block;
+      }
+
+      .ghostview {
+        padding-top: 500px;
+      }
+
+      .ghostview .ghost_boxing .ghost_box_magic:nth-child(even) p {
+        padding-left: 50px;
+      }
+
+      .skullfo {
+        display: block;
+      }
+
+      .goblin_stand {
+        display: block;
+      }
+
+      /* 其他分析 */
+      .others {
+        width: 800px;
+        height: 600px;
+        margin: 70px 0 0 380px;
+      }
+
+      /* 靈異研究 */
+      .serch article {
+        width: 100%;
+      }
+
+      /* 聯絡我 */
+      .container {
+        height: 140vh;
+      }
+      
+} 
