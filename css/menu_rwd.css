@@ -25,8 +25,8 @@
 /*超大型設備（1024px以上）*/
 @media only screen and (min-width:1024px) {
     .menu-btn {
-        right: 20px;
-        top: 20px;
+        right: 40px;
+        top: 40px;
     }
 }
 

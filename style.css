@@ -26,6 +26,18 @@ header {
   margin: 0 auto;
 }
 
+@media screen and (max-width: 1280px) {
+  header {
+    height: 100vh !important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  header {
+    height: 60vh !important;
+  }
+}
+
 header .logo {
   height: 150px;
   width: 150px;
@@ -64,6 +76,12 @@ header .box {
   position: relative;
 }
 
+@media screen and (max-width: 1024px) {
+  header .box {
+    height: 60vh;
+  }
+}
+
 header .box video {
   position: absolute;
   width: 100vw;
@@ -71,6 +89,23 @@ header .box video {
   margin: 0 auto;
   top: 0;
   right: 0;
+}
+
+header .box iframe {
+  width: 2784px !important;
+  top: 30%;
+}
+
+@media screen and (max-width: 1024px) {
+  header .box iframe {
+    width: 1050px !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  header .box iframe {
+    width: 375px !important;
+  }
 }
 
 .prologue {
@@ -109,6 +144,24 @@ header .box video {
   z-index: 2;
 }
 
+@media screen and (max-width: 1280px) {
+  .prologue .box2 {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .prologue .box2 {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .prologue .box2 {
+    display: none;
+  }
+}
+
 .prologue .box2 video {
   position: absolute;
   left: -60px;
@@ -120,6 +173,24 @@ header .box video {
   width: 100%;
   right: 0;
   z-index: 3;
+}
+
+@media screen and (max-width: 1280px) {
+  .ghost_fly {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .ghost_fly {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .ghost_fly {
+    display: none;
+  }
 }
 
 .ghost_fly img {
@@ -135,6 +206,18 @@ header .box video {
           animation: ghost_fly 3s 1s;
   -webkit-animation-fill-mode: backwards;
           animation-fill-mode: backwards;
+}
+
+@media screen and (max-width: 1280px) {
+  .ghost_fly img {
+    right: 420px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .ghost_fly img {
+    right: 250px;
+  }
 }
 
 @-webkit-keyframes ghost_fly {
@@ -168,6 +251,18 @@ header .box video {
   position: relative;
   height: 180vh;
   padding-top: 250px;
+}
+
+@media screen and (max-width: 1280px) {
+  .introduction {
+    padding-top: 250px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .introduction {
+    padding-top: 0;
+  }
 }
 
 .introduction h2 {
@@ -2308,6 +2403,24 @@ form textarea::placeholder {
   height: 62%;
   position: relative;
   overflow: hidden;
+}
+
+@media screen and (max-width: 1280px) {
+  .container_door {
+    height: 62%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .container_door {
+    height: 90%;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .container_door {
+    height: 80%;
+  }
 }
 
 .door {

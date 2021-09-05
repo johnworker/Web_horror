@@ -10,6 +10,7 @@ $green: green;
 $atmosphere: #5b6470;
 $dark: #323640;
 $light: #bdc7d6;
+$desk: 1280px; //桌電
 $tablet: 1024px; //平板尺寸 (ipad pro)
 $tablets: 960px; //平板尺寸 (ipad)
 $mobile: 767px; //手機尺寸
@@ -36,6 +37,17 @@ header {
     position: relative;
     height: 100vh;
     margin: 0 auto;
+
+    @media screen and (max-width: $desk) {
+        height: 100vh !important;
+    }
+
+    
+    @media screen and (max-width: $tablet) {
+        height: 60vh !important;
+    }
+
+
 
     .logo {
         height: 150px;
@@ -74,6 +86,11 @@ header {
         height: 100vh;
         position: relative;
 
+        @media screen and (max-width: $tablet) {
+            height: 60vh;
+        }
+
+
         video {
             position: absolute;
             width: 100vw;
@@ -82,6 +99,22 @@ header {
             top: 0;
             right: 0;
         }
+
+        iframe {
+            width: 2784px !important;
+            top: 30%;
+
+            @media screen and (max-width: $tablet) {
+                width: 1050px !important;
+            }
+
+            @media screen and (max-width: $mobile) {
+                width: 375px !important;
+            }
+
+        
+        }
+    
     }
 }
 
@@ -120,6 +153,19 @@ header {
         display: block;
         z-index: 2;
 
+        @media screen and (max-width: $desk) {
+            display: block;
+        }
+    
+        @media screen and (max-width: $tablet) {
+            display: block;
+        }
+    
+        
+        @media screen and (max-width: $tablets) {
+            display: none;
+        }
+    
         video {
             position: absolute;
             left: -60px;
@@ -134,6 +180,20 @@ header {
     right: 0;
     z-index: 3;
 
+    @media screen and (max-width: $desk) {
+        display: block;
+    }
+
+    @media screen and (max-width: $tablet) {
+        display: block;
+    }
+
+    
+    @media screen and (max-width: $tablets) {
+        display: none;
+    }
+
+
     img {
         position: absolute;
         width: 200px;
@@ -144,6 +204,15 @@ header {
         transition: 0.7ms;
         animation: ghost_fly 3s 1s;
         animation-fill-mode: backwards;
+
+        @media screen and (max-width: $desk) {
+            right: 420px;
+        }
+    
+        @media screen and (max-width: $desk) {
+            right: 250px;
+        }
+
 
         @keyframes ghost_fly {
             0% {
@@ -165,6 +234,15 @@ header {
     position: relative;
     height: 180vh;
     padding-top: 250px;
+
+    @media screen and (max-width: $desk) {
+        padding-top: 250px;
+    }
+
+    @media screen and (max-width: $tablets) {
+        padding-top: 0;
+    }
+
 
     h2 {
         padding: 400px 30px 30px;
@@ -1989,6 +2067,20 @@ form {
     height: 62%;
     position: relative;
     overflow: hidden;
+
+    @media screen and (max-width: $desk) {
+        height: 62%;
+    }
+
+    @media screen and (max-width: $tablet) {
+        height: 90%;
+    }
+
+    @media screen and (max-width: $tablets) {
+        height: 80%;
+    }
+
+
 }
 
 .door {
