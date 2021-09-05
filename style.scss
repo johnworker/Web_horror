@@ -58,6 +58,14 @@ header {
             height: 150px;
             z-index: 2;
 
+            @media screen and (max-width: $desk) {
+                height: 150px;
+            }
+
+            @media screen and (max-width: $mobile) {
+                height: 90px;
+            }
+
             &:hover {
                 filter: invert(25%) sepia(80%) saturate(7446%) hue-rotate(8deg) brightness(98%) contrast(117%);
             }
@@ -90,6 +98,9 @@ header {
             height: 60vh;
         }
 
+        @media screen and (max-width: $mobile) {
+            height: 35vh;
+        }
 
         video {
             position: absolute;
@@ -123,6 +134,17 @@ header {
     height: 90vh;
     padding-top: 200px;
 
+    @media screen and (max-width: $desk) {
+        padding-top: 200px;
+        height: 90vh;
+    }    
+
+    @media screen and (max-width: $mobile) {
+        padding-top: 0;
+        height: 70vh;
+    }    
+
+
     h2 {
         padding: 30px;
         font-size: 36px;
@@ -138,6 +160,17 @@ header {
 
     .book {
         z-index: 4;
+
+        @media screen and (max-width: $tablets) {
+            right: 42px;
+        }
+
+        @media screen and (max-width: $mobile) {
+            width: 144px; 
+            height: 198px;
+            left: 40px;
+        }
+
     }
 
     img {
@@ -239,15 +272,35 @@ header {
         padding-top: 250px;
     }
 
-    @media screen and (max-width: $tablets) {
+    @media screen and (max-width: $tablet) {
         padding-top: 0;
+        height: 70vh;
     }
 
+    @media screen and (max-width: $tablets) {
+        padding-top: 200px;
+        height: 80vh;
+    }
+
+    @media screen and (max-width: $mobile) {
+        padding-top: 0;
+        height: 180vh;
+    }    
 
     h2 {
         padding: 400px 30px 30px;
         font-size: 36px;
         color: rgb(255, 255, 255);
+
+        @media screen and (max-width: $desk) {
+            padding: 400px 30px 30px;
+        }
+
+        @media screen and (max-width: $tablet) {
+            padding: 30px 30px 30px;
+        }
+
+    
     }
 
     .card {
@@ -259,6 +312,28 @@ header {
         height: 400px;
         background: #6e0000;
         overflow: hidden;
+
+        
+    @media screen and (max-width: $desk) {
+        left: 25%;
+    }
+
+    @media screen and (max-width: $tablet) {
+        left: 18%;
+        top: 45%;
+    }
+
+    @media screen and (max-width: $tablets) {
+        left: 17.5%;
+        top: 70%;
+        width: 240px;
+        height: 320px;
+    }
+
+    @media screen and (max-width: $mobile) {
+        left: 50%;
+        top: 20%;
+    }
 
         &:hover .imgBx {
             top: 0;
@@ -319,6 +394,25 @@ header {
         background: #6e0000;
         overflow: hidden;
 
+        @media screen and (max-width: $desk) {
+            top: 80%;
+        }
+    
+        @media screen and (max-width: $tablet) {
+            top: 45%;
+        }
+
+        @media screen and (max-width: $tablets) {
+            top: 70%;
+            width: 240px;
+            height: 320px;
+        }    
+
+        @media screen and (max-width: $mobile) {
+            left: 50%;
+            top: 50%;
+        }    
+
         &:hover .imgBx {
             top: 0;
             left: -100%;
@@ -377,6 +471,29 @@ header {
         height: 400px;
         background: #6e0000;
         overflow: hidden;
+
+        @media screen and (max-width: $desk) {
+            left: 75%;
+        }
+    
+        @media screen and (max-width: $tablet) {
+            left: 82%;
+            top: 45%;
+        }
+
+        @media screen and (max-width: $tablets) {
+            left: 82.5%;
+            top: 70%;
+            width: 240px;
+            height: 320px;
+        }
+
+        @media screen and (max-width: $mobile) {
+            left: 50%;
+            top: 80%;
+        }    
+
+
 
         &:hover .imgBx {
             top: 0;
@@ -1928,6 +2045,16 @@ ul.dropdownbt {
 .bobber {
     -webkit-animation: 2s bob infinite alternate;
     animation: 2s bob infinite alternate;
+
+    @media screen and (max-width: $desk) {
+        display: block;
+    }
+
+    @media screen and (max-width: $mobile) {
+        display: none;
+    }
+
+
 }
 @-webkit-keyframes bob {
     from {
@@ -2077,7 +2204,7 @@ form {
     }
 
     @media screen and (max-width: $tablets) {
-        height: 80%;
+        height: 90%;
     }
 
 

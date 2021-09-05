@@ -49,6 +49,18 @@ header .logo img {
   z-index: 2;
 }
 
+@media screen and (max-width: 1280px) {
+  header .logo img {
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  header .logo img {
+    height: 90px;
+  }
+}
+
 header .logo img:hover {
   -webkit-filter: invert(25%) sepia(80%) saturate(7446%) hue-rotate(8deg) brightness(98%) contrast(117%);
           filter: invert(25%) sepia(80%) saturate(7446%) hue-rotate(8deg) brightness(98%) contrast(117%);
@@ -79,6 +91,12 @@ header .box {
 @media screen and (max-width: 1024px) {
   header .box {
     height: 60vh;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  header .box {
+    height: 35vh;
   }
 }
 
@@ -113,6 +131,20 @@ header .box iframe {
   padding-top: 200px;
 }
 
+@media screen and (max-width: 1280px) {
+  .prologue {
+    padding-top: 200px;
+    height: 90vh;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .prologue {
+    padding-top: 0;
+    height: 70vh;
+  }
+}
+
 .prologue h2 {
   padding: 30px;
   font-size: 36px;
@@ -128,6 +160,20 @@ header .box iframe {
 
 .prologue .book {
   z-index: 4;
+}
+
+@media screen and (max-width: 960px) {
+  .prologue .book {
+    right: 42px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .prologue .book {
+    width: 144px;
+    height: 198px;
+    left: 40px;
+  }
 }
 
 .prologue img {
@@ -259,9 +305,24 @@ header .box iframe {
   }
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1024px) {
   .introduction {
     padding-top: 0;
+    height: 70vh;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .introduction {
+    padding-top: 200px;
+    height: 80vh;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .introduction {
+    padding-top: 0;
+    height: 180vh;
   }
 }
 
@@ -269,6 +330,18 @@ header .box iframe {
   padding: 400px 30px 30px;
   font-size: 36px;
   color: white;
+}
+
+@media screen and (max-width: 1280px) {
+  .introduction h2 {
+    padding: 400px 30px 30px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .introduction h2 {
+    padding: 30px 30px 30px;
+  }
 }
 
 .introduction .card {
@@ -281,6 +354,35 @@ header .box iframe {
   height: 400px;
   background: #6e0000;
   overflow: hidden;
+}
+
+@media screen and (max-width: 1280px) {
+  .introduction .card {
+    left: 25%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .introduction .card {
+    left: 18%;
+    top: 45%;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .introduction .card {
+    left: 17.5%;
+    top: 70%;
+    width: 240px;
+    height: 320px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .introduction .card {
+    left: 50%;
+    top: 20%;
+  }
 }
 
 .introduction .card:hover .imgBx {
@@ -345,6 +447,33 @@ header .box iframe {
   overflow: hidden;
 }
 
+@media screen and (max-width: 1280px) {
+  .introduction .card2 {
+    top: 80%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .introduction .card2 {
+    top: 45%;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .introduction .card2 {
+    top: 70%;
+    width: 240px;
+    height: 320px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .introduction .card2 {
+    left: 50%;
+    top: 50%;
+  }
+}
+
 .introduction .card2:hover .imgBx {
   top: 0;
   left: -100%;
@@ -405,6 +534,35 @@ header .box iframe {
   height: 400px;
   background: #6e0000;
   overflow: hidden;
+}
+
+@media screen and (max-width: 1280px) {
+  .introduction .card3 {
+    left: 75%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .introduction .card3 {
+    left: 82%;
+    top: 45%;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .introduction .card3 {
+    left: 82.5%;
+    top: 70%;
+    width: 240px;
+    height: 320px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .introduction .card3 {
+    left: 50%;
+    top: 80%;
+  }
 }
 
 .introduction .card3:hover .imgBx {
@@ -2227,6 +2385,18 @@ ul.dropdownbt li a {
   animation: 2s bob infinite alternate;
 }
 
+@media screen and (max-width: 1280px) {
+  .bobber {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .bobber {
+    display: none;
+  }
+}
+
 @-webkit-keyframes bob {
   from {
     margin-top: 20px;
@@ -2419,7 +2589,7 @@ form textarea::placeholder {
 
 @media screen and (max-width: 960px) {
   .container_door {
-    height: 80%;
+    height: 90%;
   }
 }
 
