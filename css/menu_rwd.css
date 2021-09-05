@@ -4,6 +4,19 @@
         right: 10px;
         top: 10px;
     }
+
+    .menu-wrap {
+        position: fixed;
+        width: 100% !important;
+        right: -100% !important;
+        top: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 50;
+        padding: 4rem;
+        transition: right .3s;
+    }
+    
 }
 
 /*中型設備（960px及以下）*/
@@ -12,6 +25,19 @@
         right: 10px;
         top: 10px;
     }
+
+    .menu-wrap {
+        position: fixed;
+        width: 55%;
+        right: -55%;
+        top: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 50;
+        padding: 4rem;
+        transition: right .3s;
+    }
+    
 }
 
 /*大型設備（960px以上）*/
@@ -20,6 +46,19 @@
         right: 10px;
         top: 10px;
     }
+
+    .menu-wrap {
+        position: fixed;
+        width: 40%;
+        right: -40%;
+        top: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 50;
+        padding: 4rem;
+        transition: right .3s;
+    }
+    
 }
 
 /*超大型設備（1024px以上）*/
@@ -28,10 +67,18 @@
         right: 40px;
         top: 40px;
     }
+
+    .menu-wrap li {
+        margin-top: 50px;
+        margin-bottom: 150px;
+        position: relative;
+        z-index: 50;
+    }
+    
 }
 
-/*超大型加大尺寸設備（1240px以上）*/
-@media only screen and (min-width:1240px) {
+/*超大型加大尺寸設備（1280px以上）*/
+@media only screen and (min-width:1280px) {
     .menu-btn {
         right: 20px;
         top: 20px;
@@ -44,4 +91,11 @@
         transition: background .3s;
         cursor: pointer;    
     }
+
+    .menu-wrap li {
+        margin-bottom: 20px;
+        position: relative;
+        z-index: 50;
+    }
+    
 }
