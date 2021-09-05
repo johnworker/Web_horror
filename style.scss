@@ -489,8 +489,17 @@ ul.dropdown {
 }
 
 .start {
-    width: 1280px;
+    width: 100%;
     margin: 50px auto;
+
+    @media screen and (max-width: $tablet) {
+        width: 100%;
+    }
+
+    @media screen and (max-width: $mobile) {
+        width: 100%;
+    }
+
 
     img {
         margin: 0 auto;
@@ -1977,7 +1986,7 @@ form {
 // 門
 .container_door {
     width: 100%;
-    height: 100%;
+    height: 62%;
     position: relative;
     overflow: hidden;
 }

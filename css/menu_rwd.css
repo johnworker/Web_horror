@@ -1,0 +1,47 @@
+/*小型設備（小型平板電腦和大型手機，767px及以下）*/
+@media only screen and (max-width:767px) {
+    .menu-btn {
+        right: 10px;
+        top: 10px;
+    }
+}
+
+/*中型設備（960px及以下）*/
+@media only screen and (max-width:960px) {
+    .menu-btn {
+        right: 10px;
+        top: 10px;
+    }
+}
+
+/*大型設備（960px以上）*/
+@media only screen and (min-width:960px) {
+    .menu-btn {
+        right: 10px;
+        top: 10px;
+    }
+}
+
+/*超大型設備（1024px以上）*/
+@media only screen and (min-width:1024px) {
+    .menu-btn {
+        right: 20px;
+        top: 20px;
+    }
+}
+
+/*超大型加大尺寸設備（1240px以上）*/
+@media only screen and (min-width:1240px) {
+    .menu-btn {
+        right: 20px;
+        top: 20px;
+        width: 64px;
+        height: 64px;
+        background: rgba(255, 255, 255, 0);
+        position: fixed;
+        z-index: 51;
+        padding-top: 18px;
+        transition: background .3s;
+        cursor: pointer;    
+    }
+}

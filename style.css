@@ -509,8 +509,20 @@ ul.dropdown li a {
 }
 
 .start {
-  width: 1280px;
+  width: 100%;
   margin: 50px auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .start {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .start {
+    width: 100%;
+  }
 }
 
 .start img {
@@ -2293,7 +2305,7 @@ form textarea::placeholder {
 
 .container_door {
   width: 100%;
-  height: 67%;
+  height: 62%;
   position: relative;
   overflow: hidden;
 }
