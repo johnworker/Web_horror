@@ -47,12 +47,25 @@ header {
         height: 60vh !important;
     }
 
-
+    @media screen and (max-width: $mobile) {
+        height: 50vh !important;
+    }
 
     .logo {
         height: 150px;
         width: 150px;
         display: block;
+
+        @media screen and (max-width: $desk) {
+            height: 150px;
+            width: 150px;
+        }
+
+        @media screen and (max-width: $mobile) {
+            height: 100px;
+            width: 100px;
+        }
+
 
         img {
             height: 150px;
@@ -60,10 +73,12 @@ header {
 
             @media screen and (max-width: $desk) {
                 height: 150px;
+                width: 150px;
             }
 
             @media screen and (max-width: $mobile) {
-                height: 90px;
+                height: 100px;
+                width: 80px;
             }
 
             &:hover {
@@ -141,7 +156,7 @@ header {
 
     @media screen and (max-width: $mobile) {
         padding-top: 0;
-        height: 70vh;
+        height: 60vh;
     }    
 
 
@@ -2207,6 +2222,9 @@ form {
         height: 90%;
     }
 
+    @media screen and (max-width: $mobile) {
+        height: 100%;
+    }
 
 }
 

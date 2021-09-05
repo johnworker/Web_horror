@@ -38,10 +38,30 @@ header {
   }
 }
 
+@media screen and (max-width: 767px) {
+  header {
+    height: 50vh !important;
+  }
+}
+
 header .logo {
   height: 150px;
   width: 150px;
   display: block;
+}
+
+@media screen and (max-width: 1280px) {
+  header .logo {
+    height: 150px;
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  header .logo {
+    height: 100px;
+    width: 100px;
+  }
 }
 
 header .logo img {
@@ -52,12 +72,14 @@ header .logo img {
 @media screen and (max-width: 1280px) {
   header .logo img {
     height: 150px;
+    width: 150px;
   }
 }
 
 @media screen and (max-width: 767px) {
   header .logo img {
-    height: 90px;
+    height: 100px;
+    width: 80px;
   }
 }
 
@@ -141,7 +163,7 @@ header .box iframe {
 @media screen and (max-width: 767px) {
   .prologue {
     padding-top: 0;
-    height: 70vh;
+    height: 60vh;
   }
 }
 
@@ -2590,6 +2612,12 @@ form textarea::placeholder {
 @media screen and (max-width: 960px) {
   .container_door {
     height: 90%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container_door {
+    height: 100%;
   }
 }
 
