@@ -771,6 +771,10 @@ ul.dropdown {
     margin: 0 auto;
     padding-top: 100px;
 
+    @media screen and (max-width: $desk) {
+        padding-top: 250px;
+    }
+
     @media screen and (max-width: $tablet) {
         width: 100%;
     }
@@ -791,6 +795,15 @@ ul.dropdown {
             width: 500px;
             display: block;
             transform: translateX(100%);
+
+            @media screen and (max-width: $desk) {
+                transform: translateX(100%);
+            }
+        
+            @media screen and (max-width: $tablet) {
+                transform: translateX(50%);
+            }
+        
         }
     }
 
@@ -2128,6 +2141,29 @@ ul.dropdownbt {
     to {
         opacity: 0.8;
     }
+}
+
+// 分頁
+.pagination {
+    display: inline-block;
+    transform: translateX(45%);
+    width: 100%;
+
+    @media screen and (max-width: $desk) {
+        transform: translateX(45%);
+    }
+
+    @media screen and (max-width: $tablet) {
+        transform: translateX(40%);
+    }
+  
+  a {
+    color: white;
+    float: left;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+  }
 }
 
 // 置頂按鈕
