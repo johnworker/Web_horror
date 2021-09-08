@@ -923,6 +923,11 @@ ul.dropdown {
             padding-top: 700px;
             }
 
+        @media screen and (max-width: $tablets) {
+            padding-top: 1400px;
+            }
+    
+
 
         .box_magic {
             display: grid;
@@ -942,6 +947,19 @@ ul.dropdown {
             display: block;
             width: 100%;
             position: relative;
+
+            @media screen and (max-width: $desk) {
+                margin: 0 auto;
+                padding: 0;
+                display: block;
+                width: 100%;
+                position: relative;
+                }
+
+            @media screen and (max-width: $mobile) {
+                margin: 0 auto;
+            }
+
         }
 
         img {
@@ -949,6 +967,13 @@ ul.dropdown {
             height: 600px;
             object-fit: cover;
             margin: 0 100px;
+
+            @media screen and (max-width: $desk) {
+                width: 450px;
+                height: 600px;
+                object-fit: cover;
+                margin: 0 100px;    
+            }
 
             @media screen and (max-width: $tablet) {
                 margin: 0 290px;
@@ -960,6 +985,7 @@ ul.dropdown {
 
             @media screen and (max-width: $mobile) {
                 margin: 0 auto;
+                width: 375px;
             }
         }
 
