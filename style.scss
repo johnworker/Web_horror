@@ -924,7 +924,7 @@ ul.dropdown {
             }
 
         @media screen and (max-width: $tablets) {
-            padding-top: 1300px;
+            padding-top: 1200px;
             }
     
 
@@ -1189,6 +1189,16 @@ ul.dropdown {
     width: 800px;
     height: 600px;
     padding: 70px 0 0 600px;
+
+    @media screen and (max-width: $desk) {
+        padding: 70px 0 0 600px;
+    }
+
+    @media screen and (max-width: $tablet) {
+        padding: 70px 0 0 200px;
+    }
+
+
 }
 #carouselExampleSlidesOnly {
     width: 800px;

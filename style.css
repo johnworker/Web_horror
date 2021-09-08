@@ -1064,7 +1064,7 @@ ul.dropdown li a {
 
 @media screen and (max-width: 960px) {
   .story1 .boxing {
-    padding-top: 1300px;
+    padding-top: 1200px;
   }
 }
 
@@ -1392,6 +1392,18 @@ ul.dropdown li a {
   width: 800px;
   height: 600px;
   padding: 70px 0 0 600px;
+}
+
+@media screen and (max-width: 1280px) {
+  .prevel {
+    padding: 70px 0 0 600px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .prevel {
+    padding: 70px 0 0 200px;
+  }
 }
 
 #carouselExampleSlidesOnly {
