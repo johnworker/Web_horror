@@ -915,6 +915,15 @@ ul.dropdown {
         margin: 0 auto;
         padding-top: 50px;
 
+        @media screen and (max-width: $desk) {
+            padding-top: 50px;
+            }
+
+        @media screen and (max-width: $tablets) {
+            padding-top: 700px;
+            }
+
+
         .box_magic {
             display: grid;
             grid-template-columns: 40% 60%;
@@ -985,9 +994,15 @@ ul.dropdown {
             width: 90%;
 
             @media screen and (max-width: $tablet) {
-                width: 100%;
+                width: 70%;
                 font-size: 30px;
+                margin: 0 auto;
             }
+
+            @media screen and (max-width: $tablets) {
+                width: 65%;
+            }
+
 
             @media screen and (max-width: $mobile) {
                 font-size: 24px;
@@ -1010,6 +1025,14 @@ ul.dropdown {
         .box_magic:nth-child(odd) article {
             grid-area: text;
             padding: 0 50px;
+
+            @media screen and (max-width: $desk) {
+                padding: 0 50px;
+            }
+
+            @media screen and (max-width: $tablet) {
+                padding: 0;
+            }
 
             @media screen and (max-width: $mobile) {
                 padding: 0 30px;
@@ -1035,7 +1058,7 @@ ul.dropdown {
             grid-area: text;
 
             @media screen and (max-width: $tablet) {
-                padding: 0 100px;
+                padding: 0;
             }
 
             @media screen and (max-width: $mobile) {
@@ -1045,6 +1068,15 @@ ul.dropdown {
 
         .box_magic:nth-child(even) p {
             padding-left: 50px;
+
+            @media screen and (max-width: $desk) {
+                padding-left: 50px;
+            }
+
+            @media screen and (max-width: $tablet) {
+                padding-left: 0;
+            }
+
         }
     }
 }

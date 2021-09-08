@@ -1050,6 +1050,18 @@ ul.dropdown li a {
   padding-top: 50px;
 }
 
+@media screen and (max-width: 1280px) {
+  .story1 .boxing {
+    padding-top: 50px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .story1 .boxing {
+    padding-top: 700px;
+  }
+}
+
 .story1 .boxing .box_magic {
   display: -ms-grid;
   display: grid;
@@ -1138,8 +1150,15 @@ ul.dropdown li a {
 
 @media screen and (max-width: 1024px) {
   .story1 .boxing p {
-    width: 100%;
+    width: 70%;
     font-size: 30px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .story1 .boxing p {
+    width: 65%;
   }
 }
 
@@ -1177,6 +1196,18 @@ ul.dropdown li a {
   padding: 0 50px;
 }
 
+@media screen and (max-width: 1280px) {
+  .story1 .boxing .box_magic:nth-child(odd) article {
+    padding: 0 50px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .story1 .boxing .box_magic:nth-child(odd) article {
+    padding: 0;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .story1 .boxing .box_magic:nth-child(odd) article {
     padding: 0 30px;
@@ -1212,7 +1243,7 @@ ul.dropdown li a {
 
 @media screen and (max-width: 1024px) {
   .story1 .boxing .box_magic:nth-child(even) article {
-    padding: 0 100px;
+    padding: 0;
   }
 }
 
@@ -1224,6 +1255,18 @@ ul.dropdown li a {
 
 .story1 .boxing .box_magic:nth-child(even) p {
   padding-left: 50px;
+}
+
+@media screen and (max-width: 1280px) {
+  .story1 .boxing .box_magic:nth-child(even) p {
+    padding-left: 50px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .story1 .boxing .box_magic:nth-child(even) p {
+    padding-left: 0;
+  }
 }
 
 .changeone {
