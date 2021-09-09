@@ -34,7 +34,7 @@ header {
 
 @media screen and (max-width: 1024px) {
   header {
-    height: 60vh !important;
+    height: 80vh !important;
   }
 }
 
@@ -1346,6 +1346,12 @@ ul.dropdown li a {
   z-index: 5;
 }
 
+@media screen and (max-width: 1280px) {
+  .link {
+    width: 200px;
+  }
+}
+
 .link button {
   background: #640000;
   -webkit-box-shadow: 1px 1px 20px #780000;
@@ -1402,7 +1408,19 @@ ul.dropdown li a {
 
 @media screen and (max-width: 1024px) {
   .prevel {
-    padding: 70px 0 0 200px;
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 300px 0 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .prevel {
+    width: 100%;
+    height: 60vh;
+    margin: 0 auto;
+    padding: 0;
   }
 }
 
@@ -1411,9 +1429,47 @@ ul.dropdown li a {
   height: 600px;
 }
 
+@media screen and (max-width: 1280px) {
+  #carouselExampleSlidesOnly {
+    width: 800px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  #carouselExampleSlidesOnly {
+    width: 640px !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #carouselExampleSlidesOnly {
+    width: 375px !important;
+  }
+}
+
 .carousel-inner {
   width: 800px;
   height: 600px;
+}
+
+@media screen and (max-width: 1280px) {
+  .carousel-inner {
+    width: 800px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .carousel-inner {
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .carousel-inner {
+    width: 375px;
+    height: 270px;
+    top: 60px;
+  }
 }
 
 .carousel-inner img {
@@ -1421,6 +1477,25 @@ ul.dropdown li a {
   height: 500px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+@media screen and (max-width: 1280px) {
+  .carousel-inner img {
+    width: 800px;
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .carousel-inner img {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .carousel-inner img {
+    padding: 0 0 100px;
+  }
 }
 
 .owl-carousel {
