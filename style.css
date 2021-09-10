@@ -40,7 +40,7 @@ header {
 
 @media screen and (max-width: 767px) {
   header {
-    height: 50vh !important;
+    height: 82vh !important;
   }
 }
 
@@ -1476,7 +1476,8 @@ ul.dropdown li a {
   .carousel-inner {
     width: 375px;
     height: 270px;
-    top: 60px;
+    top: 0;
+    left: 14px;
   }
 }
 
@@ -1509,7 +1510,9 @@ ul.dropdown li a {
 
 @media screen and (max-width: 767px) {
   .carousel-inner img {
+    width: 350px !important;
     height: 300px;
+    padding: 0;
   }
 }
 

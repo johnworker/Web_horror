@@ -48,7 +48,7 @@ header {
     }
 
     @media screen and (max-width: $mobile) {
-        height: 50vh !important;
+        height: 82vh !important;
     }
 
     .logo {
@@ -1252,7 +1252,8 @@ ul.dropdown {
     @media screen and (max-width: $mobile) {
         width: 375px;
         height: 270px;
-        top: 60px;
+        top: 0;
+        left: 14px;
     }
 
     img {
@@ -1275,7 +1276,9 @@ ul.dropdown {
         }
         
         @media screen and (max-width: $mobile) {
+            width: 350px !important;
             height: 300px;
+            padding: 0;
         }
 
     }
@@ -2257,6 +2260,7 @@ ul.dropdownbt {
     }
 }
 
+// 動態幽靈
 .bobber {
     -webkit-animation: 2s bob infinite alternate;
     animation: 2s bob infinite alternate;
