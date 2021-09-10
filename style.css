@@ -1408,14 +1408,14 @@ ul.dropdown li a {
 
 @media screen and (max-width: 1024px) {
   .prevel {
-    width: 600px;
-    height: 400px;
+    width: 100%;
+    height: 60vh;
     margin: 0 auto;
     padding: 300px 0 0;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 960px) {
   .prevel {
     width: 100%;
     height: 60vh;
@@ -1448,6 +1448,7 @@ ul.dropdown li a {
 }
 
 .carousel-inner {
+  position: relative;
   width: 800px;
   height: 600px;
 }
@@ -1458,9 +1459,16 @@ ul.dropdown li a {
   }
 }
 
+@media screen and (max-width: 1024px) {
+  .carousel-inner {
+    left: 100px;
+  }
+}
+
 @media screen and (max-width: 960px) {
   .carousel-inner {
     width: 100% !important;
+    left: 50px;
   }
 }
 
@@ -1473,6 +1481,7 @@ ul.dropdown li a {
 }
 
 .carousel-inner img {
+  position: absolute;
   width: 800px;
   height: 500px;
   -o-object-fit: cover;
@@ -1486,15 +1495,21 @@ ul.dropdown li a {
   }
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1024px) {
   .carousel-inner img {
-    height: 400px;
+    padding: 0 0 0 50px;
   }
 }
 
 @media screen and (max-width: 960px) {
   .carousel-inner img {
-    padding: 0 0 100px;
+    padding: 0 0 100px 50px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .carousel-inner img {
+    height: 300px;
   }
 }
 
