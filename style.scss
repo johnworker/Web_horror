@@ -2314,6 +2314,157 @@ ul.dropdown {
         }
     }
 }
+// 其他分析
+.otherview {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 200px;
+
+    @media screen and (max-width: $desk) {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        padding-top: 200px;
+    }
+
+    @media screen and (max-width: $tablet) {
+        width: 100%;
+        padding-top: 0;
+    }
+
+    @media screen and (max-width: $tablets) {
+        width: 100%;
+    }
+
+    .property_boxing {
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 50px;
+        margin-top: 0;
+
+        .property_box_magic {
+            display: grid;
+            grid-template-columns: 40% 60%;
+            grid-gap: 80px;
+            padding-top: 100px;
+
+            @media screen and (max-width: $tablet) {
+                grid-template-columns: none;
+                display: block;
+            }
+        }
+
+        .property_photos {
+            margin: 0 auto;
+            padding: 0;
+            display: block;
+            width: 100%;
+        }
+
+        img {
+            width: 450px;
+            height: 600px;
+            object-fit: cover;
+            margin: 0 100px 50px;
+
+            @media screen and (max-width: $tablet) {
+                margin: 0 290px;
+            }
+
+            @media screen and (max-width: $tablets) {
+                margin: 0 160px;
+            }
+
+            @media screen and (max-width: $mobile) {
+                margin: 0 auto;
+                width: 375px;
+            }
+        }
+
+        .article {
+            margin: 0;
+            padding-right: 30%;
+            display: block;
+            width: 100%;
+
+            @media screen and (max-width: $tablet) {
+                margin: 0 auto;
+            }
+        }
+
+        h4 {
+            text-align: center;
+            padding: 20px 10px 10px;
+            width: 85%;
+            font-size: 32px;
+            font-weight: bold;
+            color: #fff;
+
+            @media screen and (max-width: $desk) {
+                font-size: 32px;
+            }
+
+            @media screen and (max-width: $tablet) {
+                font-size: 40px;
+                margin: 0 auto;
+            }
+        }
+
+        p {
+            font-size: 20px;
+            padding: 30px 0;
+            line-height: 2.5;
+            color: #fff;
+            width: 85%;
+
+            @media screen and (max-width: $desk) {
+                width: 85%;
+                font-size: 20px;
+            }
+
+            @media screen and (max-width: $tablet) {
+                width: 80%;
+                font-size: 30px;
+                margin: 0 auto;
+            }
+
+            @media screen and (max-width: $mobile) {
+                font-size: 24px;
+                line-height: 2;
+            }
+        }
+
+        small {
+            color: #fff;
+
+            @media screen and (max-width: $tablet) {
+                position: absolute;
+                left: 33%;    
+            }
+
+            @media screen and (max-width: $tablets) {
+                left: 30%;    
+            }
+
+            @media screen and (max-width: $mobile) {
+                left: 5%;
+            }
+        
+        }
+
+        .property_box_magic:nth-child(odd) {
+            grid-template-areas: "pic text";
+            grid-template-columns: 40% 60%;
+
+            @media screen and (max-width: $tablet) {
+                grid-template-columns: 1fr;
+                margin: 0 auto;
+            }
+        }
+    }
+}
+
 // 恐怖研究
 .drop {
     position: fixed;
