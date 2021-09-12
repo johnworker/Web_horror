@@ -1346,6 +1346,7 @@ ul.dropdown {
         @media screen and (max-width: $mobile) {
             left: 0.75%;
             width: 370px;
+            top: 250px;
         }    
     
     }
@@ -1385,6 +1386,7 @@ ul.dropdown {
         @media screen and (max-width: $mobile) {
             left: 0.75%;
             width: 370px;
+            top: 250px;
         }    
 
     }
@@ -1419,6 +1421,11 @@ ul.dropdown {
         @media screen and (max-width: $tablets) {
             left: 45%;
             top: 80px;
+        }
+
+        @media screen and (max-width: $mobile) {
+            left: 10%;
+            top: 305px;
         }
 
         &:hover {

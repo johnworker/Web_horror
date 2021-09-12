@@ -1590,6 +1590,7 @@ ul.dropdown li a {
   .Cemetery img {
     left: 0.75%;
     width: 370px;
+    top: 250px;
   }
 }
 
@@ -1637,6 +1638,7 @@ ul.dropdown li a {
   .smog img {
     left: 0.75%;
     width: 370px;
+    top: 250px;
   }
 }
 
@@ -1678,6 +1680,13 @@ ul.dropdown li a {
   .halloween_ghost img {
     left: 45%;
     top: 80px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .halloween_ghost img {
+    left: 10%;
+    top: 305px;
   }
 }
 
