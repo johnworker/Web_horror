@@ -1568,6 +1568,7 @@ ul.dropdown li a {
   .Cemetery img {
     top: 65%;
     top: -50px;
+    width: 400px;
   }
 }
 
@@ -1582,6 +1583,13 @@ ul.dropdown li a {
   .Cemetery img {
     left: 40%;
     top: 25px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .Cemetery img {
+    left: 0.75%;
+    width: 370px;
   }
 }
 
@@ -1607,6 +1615,7 @@ ul.dropdown li a {
   .smog img {
     left: 65%;
     top: -50px;
+    width: 400px;
   }
 }
 
@@ -1621,6 +1630,13 @@ ul.dropdown li a {
   .smog img {
     left: 40%;
     top: 25px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .smog img {
+    left: 0.75%;
+    width: 370px;
   }
 }
 
@@ -1753,12 +1769,19 @@ ul.dropdown li a {
 @media screen and (max-width: 1280px) {
   .ghost_hang {
     top: 270px;
+    display: block;
   }
 }
 
 @media screen and (max-width: 1024px) {
   .ghost_hang {
     top: 550px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .ghost_hang {
+    display: none;
   }
 }
 
@@ -2016,9 +2039,27 @@ ul.dropdown li a {
   }
 }
 
+@media screen and (max-width: 960px) {
+  .zombie {
+    width: 500px;
+  }
+}
+
 .zombie #carouselExampleControls {
   width: 100%;
   height: 600px;
+}
+
+@media screen and (max-width: 1280px) {
+  .zombie #carouselExampleControls {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .zombie #carouselExampleControls {
+    width: 530px;
+  }
 }
 
 .zombie #carouselExampleControls .carousel-inner {
@@ -2055,12 +2096,21 @@ ul.dropdown li a {
 
 @media screen and (max-width: 1280px) {
   .zombie #carouselExampleControls .carousel-control {
+    width: 1000px;
     bottom: 600px;
   }
 }
 
 @media screen and (max-width: 1024px) {
   .zombie #carouselExampleControls .carousel-control {
+    width: 800px;
+    bottom: 500px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .zombie #carouselExampleControls .carousel-control {
+    width: 540px;
     bottom: 500px;
   }
 }
@@ -2095,7 +2145,7 @@ ul.dropdown li a {
 
 @media screen and (max-width: 1024px) {
   .zombie #carouselExampleControls .carousel-control .carousel-control-next {
-    right: 200px !important;
+    right: 0 !important;
   }
 }
 
@@ -2151,6 +2201,18 @@ ul.dropdown li a {
   right: -15%;
 }
 
+@media screen and (max-width: 1280px) {
+  .zombie_walk img {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .zombie_walk img {
+    display: none;
+  }
+}
+
 .zombie_jump {
   position: relative;
   width: 100vw;
@@ -2162,6 +2224,18 @@ ul.dropdown li a {
   width: 200px;
   height: 300px;
   left: -15%;
+}
+
+@media screen and (max-width: 1280px) {
+  .zombie_jump img {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .zombie_jump img {
+    display: none;
+  }
 }
 
 .tai_chi {
