@@ -1221,11 +1221,11 @@ ul.dropdown {
         }
     
         @media screen and (max-width: $tablets) {
-            width: 640px !important;
+            width: 640px;
         }
     
         @media screen and (max-width: $mobile) {
-            width: 375px !important;
+            width: 375px;
         }
     
         .carousel-inner {
@@ -1242,7 +1242,7 @@ ul.dropdown {
             }
         
             @media screen and (max-width: $tablets) {
-                width: 100% !important;
+                width: 100%;
                 left: 50px;
             }
         
@@ -1273,7 +1273,7 @@ ul.dropdown {
                 }
                 
                 @media screen and (max-width: $mobile) {
-                    width: 350px !important;
+                    width: 350px;
                     height: 300px;
                     padding: 0;
                 }
@@ -1588,6 +1588,7 @@ ul.dropdown {
         p {
             font-size: 20px;
             padding: 10px 0;
+            margin-bottom: 0;
             line-height: 2.5;
             color: #fff;
             width: 90%;
@@ -1708,14 +1709,41 @@ ul.dropdown {
             position: relative;
             width: 1000px;
             height: 100%;
+            bottom: 600px;
+
+            @media screen and (max-width: $desk) {
+                bottom: 600px;
+            }
+
+            @media screen and (max-width: $tablet) {
+                bottom: 500px;
+            }
 
             .carousel-control-prev {
                 position: absolute;
                 left: -100px !important;
+
+                @media screen and (max-width: $desk) {
+                    left: -100px !important;
+                }
+    
+                @media screen and (max-width: $tablet) {
+                    left: 0 !important;
+                }
+    
             }
             .carousel-control-next {
                 position: absolute;
-                right: -500px !important;
+                right: 100px;
+
+                @media screen and (max-width: $desk) {
+                    right: 100px !important;
+                }
+    
+                @media screen and (max-width: $tablet) {
+                    right: 200px !important;
+                }
+
             }
         }
     }

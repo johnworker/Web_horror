@@ -1437,13 +1437,13 @@ ul.dropdown li a {
 
 @media screen and (max-width: 960px) {
   .prevel #carouselExampleSlidesOnly {
-    width: 640px !important;
+    width: 640px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .prevel #carouselExampleSlidesOnly {
-    width: 375px !important;
+    width: 375px;
   }
 }
 
@@ -1467,7 +1467,7 @@ ul.dropdown li a {
 
 @media screen and (max-width: 960px) {
   .prevel #carouselExampleSlidesOnly .carousel-inner {
-    width: 100% !important;
+    width: 100%;
     left: 50px;
   }
 }
@@ -1510,7 +1510,7 @@ ul.dropdown li a {
 
 @media screen and (max-width: 767px) {
   .prevel #carouselExampleSlidesOnly .carousel-inner img {
-    width: 350px !important;
+    width: 350px;
     height: 300px;
     padding: 0;
   }
@@ -1890,6 +1890,7 @@ ul.dropdown li a {
 .ghostview .ghost_boxing p {
   font-size: 20px;
   padding: 10px 0;
+  margin-bottom: 0;
   line-height: 2.5;
   color: #fff;
   width: 90%;
@@ -2049,6 +2050,19 @@ ul.dropdown li a {
   position: relative;
   width: 1000px;
   height: 100%;
+  bottom: 600px;
+}
+
+@media screen and (max-width: 1280px) {
+  .zombie #carouselExampleControls .carousel-control {
+    bottom: 600px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .zombie #carouselExampleControls .carousel-control {
+    bottom: 500px;
+  }
 }
 
 .zombie #carouselExampleControls .carousel-control .carousel-control-prev {
@@ -2056,9 +2070,33 @@ ul.dropdown li a {
   left: -100px !important;
 }
 
+@media screen and (max-width: 1280px) {
+  .zombie #carouselExampleControls .carousel-control .carousel-control-prev {
+    left: -100px !important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .zombie #carouselExampleControls .carousel-control .carousel-control-prev {
+    left: 0 !important;
+  }
+}
+
 .zombie #carouselExampleControls .carousel-control .carousel-control-next {
   position: absolute;
-  right: -500px !important;
+  right: 100px;
+}
+
+@media screen and (max-width: 1280px) {
+  .zombie #carouselExampleControls .carousel-control .carousel-control-next {
+    right: 100px !important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .zombie #carouselExampleControls .carousel-control .carousel-control-next {
+    right: 200px !important;
+  }
 }
 
 .zombie_card {
