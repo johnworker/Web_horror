@@ -1424,56 +1424,56 @@ ul.dropdown li a {
   }
 }
 
-#carouselExampleSlidesOnly {
+.prevel #carouselExampleSlidesOnly {
   width: 800px;
   height: 600px;
 }
 
 @media screen and (max-width: 1280px) {
-  #carouselExampleSlidesOnly {
+  .prevel #carouselExampleSlidesOnly {
     width: 800px;
   }
 }
 
 @media screen and (max-width: 960px) {
-  #carouselExampleSlidesOnly {
+  .prevel #carouselExampleSlidesOnly {
     width: 640px !important;
   }
 }
 
 @media screen and (max-width: 767px) {
-  #carouselExampleSlidesOnly {
+  .prevel #carouselExampleSlidesOnly {
     width: 375px !important;
   }
 }
 
-.carousel-inner {
+.prevel #carouselExampleSlidesOnly .carousel-inner {
   position: relative;
   width: 800px;
   height: 600px;
 }
 
 @media screen and (max-width: 1280px) {
-  .carousel-inner {
+  .prevel #carouselExampleSlidesOnly .carousel-inner {
     width: 800px;
   }
 }
 
 @media screen and (max-width: 1024px) {
-  .carousel-inner {
+  .prevel #carouselExampleSlidesOnly .carousel-inner {
     left: 100px;
   }
 }
 
 @media screen and (max-width: 960px) {
-  .carousel-inner {
+  .prevel #carouselExampleSlidesOnly .carousel-inner {
     width: 100% !important;
     left: 50px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .carousel-inner {
+  .prevel #carouselExampleSlidesOnly .carousel-inner {
     width: 375px;
     height: 270px;
     top: 0;
@@ -1481,7 +1481,7 @@ ul.dropdown li a {
   }
 }
 
-.carousel-inner img {
+.prevel #carouselExampleSlidesOnly .carousel-inner img {
   position: absolute;
   width: 800px;
   height: 500px;
@@ -1490,26 +1490,26 @@ ul.dropdown li a {
 }
 
 @media screen and (max-width: 1280px) {
-  .carousel-inner img {
+  .prevel #carouselExampleSlidesOnly .carousel-inner img {
     width: 800px;
     height: 500px;
   }
 }
 
 @media screen and (max-width: 1024px) {
-  .carousel-inner img {
+  .prevel #carouselExampleSlidesOnly .carousel-inner img {
     padding: 0 0 0 50px;
   }
 }
 
 @media screen and (max-width: 960px) {
-  .carousel-inner img {
+  .prevel #carouselExampleSlidesOnly .carousel-inner img {
     padding: 0 0 100px 50px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .carousel-inner img {
+  .prevel #carouselExampleSlidesOnly .carousel-inner img {
     width: 350px !important;
     height: 300px;
     padding: 0;
@@ -1578,6 +1578,13 @@ ul.dropdown li a {
   }
 }
 
+@media screen and (max-width: 960px) {
+  .Cemetery img {
+    left: 40%;
+    top: 25px;
+  }
+}
+
 .smog {
   position: relative;
   width: 100%;
@@ -1606,6 +1613,13 @@ ul.dropdown li a {
 @media screen and (max-width: 1024px) {
   .smog img {
     left: 50%;
+    top: 25px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .smog img {
+    left: 40%;
     top: 25px;
   }
 }
@@ -1641,6 +1655,13 @@ ul.dropdown li a {
   .halloween_ghost img {
     left: 54%;
     top: 75px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .halloween_ghost img {
+    left: 45%;
+    top: 80px;
   }
 }
 
@@ -1686,12 +1707,14 @@ ul.dropdown li a {
 @media screen and (max-width: 1280px) {
   .inside_ceiling {
     top: 0;
+    display: block;
   }
 }
 
 @media screen and (max-width: 1024px) {
   .inside_ceiling {
     top: 280px;
+    display: none;
   }
 }
 
@@ -1910,7 +1933,7 @@ ul.dropdown li a {
   -ms-grid-row: 1;
   -ms-grid-column: 2;
   grid-area: text;
-  padding: 0 50px;
+  padding: 0 100px;
 }
 
 @media screen and (max-width: 767px) {
@@ -1962,41 +1985,78 @@ ul.dropdown li a {
   padding-left: 50px;
 }
 
+@media screen and (max-width: 1280px) {
+  .ghostview .ghost_boxing .ghost_box_magic:nth-child(even) p {
+    padding-left: 50px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .ghostview .ghost_boxing .ghost_box_magic:nth-child(even) p {
+    padding-left: 0;
+  }
+}
+
 .zombie {
   width: 800px;
   height: 600px;
   margin: 70px 0 0 380px;
 }
 
-.zombie #carouselExampleSlidesOnly {
+@media screen and (max-width: 1280px) {
+  .zombie {
+    margin: 70px 0 0 380px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .zombie {
+    margin: 0 0 0 220px;
+  }
+}
+
+.zombie #carouselExampleControls {
   width: 100%;
   height: 600px;
 }
 
-.zombie #carouselExampleSlidesOnly .carousel-inner {
+.zombie #carouselExampleControls .carousel-inner {
   width: 100%;
   height: 600px;
 }
 
-.zombie #carouselExampleSlidesOnly .carousel-inner img {
+@media screen and (max-width: 1280px) {
+  .zombie #carouselExampleControls .carousel-inner {
+    width: 100%;
+    height: 600px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .zombie #carouselExampleControls .carousel-inner {
+    height: 500px;
+  }
+}
+
+.zombie #carouselExampleControls .carousel-inner img {
   width: 800px;
   height: 500px;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-.zombie #carouselExampleSlidesOnly .carousel-control {
+.zombie #carouselExampleControls .carousel-control {
   position: relative;
   width: 1000px;
   height: 100%;
 }
 
-.zombie #carouselExampleSlidesOnly .carousel-control .carousel-control-prev {
+.zombie #carouselExampleControls .carousel-control .carousel-control-prev {
   position: absolute;
   left: -100px !important;
 }
 
-.zombie #carouselExampleSlidesOnly .carousel-control .carousel-control-next {
+.zombie #carouselExampleControls .carousel-control .carousel-control-next {
   position: absolute;
   right: -500px !important;
 }
