@@ -1889,6 +1889,7 @@ ul.dropdown li a {
 @media screen and (max-width: 767px) {
   .ghostview .ghost_boxing img {
     margin: 0 auto;
+    width: 375px;
   }
 }
 
@@ -2054,6 +2055,12 @@ ul.dropdown li a {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .zombie {
+    width: 0;
+  }
+}
+
 .zombie #carouselExampleControls {
   width: 100%;
   height: 600px;
@@ -2073,7 +2080,7 @@ ul.dropdown li a {
 
 @media screen and (max-width: 767px) {
   .zombie #carouselExampleControls {
-    width: 550px;
+    width: 375px;
     top: 300px;
     right: 220px;
   }
@@ -2099,7 +2106,7 @@ ul.dropdown li a {
 
 @media screen and (max-width: 767px) {
   .zombie #carouselExampleControls .carousel-inner {
-    width: 68%;
+    width: 100%;
   }
 }
 
@@ -2135,6 +2142,12 @@ ul.dropdown li a {
   .zombie #carouselExampleControls .carousel-control {
     width: 540px;
     bottom: 500px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .zombie #carouselExampleControls .carousel-control {
+    width: 375px;
   }
 }
 
@@ -2174,7 +2187,7 @@ ul.dropdown li a {
 
 @media screen and (max-width: 767px) {
   .zombie #carouselExampleControls .carousel-control .carousel-control-next {
-    right: 170px !important;
+    right: 0 !important;
   }
 }
 
@@ -2292,7 +2305,7 @@ ul.dropdown li a {
 
 @media screen and (max-width: 767px) {
   .tai_chi {
-    width: 500px;
+    width: 375px;
   }
 }
 
@@ -2319,8 +2332,8 @@ ul.dropdown li a {
 
 @media screen and (max-width: 767px) {
   .tai_chi img {
-    width: 400px;
-    padding-right: 120px;
+    width: 300px;
+    padding-right: 0;
   }
 }
 
@@ -2592,6 +2605,7 @@ ul.dropdown li a {
 
 @media screen and (max-width: 1280px) {
   .others {
+    width: 800px;
     margin: 70px 0 0 380px;
   }
 }
@@ -2602,14 +2616,51 @@ ul.dropdown li a {
   }
 }
 
+@media screen and (max-width: 960px) {
+  .others {
+    width: 520px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .others {
+    margin: 270px 0 0 0;
+    width: 375px;
+  }
+}
+
 .others #carouselExampleFade {
   width: 100%;
   height: 600px;
 }
 
+@media screen and (max-width: 1280px) {
+  .others #carouselExampleFade {
+    height: 600px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .others #carouselExampleFade {
+    height: 330px;
+  }
+}
+
 .others #carouselExampleFade .carousel-inner {
   width: 100%;
   height: 600px;
+}
+
+@media screen and (max-width: 1280px) {
+  .others #carouselExampleFade .carousel-inner {
+    height: 600px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .others #carouselExampleFade .carousel-inner {
+    height: 300px;
+  }
 }
 
 .others #carouselExampleFade .carousel-inner img {
@@ -2619,10 +2670,34 @@ ul.dropdown li a {
      object-fit: cover;
 }
 
+@media screen and (max-width: 1280px) {
+  .others #carouselExampleFade .carousel-inner img {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .others #carouselExampleFade .carousel-inner img {
+    height: 300px;
+  }
+}
+
 .others #carouselExampleFade .carousel-control {
   position: relative;
   width: 1000px;
   height: 100%;
+}
+
+@media screen and (max-width: 1280px) {
+  .others #carouselExampleFade .carousel-control {
+    top: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .others #carouselExampleFade .carousel-control {
+    top: 45%;
+  }
 }
 
 .others #carouselExampleFade .carousel-control .carousel-control-prev {
@@ -2697,6 +2772,18 @@ ul.dropdown li a {
   transition: 0.5s;
 }
 
+@media screen and (max-width: 1280px) {
+  .goblin_stand img {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .goblin_stand img {
+    display: none;
+  }
+}
+
 .goblin_stand img:hover {
   -webkit-transform: scale(0.75);
           transform: scale(0.75);
@@ -2738,6 +2825,18 @@ ul.dropdown li a {
   position: relative;
   width: 100vw;
   bottom: 50px;
+}
+
+@media screen and (max-width: 1280px) {
+  .skullri {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .skullri {
+    display: none;
+  }
 }
 
 .skullri img {
@@ -2786,6 +2885,18 @@ ul.dropdown li a {
 .skull_rider {
   position: relative;
   width: 100vw;
+}
+
+@media screen and (max-width: 1280px) {
+  .skull_rider {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .skull_rider {
+    display: none;
+  }
 }
 
 .skull_rider img {
@@ -2856,6 +2967,12 @@ ul.dropdown li a {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .otherview {
+    padding-top: 400px;
+  }
+}
+
 .otherview .property_boxing {
   width: 100%;
   margin: 0 auto;
@@ -2877,6 +2994,12 @@ ul.dropdown li a {
     -ms-grid-columns: none;
         grid-template-columns: none;
     display: block;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .otherview .property_boxing .property_box_magic {
+    padding-top: 200px;
   }
 }
 
@@ -3286,6 +3409,18 @@ ul.dropdownbt li a {
   height: 500px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+@media screen and (max-width: 1280px) {
+  .othervideo #carouselExampleControlsNoTouching .carousel-inner img {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .othervideo #carouselExampleControlsNoTouching .carousel-inner img {
+    height: 300px;
+  }
 }
 
 .othervideo #carouselExampleControlsNoTouching .carousel-control-prev {
