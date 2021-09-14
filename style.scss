@@ -2235,6 +2235,98 @@ ul.dropdown {
         }
     }
 }
+
+// 淡出輪播效果
+.researchs {
+    width: 800px;
+    height: 600px;
+    margin: 70px 0 0 380px;
+
+    @media screen and (max-width: $desk) {
+        width: 800px;
+        margin: 70px 0 0 380px;
+    }
+
+    @media screen and (max-width: $tablet) {
+        margin: 150px 0 0 160px;
+    }
+
+    @media screen and (max-width: $tablets) {
+        width: 520px;
+    }
+
+    @media screen and (max-width: $mobile) {
+        margin: 200px 0 0 0;
+        width: 375px;
+    }
+
+
+    #carouselExampleFade {
+        width: 100%;
+        height: 600px;
+
+        @media screen and (max-width: $desk) {
+            height: 600px;
+        }
+
+        @media screen and (max-width: $mobile) {
+            height: 330px;
+        }
+
+        .carousel-inner {
+            width: 100%;
+            height: 600px;
+
+            @media screen and (max-width: $desk) {
+                height: 600px;
+            }
+    
+            @media screen and (max-width: $mobile) {
+                height: 300px;
+            }
+
+
+            img {
+                width: 800px;
+                height: 500px;
+                object-fit: cover;
+
+                @media screen and (max-width: $desk) {
+                    height: 500px;
+                }
+        
+                @media screen and (max-width: $mobile) {
+                    height: 300px;
+                }
+
+            }
+        }
+        .carousel-control {
+            position: relative;
+            width: 1000px;
+            height: 100%;
+
+            @media screen and (max-width: $desk) {
+                top: 0;
+            }
+    
+            @media screen and (max-width: $mobile) {
+                top: 45%;
+            }
+
+            .carousel-control-prev {
+                position: absolute;
+                left: -100px !important;
+                
+            }
+            .carousel-control-next {
+                position: absolute;
+                right: -500px !important;
+            }
+        }
+    }
+}
+
 // 站立骷髏
 .skull_stand {
     position: relative;
@@ -2653,7 +2745,6 @@ ul.dropdownbt {
 // 研究介紹
 .description {
     width: 100vw;
-    height: 80vh;
     margin: 0 auto;
 
     img {
@@ -2663,7 +2754,7 @@ ul.dropdownbt {
     }
 
     article {
-        margin-bottom: 50px;
+        padding: 50px 0;
     }
 
     h2 {
@@ -2727,6 +2818,15 @@ ul.dropdownbt {
             margin: 0 auto;
             width: 500px;
             display: block;
+
+            @media screen and (max-width: $desk) {
+                width: 500px;
+            }
+        
+            @media screen and (max-width: $mobile) {
+                width: 375px;
+            }
+
         }
     }
 
@@ -2753,7 +2853,7 @@ ul.dropdownbt {
             color: #fff;
 
             @media screen and (max-width: $tablet) {
-                width: 100%;
+                width: 80%;
                 font-size: 30px;
             }
 
