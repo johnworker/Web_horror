@@ -3462,12 +3462,14 @@ ul.dropdownbt li a {
   font-weight: bold;
   letter-spacing: 5px;
   font-size: 40px;
+  margin: 0 auto;
   color: #fff;
 }
 
 @media screen and (max-width: 1024px) {
   .serch article h4 {
     font-size: 40px;
+    width: 90%;
   }
 }
 
@@ -3499,6 +3501,19 @@ ul.dropdownbt li a {
   text-align: center;
   display: block;
   padding: 50px 0;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1280px) {
+  .serch article small {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .serch article small {
+    width: 80%;
+  }
 }
 
 .othervideo {
