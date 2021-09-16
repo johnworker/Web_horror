@@ -42,7 +42,6 @@ header {
         height: 100vh !important;
     }
 
-    
     @media screen and (max-width: $tablet) {
         height: 80vh !important;
     }
@@ -65,7 +64,6 @@ header {
             height: 100px;
             width: 100px;
         }
-
 
         img {
             height: 150px;
@@ -137,10 +135,7 @@ header {
             @media screen and (max-width: $mobile) {
                 width: 375px !important;
             }
-
-        
         }
-    
     }
 }
 
@@ -152,13 +147,12 @@ header {
     @media screen and (max-width: $desk) {
         padding-top: 200px;
         height: 90vh;
-    }    
+    }
 
     @media screen and (max-width: $mobile) {
         padding-top: 0;
         height: 60vh;
-    }    
-
+    }
 
     h2 {
         padding: 30px;
@@ -181,11 +175,10 @@ header {
         }
 
         @media screen and (max-width: $mobile) {
-            width: 144px; 
+            width: 144px;
             height: 198px;
             left: 40px;
         }
-
     }
 
     img {
@@ -204,16 +197,15 @@ header {
         @media screen and (max-width: $desk) {
             display: block;
         }
-    
+
         @media screen and (max-width: $tablet) {
             display: block;
         }
-    
-        
+
         @media screen and (max-width: $tablets) {
             display: none;
         }
-    
+
         video {
             position: absolute;
             left: -60px;
@@ -236,11 +228,9 @@ header {
         display: block;
     }
 
-    
     @media screen and (max-width: $tablets) {
         display: none;
     }
-
 
     img {
         position: absolute;
@@ -256,11 +246,10 @@ header {
         @media screen and (max-width: $desk) {
             right: 420px;
         }
-    
+
         @media screen and (max-width: $desk) {
             right: 250px;
         }
-
 
         @keyframes ghost_fly {
             0% {
@@ -300,7 +289,7 @@ header {
     @media screen and (max-width: $mobile) {
         padding-top: 0;
         height: 180vh;
-    }    
+    }
 
     h2 {
         padding: 400px 30px 30px;
@@ -314,8 +303,6 @@ header {
         @media screen and (max-width: $tablet) {
             padding: 30px 30px 30px;
         }
-
-    
     }
 
     .card {
@@ -328,27 +315,26 @@ header {
         background: #6e0000;
         overflow: hidden;
 
-        
-    @media screen and (max-width: $desk) {
-        left: 25%;
-    }
+        @media screen and (max-width: $desk) {
+            left: 25%;
+        }
 
-    @media screen and (max-width: $tablet) {
-        left: 18%;
-        top: 45%;
-    }
+        @media screen and (max-width: $tablet) {
+            left: 18%;
+            top: 45%;
+        }
 
-    @media screen and (max-width: $tablets) {
-        left: 17.5%;
-        top: 70%;
-        width: 240px;
-        height: 320px;
-    }
+        @media screen and (max-width: $tablets) {
+            left: 17.5%;
+            top: 70%;
+            width: 240px;
+            height: 320px;
+        }
 
-    @media screen and (max-width: $mobile) {
-        left: 50%;
-        top: 20%;
-    }
+        @media screen and (max-width: $mobile) {
+            left: 50%;
+            top: 20%;
+        }
 
         &:hover .imgBx {
             top: 0;
@@ -412,7 +398,7 @@ header {
         @media screen and (max-width: $desk) {
             top: 80%;
         }
-    
+
         @media screen and (max-width: $tablet) {
             top: 45%;
         }
@@ -421,12 +407,12 @@ header {
             top: 70%;
             width: 240px;
             height: 320px;
-        }    
+        }
 
         @media screen and (max-width: $mobile) {
             left: 50%;
             top: 50%;
-        }    
+        }
 
         &:hover .imgBx {
             top: 0;
@@ -490,7 +476,7 @@ header {
         @media screen and (max-width: $desk) {
             left: 75%;
         }
-    
+
         @media screen and (max-width: $tablet) {
             left: 82%;
             top: 45%;
@@ -506,9 +492,7 @@ header {
         @media screen and (max-width: $mobile) {
             left: 50%;
             top: 80%;
-        }    
-
-
+        }
 
         &:hover .imgBx {
             top: 0;
@@ -611,7 +595,6 @@ nav {
     @media screen and (max-width: $desk) {
         top: 110px;
     }
-
 
     a {
         text-decoration: none;
@@ -724,7 +707,6 @@ ul.dropdown {
         width: 100%;
     }
 
-
     img {
         margin: 0 auto;
         width: 500px;
@@ -737,8 +719,6 @@ ul.dropdown {
         @media screen and (max-width: $mobile) {
             width: 375px;
         }
-
-    
     }
 
     article {
@@ -832,7 +812,7 @@ ul.dropdown {
                 transform: translateX(100%);
                 width: 500px;
             }
-        
+
             @media screen and (max-width: $tablet) {
                 transform: translateX(50%);
             }
@@ -840,12 +820,11 @@ ul.dropdown {
             @media screen and (max-width: $tablets) {
                 transform: translateX(27%);
             }
-        
+
             @media screen and (max-width: $mobile) {
                 transform: translateX(4%);
                 width: 350px;
             }
-
         }
     }
 
@@ -885,7 +864,6 @@ ul.dropdown {
             font-size: 30px;
         }
 
-
         @media screen and (max-width: $mobile) {
             font-size: 24px;
             line-height: 2;
@@ -917,17 +895,15 @@ ul.dropdown {
 
         @media screen and (max-width: $desk) {
             padding-top: 50px;
-            }
+        }
 
         @media screen and (max-width: $tablets) {
             padding-top: 700px;
-            }
+        }
 
         @media screen and (max-width: $tablets) {
             padding-top: 1200px;
-            }
-    
-
+        }
 
         .box_magic {
             display: grid;
@@ -954,12 +930,11 @@ ul.dropdown {
                 display: block;
                 width: 100%;
                 position: relative;
-                }
+            }
 
             @media screen and (max-width: $mobile) {
                 margin: 0 auto;
             }
-
         }
 
         img {
@@ -972,7 +947,7 @@ ul.dropdown {
                 width: 450px;
                 height: 600px;
                 object-fit: cover;
-                margin: 0 100px;    
+                margin: 0 100px;
             }
 
             @media screen and (max-width: $tablet) {
@@ -1028,7 +1003,6 @@ ul.dropdown {
             @media screen and (max-width: $tablets) {
                 width: 65%;
             }
-
 
             @media screen and (max-width: $mobile) {
                 font-size: 24px;
@@ -1102,7 +1076,6 @@ ul.dropdown {
             @media screen and (max-width: $tablet) {
                 padding-left: 0;
             }
-
         }
     }
 }
@@ -1204,85 +1177,82 @@ ul.dropdown {
         margin: 0 auto;
         padding: 300px 0 0;
     }
-    
+
     @media screen and (max-width: $tablets) {
         width: 100%;
         height: 60vh;
         margin: 0 auto;
-        padding: 270px 0 0;    
+        padding: 270px 0 0;
     }
 
     #carouselExampleSlidesOnly {
         width: 800px;
         height: 600px;
-    
+
         @media screen and (max-width: $desk) {
             width: 800px;
         }
-    
+
         @media screen and (max-width: $tablets) {
             width: 640px;
         }
-    
+
         @media screen and (max-width: $mobile) {
             width: 375px;
         }
-    
+
         .carousel-inner {
             position: relative;
             width: 800px;
             height: 600px;
-        
+
             @media screen and (max-width: $desk) {
                 width: 800px;
             }
-        
+
             @media screen and (max-width: $tablet) {
                 left: 100px;
             }
-        
+
             @media screen and (max-width: $tablets) {
                 width: 100%;
                 left: 50px;
             }
-        
+
             @media screen and (max-width: $mobile) {
                 width: 375px;
                 height: 270px;
                 top: 0;
                 left: 14px;
             }
-        
+
             img {
                 position: absolute;
                 width: 800px;
                 height: 500px;
                 object-fit: cover;
-        
+
                 @media screen and (max-width: $desk) {
                     width: 800px;
                     height: 500px;
                 }
-        
+
                 @media screen and (max-width: $tablet) {
                     padding: 0 0 0 50px;
                 }
-            
+
                 @media screen and (max-width: $tablets) {
                     padding: 0 0 100px 50px;
                 }
-                
+
                 @media screen and (max-width: $mobile) {
                     width: 350px;
                     height: 300px;
                     padding: 0;
                 }
-        
             }
         }
-        
     }
-    
 }
 // 貓頭鷹輪播
 .owl-carousel {
@@ -1332,7 +1302,7 @@ ul.dropdown {
             top: -50px;
             width: 400px;
         }
-    
+
         @media screen and (max-width: $tablet) {
             left: 50%;
             top: 25px;
@@ -1347,8 +1317,7 @@ ul.dropdown {
             left: 0.75%;
             width: 370px;
             top: 250px;
-        }    
-    
+        }
     }
 }
 // 霧
@@ -1372,12 +1341,12 @@ ul.dropdown {
             top: -50px;
             width: 400px;
         }
-    
+
         @media screen and (max-width: $tablet) {
             left: 50%;
             top: 25px;
         }
-    
+
         @media screen and (max-width: $tablets) {
             left: 40%;
             top: 25px;
@@ -1387,8 +1356,7 @@ ul.dropdown {
             left: 0.75%;
             width: 370px;
             top: 250px;
-        }    
-
+        }
     }
 }
 // 霧狀鬼
@@ -1412,12 +1380,12 @@ ul.dropdown {
             left: 67%;
             top: 10px;
         }
-    
+
         @media screen and (max-width: $tablet) {
             left: 54%;
             top: 75px;
         }
-    
+
         @media screen and (max-width: $tablets) {
             left: 45%;
             top: 80px;
@@ -1471,19 +1439,18 @@ ul.dropdown {
         left: -30%;
         top: 5%;
         opacity: 0.75;
-        
+
         @media screen and (max-width: $desk) {
             width: 2450px;
             height: 400px;
             left: -30%;
-            top: 5%;    
+            top: 5%;
         }
-    
+
         @media screen and (max-width: $tablet) {
             width: 2000px;
             left: -40%;
         }
-    
     }
 }
 
@@ -1519,12 +1486,12 @@ ul.dropdown {
             width: 275px;
             height: 400px;
             left: -15%;
-            top: 16%;    
+            top: 16%;
         }
-    
+
         @media screen and (max-width: $tablet) {
             top: 16%;
-        }    
+        }
 
         &:hover {
             filter: invert(24%) sepia(100%) saturate(1%) hue-rotate(8deg) brightness(98%) contrast(200%);
@@ -1687,8 +1654,6 @@ ul.dropdown {
             @media screen and (max-width: $tablet) {
                 padding-left: 0;
             }
-        
-
         }
     }
 }
@@ -1700,7 +1665,6 @@ ul.dropdown {
 
     @media screen and (max-width: $desk) {
         margin: 70px 0 0 380px;
-
     }
 
     @media screen and (max-width: $tablet) {
@@ -1737,23 +1701,23 @@ ul.dropdown {
             width: 100%;
             height: 600px;
 
-            @media screen and (max-width: $desk) {  
+            @media screen and (max-width: $desk) {
                 width: 100%;
-                height: 600px;          
+                height: 600px;
             }
-        
+
             @media screen and (max-width: $tablet) {
-                height: 500px;    
-            }        
+                height: 500px;
+            }
 
             @media screen and (max-width: $mobile) {
                 width: 100%;
-            }    
+            }
 
             img {
                 width: 800px;
                 height: 500px;
-                object-fit: cover;    
+                object-fit: cover;
             }
         }
         .carousel-control {
@@ -1788,11 +1752,10 @@ ul.dropdown {
                 @media screen and (max-width: $desk) {
                     left: -100px !important;
                 }
-    
+
                 @media screen and (max-width: $tablet) {
                     left: 0 !important;
                 }
-    
             }
             .carousel-control-next {
                 position: absolute;
@@ -1801,7 +1764,7 @@ ul.dropdown {
                 @media screen and (max-width: $desk) {
                     right: 100px !important;
                 }
-    
+
                 @media screen and (max-width: $tablet) {
                     right: 0 !important;
                 }
@@ -1809,7 +1772,6 @@ ul.dropdown {
                 @media screen and (max-width: $mobile) {
                     right: 0 !important;
                 }
-        
             }
         }
     }
@@ -1869,7 +1831,6 @@ ul.dropdown {
         @media screen and (max-width: $tablet) {
             display: none;
         }
-
     }
 }
 // 跳躍喪屍
@@ -1891,7 +1852,6 @@ ul.dropdown {
         @media screen and (max-width: $tablets) {
             display: none;
         }
-
     }
 }
 // 太極主頁面介紹
@@ -1924,17 +1884,17 @@ ul.dropdown {
 
         @media screen and (max-width: $desk) {
             width: 600px;
-        }    
+        }
 
         @media screen and (max-width: $tablets) {
             width: 500px;
-        }    
+        }
 
         @media screen and (max-width: $mobile) {
             width: 300px;
             padding-right: 0;
         }
-    
+
         &:hover {
             transform: scale(1.05);
         }
@@ -1945,12 +1905,11 @@ ul.dropdown {
 
         @media screen and (max-width: $tablets) {
             width: 100%;
-        }    
+        }
 
         @media screen and (max-width: $mobile) {
             width: 375px;
         }
-
     }
 
     h2 {
@@ -2016,7 +1975,6 @@ ul.dropdown {
     @media screen and (max-width: $mobile) {
         padding-top: 1500px;
     }
-
 
     .property_boxing {
         width: 100%;
@@ -2121,17 +2079,16 @@ ul.dropdown {
 
             @media screen and (max-width: $tablet) {
                 position: absolute;
-                left: 33%;    
+                left: 33%;
             }
 
             @media screen and (max-width: $tablets) {
-                left: 30%;    
+                left: 30%;
             }
 
             @media screen and (max-width: $mobile) {
                 left: 5%;
             }
-        
         }
 
         .property_box_magic:nth-child(odd) {
@@ -2169,7 +2126,6 @@ ul.dropdown {
         width: 375px;
     }
 
-
     #carouselExampleFade {
         width: 100%;
         height: 600px;
@@ -2189,11 +2145,10 @@ ul.dropdown {
             @media screen and (max-width: $desk) {
                 height: 600px;
             }
-    
+
             @media screen and (max-width: $mobile) {
                 height: 300px;
             }
-
 
             img {
                 width: 800px;
@@ -2203,11 +2158,10 @@ ul.dropdown {
                 @media screen and (max-width: $desk) {
                     height: 500px;
                 }
-        
+
                 @media screen and (max-width: $mobile) {
                     height: 300px;
                 }
-
             }
         }
         .carousel-control {
@@ -2218,7 +2172,7 @@ ul.dropdown {
             @media screen and (max-width: $desk) {
                 top: 0;
             }
-    
+
             @media screen and (max-width: $mobile) {
                 top: 45%;
             }
@@ -2226,7 +2180,6 @@ ul.dropdown {
             .carousel-control-prev {
                 position: absolute;
                 left: -100px !important;
-                
             }
             .carousel-control-next {
                 position: absolute;
@@ -2260,7 +2213,6 @@ ul.dropdown {
         width: 375px;
     }
 
-
     #carouselExampleFade {
         width: 100%;
         height: 600px;
@@ -2280,11 +2232,10 @@ ul.dropdown {
             @media screen and (max-width: $desk) {
                 height: 600px;
             }
-    
+
             @media screen and (max-width: $mobile) {
                 height: 300px;
             }
-
 
             img {
                 width: 800px;
@@ -2294,11 +2245,10 @@ ul.dropdown {
                 @media screen and (max-width: $desk) {
                     height: 500px;
                 }
-        
+
                 @media screen and (max-width: $mobile) {
                     height: 300px;
                 }
-
             }
         }
         .carousel-control {
@@ -2309,7 +2259,7 @@ ul.dropdown {
             @media screen and (max-width: $desk) {
                 top: 0;
             }
-    
+
             @media screen and (max-width: $mobile) {
                 top: 45%;
             }
@@ -2317,7 +2267,6 @@ ul.dropdown {
             .carousel-control-prev {
                 position: absolute;
                 left: -100px !important;
-                
             }
             .carousel-control-next {
                 position: absolute;
@@ -2462,7 +2411,6 @@ ul.dropdown {
         display: none;
     }
 
-
     img {
         position: absolute;
         width: 300px;
@@ -2512,7 +2460,6 @@ ul.dropdown {
         padding-top: 400px;
     }
 
-
     .property_boxing {
         width: 100%;
         margin: 0 auto;
@@ -2533,7 +2480,6 @@ ul.dropdown {
             @media screen and (max-width: $tablets) {
                 padding-top: 200px;
             }
-
         }
 
         .property_photos {
@@ -2621,17 +2567,16 @@ ul.dropdown {
 
             @media screen and (max-width: $tablet) {
                 position: absolute;
-                left: 33%;    
+                left: 33%;
             }
 
             @media screen and (max-width: $tablets) {
-                left: 30%;    
+                left: 30%;
             }
 
             @media screen and (max-width: $mobile) {
                 left: 5%;
             }
-        
         }
 
         .property_box_magic:nth-child(odd) {
@@ -2822,11 +2767,10 @@ ul.dropdownbt {
             @media screen and (max-width: $desk) {
                 width: 500px;
             }
-        
+
             @media screen and (max-width: $mobile) {
                 width: 375px;
             }
-
         }
     }
 
@@ -2875,11 +2819,20 @@ ul.dropdownbt {
             @media screen and (max-width: $desk) {
                 width: 100%;
             }
-    
+
             @media screen and (max-width: $tablet) {
-                width: 80%;
+                width: 100%;
+            }
+        }
+
+        .searh {
+            @media screen and (max-width: $desk) {
+                display: block;
             }
 
+            @media screen and (max-width: $mobile) {
+                display: none;
+            }
         }
     }
 }
@@ -2917,11 +2870,10 @@ ul.dropdownbt {
                 @media screen and (max-width: $desk) {
                     height: 500px;
                 }
-        
+
                 @media screen and (max-width: $mobile) {
                     height: 300px;
                 }
-        
             }
         }
 
@@ -2966,8 +2918,6 @@ ul.dropdownbt {
     @media screen and (max-width: $mobile) {
         display: none;
     }
-
-
 }
 @-webkit-keyframes bob {
     from {
@@ -3052,25 +3002,21 @@ ul.dropdownbt {
         transform: translateX(55%);
     }
 
-  
-  a {
-    color: white;
-    float: left;
-    padding: 8px 16px;
-    text-align: center;
-    text-decoration: none;
-
-    @media screen and (max-width: $desk) {
+    a {
+        color: white;
+        float: left;
         padding: 8px 16px;
+        text-align: center;
+        text-decoration: none;
+
+        @media screen and (max-width: $desk) {
+            padding: 8px 16px;
+        }
+
+        @media screen and (max-width: $mobile) {
+            padding: 8px 10px;
+        }
     }
-
-    @media screen and (max-width: $mobile) {
-        padding: 8px 10px;
-
-    }
-
-
-  }
 }
 
 // 置頂按鈕
@@ -3089,10 +3035,7 @@ ul.dropdownbt {
 }
 
 // 聯絡LEO
-.contactme {
-    height: 100%;
-    width: 100%;
-}
+
 #list {
     padding: 100px 0 0;
     color: #fff;
@@ -3105,10 +3048,24 @@ form {
     margin: 0 auto;
     padding: 20px 0 100px;
     z-index: 10;
+    height: 80vh;
+
+    @media screen and (max-width: $desk) {
+        height: 80vh;
+    }
 
     @media screen and (max-width: $tablet) {
         width: 100%;
         padding: 20px 20px 100px;
+        height: 65vh;
+    }
+
+    @media screen and (max-width: $tablets) {
+        height: 60vh;
+    }
+
+    @media screen and (max-width: $mobile) {
+        height: 75vh;
     }
 
     input {
@@ -3168,7 +3125,6 @@ form {
     @media screen and (max-width: $mobile) {
         height: 100%;
     }
-
 }
 
 .door {
