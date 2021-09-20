@@ -3123,9 +3123,20 @@ form {
         width: 47%;
         padding: 10px;
 
+        @media screen and (max-width: $desk) {
+            width: 47%;
+            padding: 10px;
+        }
+
         @media screen and (max-width: $tablet) {
             width: 100%;
-            margin-bottom: 20px;
+            margin-bottom: 30px;
+            padding: 30px;
+        }
+
+        @media screen and (max-width: $tablets) {
+            width: 100%;
+            padding: 10px;
         }
 
         &::placeholder {
