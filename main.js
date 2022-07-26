@@ -89,7 +89,8 @@ $(function () {
 
 //輪播調整  
 // owl-carousel
-$('.owl-carousel').owlCarousel({
+$('.owl-carousel').owlCarousel(
+  {
   stagePadding: 100,
   loop: true,
   margin: 400,
@@ -106,7 +107,8 @@ $('.owl-carousel').owlCarousel({
       items: 5
     }
   }
-});
+}
+);
 
 
 // 喪屍區輪播

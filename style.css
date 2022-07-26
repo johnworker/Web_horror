@@ -159,34 +159,6 @@ header .box video {
   width: 100%;
   height: 100%;
 }
-.prologue .box2 {
-  position: relative;
-  width: 40%;
-  height: 300px;
-  bottom: 150px;
-  display: block;
-  z-index: 2;
-}
-@media screen and (max-width: 1280px) {
-  .prologue .box2 {
-    display: block;
-  }
-}
-@media screen and (max-width: 1024px) {
-  .prologue .box2 {
-    display: block;
-  }
-}
-@media screen and (max-width: 960px) {
-  .prologue .box2 {
-    display: none;
-  }
-}
-.prologue .box2 video {
-  position: absolute;
-  left: -60px;
-  bottom: 20px;
-}
 
 .ghost_fly {
   position: relative;
@@ -224,12 +196,7 @@ header .box video {
 }
 @media screen and (max-width: 1280px) {
   .ghost_fly img {
-    right: 420px;
-  }
-}
-@media screen and (max-width: 1280px) {
-  .ghost_fly img {
-    right: 250px;
+    right: 0;
   }
 }
 @-webkit-keyframes ghost_fly {
