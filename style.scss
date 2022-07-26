@@ -283,6 +283,7 @@ header {
         font-size: 36px;
         color: rgb(255, 255, 255);
 
+
         @media screen and (max-width: $desk) {
             padding: 400px 30px 30px;
         }
@@ -355,7 +356,7 @@ header {
             background: #ff0000;
             top: 0;
             left: 100%;
-            padding: 60px 30px;
+            padding: 10px 30px;
 
             h2 {
                 color: rgb(0, 0, 0);
@@ -365,15 +366,7 @@ header {
                 border-bottom: 2px solid rgb(0, 0, 0);
                 top: 0;
                 left: 35%;
-                position: absolute;
-        
-                @media screen and (max-width: $tablet) {        
-                    position: absolute;
-                    top: 0;
-                    left: 35%;
-                    padding: 0 0 2px;
-                }
-                
+                        
             }
 
             p {
@@ -449,7 +442,7 @@ header {
             background: #ff0000;
             top: 0;
             left: 100%;
-            padding: 60px 30px;
+            padding: 10px 30px;
 
             h2 {
                 color: rgb(0, 0, 0);
@@ -459,7 +452,6 @@ header {
                 border-bottom: 2px solid rgb(0, 0, 0);    
                 top: 0;
                 left: 35%;
-                position: absolute;
 
                 @media screen and (max-width: $tablet) {        
                     position: absolute;
@@ -546,7 +538,7 @@ header {
             background: #ff0000;
             top: 0;
             left: 100%;
-            padding: 60px 30px;
+            padding: 10px 30px;
 
             h2 {
                 color: rgb(0, 0, 0);
@@ -555,15 +547,6 @@ header {
                 padding: 0 0 10px;
                 border-bottom: 2px solid rgb(0, 0, 0);
                 top: 0;
-                left: 35%;
-                position: absolute;
-
-                @media screen and (max-width: $tablet) {        
-                    position: absolute;
-                    top: 0;
-                    left: 35%;
-                    padding: 0 0 2px;
-                }
 
             }
 
