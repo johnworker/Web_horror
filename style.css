@@ -36,7 +36,7 @@ header {
 }
 @media screen and (max-width: 767px) {
   header {
-    height: 82vh !important;
+    height: 74vh !important;
   }
 }
 header .logo {
@@ -101,7 +101,7 @@ header .box {
 }
 @media screen and (max-width: 767px) {
   header .box {
-    height: 35vh;
+    height: 45vh;
   }
 }
 header .box video {
@@ -910,12 +910,12 @@ ul.dropdown li a {
 }
 @media screen and (max-width: 960px) {
   .story1 .boxing {
-    padding-top: 700px;
+    padding-top: 350px;
   }
 }
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 767px) {
   .story1 .boxing {
-    padding-top: 1200px;
+    padding-top: 1000px;
   }
 }
 .story1 .boxing .box_magic {

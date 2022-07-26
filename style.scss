@@ -47,7 +47,7 @@ header {
     }
 
     @media screen and (max-width: $mobile) {
-        height: 82vh !important;
+        height: 74vh !important;
     }
 
     .logo {
@@ -112,7 +112,7 @@ header {
         }
 
         @media screen and (max-width: $mobile) {
-            height: 35vh;
+            height: 45vh;
         }
 
         video {
@@ -927,11 +927,11 @@ ul.dropdown {
         }
 
         @media screen and (max-width: $tablets) {
-            padding-top: 700px;
+            padding-top: 350px;
         }
 
-        @media screen and (max-width: $tablets) {
-            padding-top: 1200px;
+        @media screen and (max-width: $mobile) {
+            padding-top: 1000px;
         }
 
         .box_magic {
