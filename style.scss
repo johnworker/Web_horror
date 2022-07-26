@@ -366,6 +366,12 @@ header {
                 border-bottom: 2px solid rgb(0, 0, 0);
                 top: 0;
                 left: 35%;
+
+                @media screen and (max-width: $tablet) {
+                    font-size: 22px;
+                    padding: 0 0 2px;
+                }
+        
                         
             }
 
@@ -453,10 +459,8 @@ header {
                 top: 0;
                 left: 35%;
 
-                @media screen and (max-width: $tablet) {        
-                    position: absolute;
-                    top: 0;
-                    left: 35%;
+                @media screen and (max-width: $tablet) {
+                    font-size: 22px;
                     padding: 0 0 2px;
                 }
 
@@ -547,6 +551,11 @@ header {
                 padding: 0 0 10px;
                 border-bottom: 2px solid rgb(0, 0, 0);
                 top: 0;
+
+                @media screen and (max-width: $tablet) {
+                    font-size: 22px;
+                    padding: 0 0 2px;
+                }
 
             }
 

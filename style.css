@@ -368,6 +368,12 @@ header .box video {
   top: 0;
   left: 35%;
 }
+@media screen and (max-width: 1024px) {
+  .introduction .card .details h2 {
+    font-size: 22px;
+    padding: 0 0 2px;
+  }
+}
 .introduction .card .details p {
   margin: 20px 0 0;
   color: rgb(0, 0, 0);
@@ -450,9 +456,7 @@ header .box video {
 }
 @media screen and (max-width: 1024px) {
   .introduction .card2 .details h2 {
-    position: absolute;
-    top: 0;
-    left: 35%;
+    font-size: 22px;
     padding: 0 0 2px;
   }
 }
@@ -536,6 +540,12 @@ header .box video {
   padding: 0 0 10px;
   border-bottom: 2px solid rgb(0, 0, 0);
   top: 0;
+}
+@media screen and (max-width: 1024px) {
+  .introduction .card3 .details h2 {
+    font-size: 22px;
+    padding: 0 0 2px;
+  }
 }
 .introduction .card3 .details p {
   margin: 20px 0 0;
