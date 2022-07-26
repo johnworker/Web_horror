@@ -330,7 +330,7 @@ header {
 
         &:hover .details {
             top: 0;
-            left: 0%;
+            left: 0%;    
         }
 
         .imgBx,
@@ -363,11 +363,24 @@ header {
                 margin: 0;
                 padding: 0 0 10px;
                 border-bottom: 2px solid rgb(0, 0, 0);
+        
+                @media screen and (max-width: $tablet) {        
+                    position: absolute;
+                    top: 0;
+                    left: 35%;
+                    padding: 0 0 2px;
+                }
+                
             }
 
             p {
                 margin: 20px 0 0;
                 color: rgb(0, 0, 0);
+
+                @media screen and (max-width: $tablet) {  
+                    margin: 0;      
+                }
+
             }
         }
     }
@@ -441,11 +454,25 @@ header {
                 margin: 0;
                 padding: 0 0 10px;
                 border-bottom: 2px solid rgb(0, 0, 0);
+
+                @media screen and (max-width: $tablet) {        
+                    position: absolute;
+                    top: 0;
+                    left: 35%;
+                    padding: 0 0 2px;
+                }
+
             }
 
             p {
                 margin: 20px 0 0;
                 color: rgb(0, 0, 0);
+
+                @media screen and (max-width: $tablet) {  
+                    margin: 0;      
+                }
+
+
             }
         }
     }
@@ -521,11 +548,25 @@ header {
                 margin: 0;
                 padding: 0 0 10px;
                 border-bottom: 2px solid rgb(0, 0, 0);
+
+                @media screen and (max-width: $tablet) {        
+                    position: absolute;
+                    top: 0;
+                    left: 35%;
+                    padding: 0 0 2px;
+                }
+
             }
 
             p {
                 margin: 20px 0 0;
                 color: rgb(0, 0, 0);
+
+                @media screen and (max-width: $tablet) {  
+                    margin: 0;      
+                }
+
+
             }
         }
     }
