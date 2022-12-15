@@ -47,7 +47,7 @@ header {
     }
 
     @media screen and (max-width: $mobile) {
-        height: 82vh !important;
+        height: 74vh !important;
     }
 
     .logo {
@@ -112,7 +112,7 @@ header {
         }
 
         @media screen and (max-width: $mobile) {
-            height: 35vh;
+            height: 45vh;
         }
 
         video {
@@ -172,33 +172,6 @@ header {
         width: 100%;
         height: 100%;
     }
-
-    .box2 {
-        position: relative;
-        width: 40%;
-        height: 300px;
-        bottom: 150px;
-        display: block;
-        z-index: 2;
-
-        @media screen and (max-width: $desk) {
-            display: block;
-        }
-
-        @media screen and (max-width: $tablet) {
-            display: block;
-        }
-
-        @media screen and (max-width: $tablets) {
-            display: none;
-        }
-
-        video {
-            position: absolute;
-            left: -60px;
-            bottom: 20px;
-        }
-    }
 }
 // 飛行好兄弟
 .ghost_fly {
@@ -231,12 +204,9 @@ header {
         animation-fill-mode: backwards;
 
         @media screen and (max-width: $desk) {
-            right: 420px;
+            right: 0;
         }
 
-        @media screen and (max-width: $desk) {
-            right: 250px;
-        }
 
         @keyframes ghost_fly {
             0% {
@@ -282,6 +252,7 @@ header {
         padding: 400px 30px 30px;
         font-size: 36px;
         color: rgb(255, 255, 255);
+
 
         @media screen and (max-width: $desk) {
             padding: 400px 30px 30px;
@@ -330,7 +301,7 @@ header {
 
         &:hover .details {
             top: 0;
-            left: 0%;
+            left: 0%;    
         }
 
         .imgBx,
@@ -355,7 +326,7 @@ header {
             background: #ff0000;
             top: 0;
             left: 100%;
-            padding: 60px 30px;
+            padding: 10px 30px;
 
             h2 {
                 color: rgb(0, 0, 0);
@@ -363,11 +334,25 @@ header {
                 margin: 0;
                 padding: 0 0 10px;
                 border-bottom: 2px solid rgb(0, 0, 0);
+                top: 0;
+                left: 35%;
+
+                @media screen and (max-width: $tablet) {
+                    font-size: 22px;
+                    padding: 0 0 2px;
+                }
+        
+                        
             }
 
             p {
                 margin: 20px 0 0;
                 color: rgb(0, 0, 0);
+
+                @media screen and (max-width: $tablet) {  
+                    margin: 0;      
+                }
+
             }
         }
     }
@@ -433,19 +418,33 @@ header {
             background: #ff0000;
             top: 0;
             left: 100%;
-            padding: 60px 30px;
+            padding: 10px 30px;
 
             h2 {
                 color: rgb(0, 0, 0);
                 text-align: center;
                 margin: 0;
                 padding: 0 0 10px;
-                border-bottom: 2px solid rgb(0, 0, 0);
+                border-bottom: 2px solid rgb(0, 0, 0);    
+                top: 0;
+                left: 35%;
+
+                @media screen and (max-width: $tablet) {
+                    font-size: 22px;
+                    padding: 0 0 2px;
+                }
+
             }
 
             p {
                 margin: 20px 0 0;
                 color: rgb(0, 0, 0);
+
+                @media screen and (max-width: $tablet) {  
+                    margin: 0;      
+                }
+
+
             }
         }
     }
@@ -513,7 +512,7 @@ header {
             background: #ff0000;
             top: 0;
             left: 100%;
-            padding: 60px 30px;
+            padding: 10px 30px;
 
             h2 {
                 color: rgb(0, 0, 0);
@@ -521,11 +520,24 @@ header {
                 margin: 0;
                 padding: 0 0 10px;
                 border-bottom: 2px solid rgb(0, 0, 0);
+                top: 0;
+
+                @media screen and (max-width: $tablet) {
+                    font-size: 22px;
+                    padding: 0 0 2px;
+                }
+
             }
 
             p {
                 margin: 20px 0 0;
                 color: rgb(0, 0, 0);
+
+                @media screen and (max-width: $tablet) {  
+                    margin: 0;      
+                }
+
+
             }
         }
     }
@@ -885,11 +897,11 @@ ul.dropdown {
         }
 
         @media screen and (max-width: $tablets) {
-            padding-top: 700px;
+            padding-top: 350px;
         }
 
-        @media screen and (max-width: $tablets) {
-            padding-top: 1200px;
+        @media screen and (max-width: $mobile) {
+            padding-top: 1000px;
         }
 
         .box_magic {

@@ -2,6 +2,7 @@
 $(document).ready(function() {
   $('[data-youtube]').youtube_background();
 });
+
 // door
 $(document).ready(function() {
   $(".enter").click(function() {
@@ -89,25 +90,6 @@ $(function () {
 
 //輪播調整  
 // owl-carousel
-$('.owl-carousel').owlCarousel({
-  stagePadding: 100,
-  loop: true,
-  margin: 400,
-  nav: false,
-  items: 1,
-  responsive: {
-    0: {
-      items: 1
-    },
-    600: {
-      items: 3
-    },
-    1000: {
-      items: 5
-    }
-  }
-});
-
 
 // 喪屍區輪播
 // $(".zombie_card").owlCarousel({
